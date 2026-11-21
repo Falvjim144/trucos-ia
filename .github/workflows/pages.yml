@@ -15,11 +15,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  publicar:
+  preparar:
+    name: Validar y empaquetar
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
@@ -35,6 +33,15 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: .
+
+  publicar:
+    name: Publicar sitio
+    needs: preparar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Publicar web
         id: deployment
         uses: actions/deploy-pages@v4
