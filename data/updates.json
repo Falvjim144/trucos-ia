@@ -2,5 +2,736 @@
   "format": "atlas-ia-weekly-update",
   "version": 1,
   "generatedAt": "2026-11-21",
-  "entries": []
+  "entries": [
+    {
+      "id": "w-canva-magic-video",
+      "title": "Crear un Reel de 60 segundos a partir de tus fotos",
+      "tool": "Canva Magic Video",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Sube fotos y vídeos y deja que Canva monte automáticamente un vídeo vertical de hasta 60 segundos; muy útil para cumpleaños, viajes o un resumen semanal.",
+      "source": "https://www.canva.com/help/magic-video/",
+      "youtube": "",
+      "steps": [
+        "En Canva abre Magic Video y carga tus propias fotos y clips.",
+        "Indica la idea y la emoción del montaje; revisa el orden propuesto.",
+        "Cambia la música, corrige los textos y exporta en vertical."
+      ],
+      "prompt": "Monta un vídeo vertical de 45-60 s con mis archivos: apertura de impacto, 5 momentos clave y cierre emotivo. Textos breves en español, ritmo dinámico y tono cercano.",
+      "costNote": "Acceso gratuito con límites, según cuenta, región, créditos y funciones disponibles; comprobar antes de exportar.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Canva Magic Video",
+        "Reels",
+        "Instagram",
+        "TikTok",
+        "recuerdos"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-canva-photo-move",
+      "title": "Animar una fotografía sin saber editar vídeo",
+      "tool": "Canva Image to Video",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Convierte una foto en un clip con movimiento para Stories, cumpleaños o presentaciones. No está pensado para animación facial completa.",
+      "source": "https://www.canva.com/help/image-to-video/",
+      "youtube": "",
+      "steps": [
+        "Abre Image to Video en Canva y sube una fotografía nítida.",
+        "Describe un solo movimiento de cámara y un movimiento ambiental suave.",
+        "Revisa la continuidad y combina el resultado con música y texto."
+      ],
+      "prompt": "Plano vertical de la fotografía original. Cámara se acerca muy lentamente. Brisa sutil en el fondo, luz natural. Mantén intacta la composición y evita deformar personas y objetos.",
+      "costNote": "Acceso gratuito con límites, según cuenta, región, créditos y funciones disponibles; comprobar antes de exportar.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Canva Image to Video",
+        "animar fotos",
+        "Stories",
+        "imagen a vídeo"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-canva-effects-photo",
+      "title": "Crear animaciones vistosas con una sola imagen",
+      "tool": "Canva AI Effects",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Aplica efectos de vídeo con IA a una fotografía para crear una portada animada o un elemento visual llamativo.",
+      "source": "https://www.canva.com/help/ai-effects/",
+      "youtube": "",
+      "steps": [
+        "Elige una foto propia de buena resolución.",
+        "En Canva busca las opciones de AI Effects para imagen a vídeo.",
+        "Prueba un efecto, revisa posibles cambios no deseados y exporta."
+      ],
+      "prompt": "",
+      "costNote": "Acceso gratuito con límites, según cuenta, región, créditos y funciones disponibles; comprobar antes de exportar.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Canva AI Effects",
+        "fotos",
+        "animaciones",
+        "stories"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-canva-video-captions",
+      "title": "Subtítulos animados para vídeos de redes",
+      "tool": "Canva",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Genera subtítulos a partir del audio, corrige palabras y anima el texto para Reels y TikTok legibles sin sonido.",
+      "source": "https://www.canva.com/help/generate-edit-captions-on-videos/",
+      "youtube": "",
+      "steps": [
+        "Importa tu clip con voz en un diseño de vídeo.",
+        "Activa Generate Captions y revisa las palabras detectadas.",
+        "Elige un estilo sencillo con alto contraste, ajusta la posición y descarga."
+      ],
+      "prompt": "",
+      "costNote": "Acceso gratuito con límites, según cuenta, región, créditos y funciones disponibles; comprobar antes de exportar.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Canva",
+        "subtítulos",
+        "accesibilidad",
+        "Reels"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-canva-magic-photo-edit",
+      "title": "Cambiar solo un objeto de una fotografía",
+      "tool": "Canva Magic Edit",
+      "category": "Marketing e imagen",
+      "origin": "curated",
+      "cost": "unknown",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Selecciona un área de la foto y pide reemplazarla con IA sin rehacer todo el diseño; adecuado para pruebas de estilo o decoraciones.",
+      "source": "https://www.canva.com/es_es/help/using-magic-edit/",
+      "youtube": "",
+      "steps": [
+        "Sube una fotografía y abre Edición Mágica.",
+        "Selecciona exclusivamente el objeto o área que cambiarás.",
+        "Pide un cambio concreto y revisa que el resto siga igual."
+      ],
+      "prompt": "Sustituye únicamente el jarrón seleccionado por uno de cerámica azul mate; conserva exactamente el resto de la imagen, la luz, las sombras y la perspectiva.",
+      "costNote": "Disponibilidad y créditos variables según cuenta, región o suscripción. No se garantiza gratuidad.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Canva Magic Edit",
+        "edición selectiva",
+        "objetos",
+        "diseño"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-canva-video-plantillas",
+      "title": "Montar un vídeo de producto partiendo de una plantilla",
+      "tool": "Canva Magic Design for Video",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Combina tomas o imágenes en una propuesta de vídeo, luego cambia los elementos que aparezcan como Pro para evitar un cobro inesperado.",
+      "source": "https://www.canva.com/help/use-magic-design/",
+      "youtube": "",
+      "steps": [
+        "Carga imágenes y clips del producto.",
+        "Prueba Magic Design for Video para obtener un montaje inicial.",
+        "Revisa las licencias de plantillas, elementos y música antes de exportar."
+      ],
+      "prompt": "Diseña una propuesta de Reel de 20 segundos para este producto: problema, solución en uso y cierre con nombre del producto. Sin afirmaciones no comprobadas.",
+      "costNote": "Acceso gratuito con límites, según cuenta, región, créditos y funciones disponibles; comprobar antes de exportar.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Canva Magic Design for Video",
+        "anuncios",
+        "plantillas",
+        "negocio"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-adobe-character-audio",
+      "title": "Dar voz a un personaje de dibujos con tu propia grabación",
+      "tool": "Adobe Express Animate from Audio",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Elige un personaje, graba una frase y genera un vídeo animado con su voz y movimientos. Ideal para felicitaciones y explicaciones infantiles.",
+      "source": "https://www.adobe.com/express/feature/video/animation/audio",
+      "youtube": "",
+      "steps": [
+        "Entra en Animate from Audio y escoge personaje y fondo.",
+        "Graba tu voz o sube audio propio con permiso.",
+        "Genera la animación; revisa el resultado y descarga el vídeo."
+      ],
+      "prompt": "",
+      "costNote": "La herramienta de animación se ofrece gratis; otras funciones de Express pueden requerir plan de pago.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Adobe Express Animate from Audio",
+        "personajes",
+        "felicitaciones",
+        "niños"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-adobe-video-subtitles",
+      "title": "Crear subtítulos automáticos editables para cualquier explicación",
+      "tool": "Adobe Express Caption video",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Pasa de un vídeo hablado a una pieza subtitulada y revisada, preparada para público que lo ve sin sonido.",
+      "source": "https://helpx.adobe.com/express/web/video-creation-and-editing/edit-videos/caption-video.html",
+      "youtube": "",
+      "steps": [
+        "Importa el vídeo en Adobe Express.",
+        "Elige subtitulado automático e idioma; genera las frases.",
+        "Corrige nombres y términos técnicos; ajusta contraste y exporta."
+      ],
+      "prompt": "",
+      "costNote": "La disponibilidad de subtítulos básicos se documenta en Adobe Express; verificar cuenta y posibles límites.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Adobe Express Caption video",
+        "subtítulos",
+        "accesibilidad",
+        "tutoriales"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-adobe-convert-sizes",
+      "title": "Adaptar un mismo vídeo a Reel, Shorts y pantalla horizontal",
+      "tool": "Adobe Express Resize video",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "En lugar de rehacer vídeos para cada plataforma, reutiliza el clip en 9:16 y 16:9 cuidando que no se corten caras ni productos.",
+      "source": "https://www.adobe.com/express/feature/video/resize",
+      "youtube": "",
+      "steps": [
+        "Sube un vídeo horizontal o vertical.",
+        "Selecciona el formato de destino (por ejemplo 9:16).",
+        "Reencuadra, revisa los márgenes de subtítulos y descarga la nueva versión."
+      ],
+      "prompt": "",
+      "costNote": "El redimensionador está anunciado como gratis; comprobar herramientas Premium si se añaden.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Adobe Express Resize video",
+        "Reels",
+        "Shorts",
+        "formatos"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-adobe-video-gif",
+      "title": "Convertir un vídeo breve en un GIF para WhatsApp",
+      "tool": "Adobe Express Video to GIF",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Transforma una reacción, gesto o fragmento corto en un GIF para mensajes o contenidos web.",
+      "source": "https://www.adobe.com/express/feature/video/convert/video-to-gif",
+      "youtube": "",
+      "steps": [
+        "Escoge un clip propio de pocos segundos.",
+        "Sube el archivo a Video to GIF y recorta la parte esencial.",
+        "Ajusta tamaño, descarga y comparte."
+      ],
+      "prompt": "",
+      "costNote": "Conversión anunciada gratuitamente; el GIF no incluye sonido.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Adobe Express Video to GIF",
+        "GIF",
+        "WhatsApp",
+        "animación"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-adobe-cutout-product",
+      "title": "Quitar el fondo de una foto para un catálogo",
+      "tool": "Adobe Express",
+      "category": "Marketing e imagen",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Aísla el producto de su fondo para hacer una ficha de venta o una miniatura con un color consistente.",
+      "source": "https://www.adobe.com/express/feature/image/remove-background",
+      "youtube": "",
+      "steps": [
+        "Carga una foto con el producto bien enfocado.",
+        "Usa Remove background y revisa bordes y sombras.",
+        "Descarga PNG transparente y combínalo en un diseño."
+      ],
+      "prompt": "",
+      "costNote": "La herramienta de fondo se publicita como gratuita; funciones extra de edición pueden no serlo.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Adobe Express",
+        "fondo transparente",
+        "productos",
+        "fotografía"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-capcut-photo-ad",
+      "title": "Crear un anuncio de 15 segundos a partir de una foto",
+      "tool": "CapCut AI Image to Video",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "unknown",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Utiliza una foto real del producto como referencia para un anuncio con movimiento, texto y cierre, revisando que la IA no altere su aspecto.",
+      "source": "https://www.capcut.com/resource/make-ad-videos-from-product-photo",
+      "youtube": "",
+      "steps": [
+        "Prepara una foto limpia que muestre el producto real.",
+        "Prueba Image to Video con movimiento de cámara discreto.",
+        "En el editor añade titular, beneficio real y llamada a la acción; compara cada plano con la foto original."
+      ],
+      "prompt": "Vídeo vertical de 15 segundos. Plano detalle de [producto real], cámara lateral lenta. Conserva exactamente la forma, colores, etiqueta y proporciones. Luz de estudio realista, sin añadir características inexistentes.",
+      "costNote": "Disponibilidad y créditos variables según cuenta, región o suscripción. No se garantiza gratuidad.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "CapCut AI Image to Video",
+        "anuncios",
+        "ecommerce",
+        "foto a vídeo"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-capcut-photos-catalog",
+      "title": "Montar un anuncio con seis fotografías de producto",
+      "tool": "CapCut Desktop",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Guía práctica para combinar distintas vistas de un artículo, animarlas suavemente y sincronizarlas con la música.",
+      "source": "https://www.capcut.com/resource/how-to-combine-multiple-product-photos-into-one-video",
+      "youtube": "",
+      "steps": [
+        "Ordena seis fotografías: general, detalle, uso, textura, ventaja, cierre.",
+        "Importa cada imagen en la línea de tiempo y aplica keyframes de zoom suave.",
+        "Ajusta los cambios al ritmo de audio con licencia y termina con un mensaje claro."
+      ],
+      "prompt": "",
+      "costNote": "El editor básico admite uso gratis; ciertos modelos, efectos o exportaciones pueden consumir créditos o Pro.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "CapCut Desktop",
+        "productos",
+        "transiciones",
+        "fotografías"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-capcut-autocaptions",
+      "title": "Poner subtítulos automáticos en un Reel en pocos pasos",
+      "tool": "CapCut Auto Captions",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Subtitula los vídeos en español para aumentar su comprensión, sin editar palabra a palabra desde cero.",
+      "source": "https://www.capcut.com/resource/auto-captions-ai-video-editor",
+      "youtube": "",
+      "steps": [
+        "Importa tu vídeo, mejor con voz limpia.",
+        "En Text activa Auto Captions/Recognise Subtitles.",
+        "Corrige errores y mantén el texto grande, centrado en zona segura y con contraste."
+      ],
+      "prompt": "",
+      "costNote": "CapCut documenta una vía gratuita de inicio; límites por plan, plataforma y estilo.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "CapCut Auto Captions",
+        "subtítulos",
+        "redes",
+        "tutoriales"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-capcut-chromakey",
+      "title": "Cambiar el fondo de una persona en vídeo",
+      "tool": "CapCut Video Background Remover",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "unknown",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Cambia un fondo desordenado por uno uniforme sin montar un estudio; puedes utilizar borrado automático o Chroma Key.",
+      "source": "https://www.capcut.com/tools/video-background-remover",
+      "youtube": "",
+      "steps": [
+        "Graba un clip con buena iluminación y poco movimiento de cabello.",
+        "Abre Remove Background y selecciona Auto Removal o Chroma Key.",
+        "Añade el fondo deseado y revisa bordes antes de exportar."
+      ],
+      "prompt": "",
+      "costNote": "CapCut publica opciones gratis y de prueba según versión; comprueba el bloqueo Pro en la cuenta concreta.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "CapCut Video Background Remover",
+        "fondo vídeo",
+        "chroma key",
+        "tutoriales"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-capcut-voiceover",
+      "title": "Crear una locución sin grabarte hablando",
+      "tool": "CapCut Text to Speech",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Escribe un guion corto y crea una voz sintética, con subtítulos y música, para tutoriales y demostraciones sin cámara.",
+      "source": "https://www.capcut.com/resource/how-to-add-or-replace-voiceovers-music-and-sound-effects-in-capcut",
+      "youtube": "",
+      "steps": [
+        "Redacta frases breves con pausas naturales.",
+        "En CapCut prueba Text to Speech y una voz permitida en tu plan.",
+        "Sincroniza la voz con imágenes propias y subtítulos, revisa nombres y hechos."
+      ],
+      "prompt": "Guion de 20 segundos sobre [tema] para un público general: abre con una pregunta, explica un truco en 2 pasos y termina con un ejemplo fácil.",
+      "costNote": "Acceso gratuito con límites, según cuenta, región, créditos y funciones disponibles; comprobar antes de exportar.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "CapCut Text to Speech",
+        "locución",
+        "narración",
+        "sin salir en cámara"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-capcut-kenburns",
+      "title": "Dar movimiento cinematográfico a fotos estáticas con keyframes",
+      "tool": "CapCut Keyframes",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Crea un efecto documental de acercamiento y desplazamiento de cámara sobre fotografías, sin generar imágenes falsas.",
+      "source": "https://www.capcut.com/resource/how-to-use-capcut",
+      "youtube": "",
+      "steps": [
+        "Importa una foto en una línea de tiempo.",
+        "En el inicio fija escala y posición mediante keyframe.",
+        "En el final aumenta ligeramente la escala y cambia posición; verifica que no se recorte el sujeto."
+      ],
+      "prompt": "",
+      "costNote": "Los fotogramas clave son una función de edición; recursos especiales pueden ser de pago.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "CapCut Keyframes",
+        "documental",
+        "recuerdos",
+        "zoom"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-capcut-image-motion",
+      "title": "Convertir ilustraciones y fotos en clips animados",
+      "tool": "CapCut Image to Video",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "unknown",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Instrucciones para animar una imagen de forma sutil con CapCut Web, adecuada para historias, portadas y anuncios.",
+      "source": "https://www.capcut.com/resource/image-to-video-ai-free-guide",
+      "youtube": "",
+      "steps": [
+        "Abre el generador Image-to-Video en CapCut Web.",
+        "Sube la foto o ilustración y describe únicamente el movimiento deseado.",
+        "Genera, compara con la original y termina el clip en el editor."
+      ],
+      "prompt": "Sólo movimiento: ligero paneo lateral, brillo suave en el fondo, sujeto inmóvil, sin deformaciones, composición vertical 9:16.",
+      "costNote": "Disponibilidad y créditos variables según cuenta, región o suscripción. No se garantiza gratuidad.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "CapCut Image to Video",
+        "imagen a vídeo",
+        "animar fotos",
+        "Reels"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-capcut-mix-real-ai",
+      "title": "Combinar escenas grabadas y clips IA sin que se noten los saltos",
+      "tool": "CapCut Video Editor",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Empalma vídeo real con vídeo generado igualando formato, luz y ritmo para que la historia siga siendo coherente.",
+      "source": "https://www.capcut.com/resource/ai-video-editor-guide",
+      "youtube": "",
+      "steps": [
+        "Importa clips grabados y generados en un proyecto.",
+        "Unifica la relación de aspecto y aplica ajustes de luz y color coherentes.",
+        "Corta en acciones y revisa manos, texto y continuidad."
+      ],
+      "prompt": "",
+      "costNote": "El montaje básico es gratis; la generación de clips puede necesitar créditos o suscripción.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "CapCut Video Editor",
+        "cine",
+        "edición",
+        "transiciones"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-capcut-montaje-musica",
+      "title": "Crear un vídeo emotivo con fotos y música",
+      "tool": "CapCut",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Montaje para viajes, aniversarios, despedidas o eventos: fotos ordenadas y transiciones suaves sin tener que aprender edición avanzada.",
+      "source": "https://www.capcut.com/resource/create-slideshows-with-music",
+      "youtube": "",
+      "steps": [
+        "Elige 8-15 fotos y ordénalas como una historia.",
+        "En CapCut usa una plantilla gratuita o crea una línea de tiempo.",
+        "Añade música con permisos, títulos cortos y exporta a 9:16."
+      ],
+      "prompt": "",
+      "costNote": "Plantillas gratuitas disponibles; comprobar la licencia del audio y si hay recursos Pro.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "CapCut",
+        "familia",
+        "eventos",
+        "viajes"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-meta-edits-phone",
+      "title": "Editar Reels desde el móvil y exportar sin marca añadida",
+      "tool": "Instagram Edits",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2025-04-22",
+      "addedAt": "2026-11-21",
+      "summary": "Edits de Meta permite recortar clips, transiciones, efectos y exportación sin marca de agua añadida, desde una cuenta de Instagram.",
+      "source": "https://about.fb.com/ltam/news/2025/04/presentamos-edits-una-aplicacion-para-la-creacion-de-videos/",
+      "youtube": "",
+      "steps": [
+        "Instala Edits e inicia sesión con Instagram.",
+        "Importa los vídeos; ordena la historia y ajusta cortes con la línea de tiempo.",
+        "Añade texto y exporta sin marca de agua añadida; comprueba licencias de música."
+      ],
+      "prompt": "",
+      "costNote": "La app dispone de funciones gratuitas; determinados efectos de IA y ventajas pueden tener límites o suscripción.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Instagram Edits",
+        "Instagram",
+        "Facebook",
+        "sin marca de agua"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-meta-edits-effects",
+      "title": "Aplicar un efecto de IA solo a una persona u objeto",
+      "tool": "Instagram Edits / Meta AI",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "unknown",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Meta documenta efectos de IA sobre objetos o personas seleccionados, útiles para vídeos creativos sin modificar toda la escena.",
+      "source": "https://about.fb.com/news/2025/04/introducing-edits-streamlined-video-creation-app/amp/",
+      "youtube": "",
+      "steps": [
+        "Graba un clip corto con sujeto bien separado del fondo.",
+        "En Edits explora efectos de vídeo y selecciona el objeto o sujeto si esa función está disponible.",
+        "Revisa fotograma a fotograma que el efecto no invada otras partes."
+      ],
+      "prompt": "",
+      "costNote": "Despliegue y límites de efectos variables; confirmar disponibilidad en España y en la cuenta.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Instagram Edits / Meta AI",
+        "efectos visuales",
+        "Instagram",
+        "Meta"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-meta-stories-restyle",
+      "title": "Cambiar el ambiente de una Story con Meta AI",
+      "tool": "Instagram Stories / Meta AI",
+      "category": "Marketing e imagen",
+      "origin": "curated",
+      "cost": "unknown",
+      "date": "2026-07-10",
+      "addedAt": "2026-11-21",
+      "summary": "Reestiliza fondos, iluminación y tonos de una Story para crear una versión ilustrada o un ambiente distinto.",
+      "source": "https://about.fb.com/ltam/news/2026/07/nuevos-efectos-en-stories-de-meta-ai/",
+      "youtube": "",
+      "steps": [
+        "Sube una fotografía propia a Stories.",
+        "Si aparece Restyle o estilos IA, prueba modificar ambiente, luz o fondo.",
+        "Compara con el original antes de compartir para evitar cambios de identidad no deseados."
+      ],
+      "prompt": "Iluminación cálida de atardecer y fondo de jardín suave; conserva rasgos faciales, ropa y postura de la fotografía.",
+      "costNote": "Disponibilidad y créditos variables según cuenta, región o suscripción. No se garantiza gratuidad.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Instagram Stories / Meta AI",
+        "Instagram",
+        "Stories",
+        "efectos"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-meta-muse-circle",
+      "title": "Editar una parte de una imagen dibujando sobre ella",
+      "tool": "Meta AI Muse Image",
+      "category": "Marketing e imagen",
+      "origin": "curated",
+      "cost": "unknown",
+      "date": "2026-07-01",
+      "addedAt": "2026-11-21",
+      "summary": "Muse Image permite generar o editar una imagen y señalar mediante un círculo o dibujo dónde quieres aplicar el cambio.",
+      "source": "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/",
+      "youtube": "",
+      "steps": [
+        "En Meta AI crea una imagen o carga una propia.",
+        "Utiliza la herramienta de anotación si está disponible para delimitar la zona.",
+        "Pide un único cambio y verifica que no haya elementos alterados fuera de la selección."
+      ],
+      "prompt": "Modifica solo la región marcada: cambia el fondo a un estudio blanco natural. Conserva forma, detalles y colores del producto.",
+      "costNote": "Disponibilidad y créditos variables según cuenta, región o suscripción. No se garantiza gratuidad.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Meta AI Muse Image",
+        "Meta",
+        "retoque",
+        "edición de imágenes"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-meta-vibes-europe",
+      "title": "Crear y remezclar vídeos de IA desde Europa",
+      "tool": "Meta AI Vibes",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "unknown",
+      "date": "2025-11-06",
+      "addedAt": "2026-11-21",
+      "summary": "Meta anunció Vibes en Europa para generar, animar, remezclar y compartir contenidos breves con IA.",
+      "source": "https://about.fb.com/news/2025/11/bringing-vibes-to-europe-a-new-way-to-create-share-and-play-in-the-meta-ai-app/",
+      "youtube": "",
+      "steps": [
+        "En la aplicación de Meta AI abre Vibes, si aparece en tu cuenta.",
+        "Genera una escena con un prompt breve o remezcla una creación con permisos.",
+        "Revisa contenido, atribución y etiquetado de IA antes de publicarlo."
+      ],
+      "prompt": "Vídeo vertical: libro ilustrado que se abre en una mesa; aparecen pequeñas estrellas de papel. Animación suave, 6 s, cámara fija.",
+      "costNote": "Disponibilidad y créditos variables según cuenta, región o suscripción. No se garantiza gratuidad.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Meta AI Vibes",
+        "Meta",
+        "Facebook",
+        "Instagram",
+        "vídeos IA"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-meta-profile-animate",
+      "title": "Animar la foto de perfil de Facebook con IA",
+      "tool": "Facebook Meta AI",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "unknown",
+      "date": "2026-02-10",
+      "addedAt": "2026-11-21",
+      "summary": "Facebook anunció la animación de fotografías de perfil como efecto ligero, sin tener que producir un vídeo entero.",
+      "source": "https://about.fb.com/news/2026/02/animate-facebook-profile-picture-meta-ai/",
+      "youtube": "",
+      "steps": [
+        "Desde Facebook busca la opción de animar la fotografía de perfil.",
+        "Selecciona tu propia imagen y aplica una animación disponible.",
+        "Revisa la vista previa y decide si compartir o conservar el perfil estático."
+      ],
+      "prompt": "",
+      "costNote": "Disponibilidad y créditos variables según cuenta, región o suscripción. No se garantiza gratuidad.",
+      "verification": "Guía del proveedor consultada el 21/11/2026; la fecha del registro es la de revisión, no necesariamente publicación.",
+      "tags": [
+        "Facebook Meta AI",
+        "Facebook",
+        "perfil",
+        "fotos animadas"
+      ],
+      "recommended": true
+    }
+  ]
 }
