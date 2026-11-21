@@ -1,0 +1,7 @@
+TRUCOS IA — Francisco Álvarez Jiménez
+
+- Nuevo nombre visible: Trucos IA.
+- Diseño claro inspirado en los materiales APFA Motril.
+- La sección Novedades, buscador, IA gratis y favoritos permanecen intactos.
+- En GitHub puede llamarse el repositorio trucos-ia.
+- Se mantienen formatos internos originales para compatibilidad con datos previos.
