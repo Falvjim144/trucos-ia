@@ -27,6 +27,8 @@ jobs:
           python-version: '3.12'
       - name: Comprobar el catálogo
         run: python scripts/validar_novedades.py data/updates.json
+      - name: Validar diseño y catálogo base
+        run: python scripts/validar_web.py index.html
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
       - name: Empaquetar web
