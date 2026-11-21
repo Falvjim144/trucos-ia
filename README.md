@@ -1,85 +1,66 @@
-# ✦ Trucos IA — Biblioteca personal de trucos de inteligencia artificial
+# Trucos IA
 
-Una web estática, en español, preparada para **GitHub Pages**. Incluye el catálogo inicial de 175 trucos, filtros temáticos, categoría **IA gratis**, favoritos, notas, fichas de detalles y una sección destacada **Novedades**.
+Biblioteca personal de inteligencia artificial de **Francisco Álvarez Jiménez**.
 
-## 1. Publicar en GitHub Pages
+**Web:** https://falvjim144.github.io/trucos-ia/
 
-1. En GitHub, crea un repositorio nuevo llamado `trucos-ia` (recomendado **público** para usar GitHub Pages sin coste con GitHub Free). No actives “Add a README” porque ya hay uno en el proyecto.
-2. Sube **el contenido de esta carpeta**, conservando los directorios `data/`, `scripts/` y `.github/`, a la rama `main`. El archivo `index.html` debe quedar en la raíz del repositorio; no subas solamente el ZIP como archivo.
-3. En el repositorio abre **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-4. Abre la pestaña **Actions** y comprueba que el proceso «Publicar Trucos IA» se ejecute. Si aún no lo ha hecho, ejecútalo con **Run workflow**.
-5. Tu web aparecerá normalmente en `https://TU-USUARIO.github.io/trucos-ia/`. GitHub mostrará la dirección exacta en Settings → Pages.
+**Diseño v2:** interfaz limpia y responsive, buscador persistente, filtros combinables, fichas de detalle con prompts, modo oscuro, barra inferior móvil y accesos rápidos a Todos, Probados, IA gratis y Favoritos.
 
-> La publicación puede tardar unos minutos. Este proyecto no exige servidor, bases de datos, tokens, API keys ni servicios de pago.
+## Contenido y actualizaciones
 
-## 2. Cómo funcionan las novedades
+- `index.html`: **175 fichas originales** (153 identificadas de MAXmaxdata y 22 guías independientes).
+- `data/updates.json`: novedades públicas añadidas posteriormente. El 21/11/2026 contenía **50 fichas**, con las que la biblioteca sumaba 225. El número crece con las actualizaciones.
+- Cada novedad se combina automáticamente con el catálogo original al abrir la web, sin eliminar ni duplicar las fichas que ya existen.
+- La pestaña **Novedades** muestra las incorporaciones, y estas también aparecen en sus categorías y en **IA gratis** cuando procede.
 
-- El catálogo original está integrado en `index.html`.
-- Las fichas semanales adicionales están en **`data/updates.json`**.
-- Al abrir la web publicada, esta descarga las novedades desde el propio sitio y las mezcla con el catálogo original, sin duplicar fichas. También pasan a sus categorías y a **IA gratis**, cuando corresponde.
-- El botón **Novedades → Actualizar** fuerza una nueva lectura del archivo de novedades.
-- Un cambio confirmado en GitHub dispara el despliegue de Pages de forma automática.
+La investigación semanal está descrita en [GUIA_INVESTIGACION.md](./GUIA_INVESTIGACION.md). **GitHub Pages publica cambios en el repositorio, pero por sí solo no busca nuevas fuentes**: una tarea externa debe añadir las nuevas fichas a `data/updates.json`.
 
-**Importante:** GitHub Pages publica cambios; no investiga nuevas publicaciones por sí mismo. La búsqueda semanal de ChatGPT es una tarea aparte. Para una actualización totalmente desatendida, la tarea de los lunes tiene que poder **escribir y confirmar** las nuevas entradas en `data/updates.json` mediante el conector GitHub o un mecanismo equivalente. Publicar este repositorio no autoriza por sí mismo esa escritura.
+### Formato de las nuevas entradas
 
-### Añadir los trucos recibidos los lunes
+`data/updates.json` usa el formato `atlas-ia-weekly-update` (versión 1). Incluye `id`, `title`, `tool`, `category`, `origin`, `cost`, `date`, `addedAt`, `summary`, `source`, `youtube`, `steps`, `prompt`, `costNote`, `verification` y `tags`.
 
-El archivo semanal debe tener este formato:
-
-```json
-{
-  "format": "atlas-ia-weekly-update",
-  "version": 1,
-  "generatedAt": "2026-11-23",
-  "entries": []
-}
-```
-
-Puedes abrir `data/updates.json` en GitHub y añadir los nuevos objetos a `entries`, conservando los anteriores. Para fusionar automáticamente dos archivos sin sobrescribir los trucos ya publicados, usa:
+Para integrar un archivo nuevo sin borrar los anteriores:
 
 ```bash
-python scripts/agregar_novedades.py NUEVOS_TRUCOS.json
+python scripts/agregar_novedades.py nuevas-fichas.json
+python scripts/validar_novedades.py data/updates.json
 ```
 
-El script conserva el contenido anterior, descarta duplicados por identificador y por título/herramienta y actualiza la fecha de publicación. Luego confirma y sube el cambio (`git add data/updates.json && git commit -m "Actualizar novedades" && git push`). El flujo de GitHub Actions valida el archivo antes de publicar.
+## Publicación
 
-Si el conector GitHub está conectado en ChatGPT y dispone de permisos de escritura, podemos preparar las modificaciones del repositorio desde la conversación.
+En **Settings → Pages → Build and deployment**, seleccionar **GitHub Actions**. El workflow `.github/workflows/pages.yml` funciona en dos fases: **validar y empaquetar**, y después **publicar**. Comprueba ambos procesos desde la pestaña Actions.
 
-## 3. Favoritos, notas y privacidad
+```bash
+python scripts/validar_web.py index.html
+python scripts/validar_novedades.py data/updates.json
+```
 
-Tus **favoritos, notas, estados de probado y fichas personales** se almacenan en `localStorage` del **navegador y dispositivo** que uses. No se envían a GitHub; no se publican con el repositorio. Puedes exportar una **copia de seguridad JSON** desde la web y restaurarla en otro navegador. Las notas no se sincronizan entre dispositivos.
+## Favoritos, notas y privacidad
 
-**No subas tu copia de seguridad personal al repositorio público.** El fichero `data/updates.json` contiene solo trucos públicos; nunca contraseñas ni información privada.
+La clave de almacenamiento local sigue siendo `atlas-ia-usuario-v2`, para conservar **favoritos, notas, probados y trucos propios** de versiones anteriores en el mismo navegador y origen. Las notas se guardan inmediatamente al escribir.
 
-## 4. Archivos
+Estos datos personales **no se almacenan en GitHub ni se sincronizan entre dispositivos**. Usa **Copia de seguridad** para exportarlos e importarlos en otro navegador. No subas estos archivos privados a un repositorio público.
 
-| Archivo | Para qué sirve |
+## Identidad visual y accesibilidad
+
+Paleta inspirada en materiales APFA Motril: fondo blanco, azul institucional (`#29457f`) y amarillo pálido (`#f1f79b`). Las variables de tema están en el inicio de `index.html`. También existe un modo oscuro opcional.
+
+La navegación móvil incluye Inicio, Novedades, Buscar, IA gratis y Favoritos. Los cuatro contadores de portada son botones funcionales (Todos, Probados, IA gratis y Favoritos). Se conserva la sección **Con guía** como filtro separado.
+
+Se ha comprobado la interfaz a 320, 390, 768 y 1440 píxeles, los accesos principales, el buscador, las notas y los filtros.
+
+## Estructura
+
+| Archivo | Uso |
 |---|---|
-| `index.html` | Interfaz completa, catálogo original, buscador y almacenamiento personal |
-| `data/updates.json` | Base pública de nuevas fichas semanales |
-| `scripts/validar_novedades.py` | Verificación del formato de datos |
-| `scripts/agregar_novedades.py` | Fusiona una tanda semanal con las ya publicadas |
-| `.github/workflows/pages.yml` | Valida y publica el sitio automáticamente tras cada cambio en `main` |
-| `.nojekyll` | Evita el procesado innecesario con Jekyll |
-| `ejemplos/tanda-semanal.json` | Ejemplo de archivo semanal, sin fichas ficticias |
+| `index.html` | Sitio v2 y 175 fichas de partida |
+| `data/updates.json` | Novedades, conservadas en todas las actualizaciones |
+| `scripts/validar_web.py` | Validación del sitio y del catálogo base |
+| `scripts/validar_novedades.py` | Validación del JSON de novedades |
+| `scripts/agregar_novedades.py` | Fusión sin duplicados |
+| `.github/workflows/pages.yml` | Despliegue automático en GitHub Pages |
+| `GUIA_INVESTIGACION.md` | Criterios y fuentes de próximas investigaciones |
 
-## 5. Mantenimiento
+Los nombres internos `atlas-ia-weekly-update` y `atlas-ia-user-backup` permanecen por **compatibilidad**.
 
-Los campos `cost` significan `limited` (gratis con límites), `local` (uso local sin suscripción), `unknown` (precio no verificado) y `paid` (pago). No representan garantía de gratuidad perpetua: revisa los servicios oficiales.
-
-Se recomienda que cada novedad contenga una fuente comprobable, fechas, herramienta, categoría, clasificación de coste y una descripción breve. Si el contenido de un vídeo no se puede consultar, deja `steps` vacío en lugar de inventar instrucciones.
-
-## 6. Referencias
-
-- [GitHub Pages — publicar desde un workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
-- [GitHub Pages — crear un sitio](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
-
-
-## Identidad visual (edición APFA)
-
-La web incluye un tema claro inspirado en las presentaciones de APFA Motril, con fondo blanco, azul institucional (`#29457f`) y un acento amarillo suave (`#f1f79b`). El título **Trucos IA** y el nombre **Francisco Álvarez Jiménez** aparecen en la navegación, cabecera y pie de página.
-
-El tema está en el bloque `<style id="apfa-light-theme">` de `index.html` y puede ajustarse sin alterar el catálogo de trucos, el buscador, las novedades ni las preferencias guardadas por cada navegador. No se usa el logotipo de APFA, ya que Trucos IA es una biblioteca personal.
-
-
-**Nota sobre compatibilidad:** se mantienen los identificadores internos `atlas-ia-weekly-update` y `atlas-ia-user-backup` y la clave local `atlas-ia-usuario-v2` para que las importaciones, copias de seguridad y favoritos existentes sigan funcionando tras el cambio de nombre.
+Las categorías de coste son `limited` (gratis con límites), `local` (gratis en local), `unknown` (sin verificar) y `paid` (pago). Las condiciones pueden cambiar.
