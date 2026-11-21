@@ -191,6 +191,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
   .weekly-banner {border-left-width:3px;}
 }
 </style>
+<link rel="stylesheet" href="./mobile.css?v=2">
 </head>
 <body>
 <div class="backdrop" id="backdrop"></div>
@@ -394,4 +395,5 @@ render();
 loadRemoteWeekly();
 if(location.hash.startsWith('#truco=')){const id=decodeURIComponent(location.hash.substring(7));if(getTip(id))openDetail(id)}
 </script>
+<script src="./mobile.js?v=2"></script>
 </body></html>
