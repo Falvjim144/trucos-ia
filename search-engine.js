@@ -27,7 +27,9 @@ const CONCEPTS=[
  ['educacion','educativo','educativa','clase','clases','aula','docencia','pizarra','alumnado'],
  ['automatizar','automatizacion','automatico','automatica','automatizadas'],
  ['documento','documentos','pdf','archivo','archivos'],
- ['recorte','recortar','cortar','corte','editar','edicion','montaje']
+ ['recorte','recortar','cortar','corte','editar','edicion','montaje'],
+ ['convertir','transformar','pasar','cambiar','transformacion'],
+ ['dibujo','dibujos','ilustracion','ilustraciones','caricatura','anime']
 ];
 const RELATED=new Map();
 for(const group of CONCEPTS){
@@ -45,7 +47,7 @@ function variants(t){
 function query(q){
  const words=pieces(q);
  const free=words.some(w=>FREE.has(w)) || normalize(q).includes('sin coste') || normalize(q).includes('sin pagar');
- const tokens=[...new Set(words.filter(w=>!IGNORE.has(w)&&!FREE.has(w)&&(w.length>=3||w==='3d')))];
+ const tokens=[...new Set(words.filter(w=>!IGNORE.has(w)&&!FREE.has(w)&&!(free&&((w==='pagar'&&normalize(q).includes('sin pagar'))||(w==='coste'&&normalize(q).includes('sin coste'))))&&(w.length>=3||w==='3d')))];
  return {tokens,free,phrase:tokens.join(' ')};
 }
 function indexed(x){
@@ -136,7 +138,7 @@ function rank(items,rawQuery,options={}){
  strong.sort(cmp);related.sort(cmp);
  // Si solo coincide una parte de una frase, mostrar algunos resultados relacionados
  // en lugar de una pantalla vacía. Mantener los matches completos primero.
- const limit=q.tokens.length>1?Math.max(14,Math.min(40,50-strong.length)):0;
+ const limit=q.tokens.length>1?Math.max(12,Math.min(30,42-strong.length)):0;
  return strong.concat(related.slice(0,limit))
 }
 root.TrucosSearch={normalize,query,rank,version:'1.0'};
