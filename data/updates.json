@@ -732,6 +732,679 @@
         "fotos animadas"
       ],
       "recommended": true
+    },
+    {
+      "id": "w-tiktok-symphony-photo",
+      "title": "De foto a vídeo publicitario con TikTok Symphony",
+      "tool": "TikTok Symphony Creative Studio",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-06-01",
+      "addedAt": "2026-11-21",
+      "summary": "TikTok permite generar vídeos desde una foto usando una instrucción de movimiento y un modelo seleccionado, orientados a anuncios cortos.",
+      "source": "https://ads.tiktok.com/resources/help/article/how-to-generate-videos-with-symphony-creative-studio?lang=es-419&redirected=2",
+      "youtube": "",
+      "steps": [
+        "Inicia sesión con tu cuenta TikTok for Business en Symphony Creative Studio.",
+        "Elige Create → Image to video, sube una imagen propia y describe el movimiento.",
+        "Selecciona la duración y el modelo disponible; genera y revisa el resultado."
+      ],
+      "prompt": "Vídeo vertical de [producto] sobre mesa clara. Zoom suave hacia el producto y destello natural; conserva exactamente el envase y toda la etiqueta. Sin personas añadidas.",
+      "costNote": "Existe una opción gratuita, con límites o condiciones que conviene revisar antes de generar o exportar.",
+      "verification": "Documentación oficial de TikTok, actualizada en junio de 2026; puede requerir cuenta Business y limita ciertos modelos o rostros de referencia.",
+      "tags": [
+        "TikTok Symphony Creative Studio",
+        "TikTok",
+        "anuncios",
+        "imagen a vídeo"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-tiktok-symphony-prompt",
+      "title": "Crear un vídeo desde texto sin grabar nada",
+      "tool": "TikTok Symphony Text to Video",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-06-01",
+      "addedAt": "2026-11-21",
+      "summary": "Escribe una descripción para generar un clip promocional; opcionalmente puedes usar una referencia para mejorar el prompt sin copiarla literalmente.",
+      "source": "https://ads.tiktok.com/resources/help/article/how-to-generate-videos-with-symphony-creative-studio?lang=es-419&redirected=2",
+      "youtube": "",
+      "steps": [
+        "Desde Symphony selecciona Text to video.",
+        "Escribe la descripción de escena; prueba Enhance si está disponible.",
+        "Elige modelo y duración, genera y verifica que sea apto para tu público."
+      ],
+      "prompt": "Vídeo vertical de 8 segundos: una taza de café sobre mesa de madera recibe luz de mañana. Cámara dolly in lento, vapor sutil, estética cálida y realista.",
+      "costNote": "Existe una opción gratuita, con límites o condiciones que conviene revisar antes de generar o exportar.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "TikTok Symphony Text to Video",
+        "TikTok",
+        "text to video",
+        "publicidad"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-tiktok-symphony-product",
+      "title": "Producir un anuncio a partir de datos o enlace de un producto",
+      "tool": "TikTok Symphony Product Remix",
+      "category": "Marketing e imagen",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Symphony permite partir de detalles de producto o una URL para proponer vídeos, guiones y versiones de un anuncio.",
+      "source": "https://ads.tiktok.com/business/en-US/blog/symphony-creative-studio",
+      "youtube": "",
+      "steps": [
+        "Entra con cuenta TikTok for Business y busca la opción de crear desde producto/enlace.",
+        "Aporta nombre, imágenes y beneficios reales verificados.",
+        "Genera varias propuestas y corrige cualquier dato o promesa inventada antes de publicar."
+      ],
+      "prompt": "Guion de 15 segundos: muestra un problema real que resuelve [producto], una demostración visual y un cierre con una invitación a conocerlo. No inventes descuentos ni especificaciones.",
+      "costNote": "Existe una opción gratuita, con límites o condiciones que conviene revisar antes de generar o exportar.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "TikTok Symphony Product Remix",
+        "TikTok",
+        "ventas",
+        "ecommerce"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-tiktok-symphony-dub",
+      "title": "Doblar un vídeo a otro idioma con voz y sincronización",
+      "tool": "TikTok Symphony Translate & Dub",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Transforma el idioma de un vídeo propio con locución traducida; la herramienta permite revisar el guion y puede sincronizar el movimiento de labios.",
+      "source": "https://ads.tiktok.com/resources/help/article/how-to-translate-and-dub-videos-with-symphony-creative-studio?lang=es-419",
+      "youtube": "",
+      "steps": [
+        "Importa un vídeo propio con voz clara en Symphony.",
+        "Elige Translate & Dub e idioma de destino.",
+        "Revisa el texto traducido, genera la versión y comprueba pronunciación y matices."
+      ],
+      "prompt": "",
+      "costNote": "Herramientas gratuitas anunciadas para cuentas Business; la disponibilidad de sincronización y créditos puede variar.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "TikTok Symphony Translate & Dub",
+        "TikTok",
+        "idiomas",
+        "doblaje",
+        "subtítulos"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-tiktok-symphony-edit",
+      "title": "Agregar voz sintética y subtítulos en el editor de TikTok",
+      "tool": "TikTok Symphony Video Editor",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "El editor incorpora voz a partir de texto, edición de guion, subtítulos y opciones de traducción y lip sync.",
+      "source": "https://ads.tiktok.com/resources/help/article/how-to-edit-videos-with-symphony-creative-studio?lang=es-419",
+      "youtube": "",
+      "steps": [
+        "Carga un vídeo con imágenes permitidas para su uso.",
+        "En Voiceover introduce texto o audio propio; elige voz, idioma y subtítulos.",
+        "Comprueba el resultado y prepara la exportación según normas de TikTok."
+      ],
+      "prompt": "Locución de 20 s para explicar un consejo de fotografía en casa, frases claras y sin exageraciones.",
+      "costNote": "Existe una opción gratuita, con límites o condiciones que conviene revisar antes de generar o exportar.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "TikTok Symphony Video Editor",
+        "TikTok",
+        "voz IA",
+        "subtítulos"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-tiktok-creative-trends",
+      "title": "Encontrar ideas de vídeos a partir de tendencias sin copiarlas",
+      "tool": "TikTok Creative Center",
+      "category": "Marketing e imagen",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Creative Center es un recurso público y gratuito para explorar anuncios, tendencias, prácticas creativas y formatos que puedes adaptar a tu proyecto.",
+      "source": "https://ads.tiktok.com/help/article/creative-center?lang=es",
+      "youtube": "",
+      "steps": [
+        "Abre Creative Center y examina tendencias y ejemplos de anuncios de tu sector.",
+        "Anota el gancho, estructura y transición; no copies el material audiovisual ajeno.",
+        "Produce una versión original con tus propios planos, imágenes y mensaje."
+      ],
+      "prompt": "Dame 5 ideas originales de vídeo de 20 segundos para [sector], cada una con gancho visual, tres planos grabables con móvil y cierre claro, sin imitar marcas existentes.",
+      "costNote": "Creative Center es público y gratuito; generar con Symphony puede requerir cuenta Business u otras condiciones.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "TikTok Creative Center",
+        "tendencias",
+        "TikTok",
+        "inspiración"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-tiktok-scrapbook-frames",
+      "title": "Reel tipo álbum de recortes con marcos de papel",
+      "tool": "CapCut · TikTok Notes",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Tutorial de creador en TikTok Notes con un montaje tipo scrapbook: combina vídeo o fotografías con bordes, capas y un aire artesanal.",
+      "source": "https://notes.tiktok.com/%40icherrydlostore/7651358999496884766?region=us",
+      "youtube": "",
+      "steps": [
+        "Reúne 3-5 fotos o clips de un evento.",
+        "En CapCut crea marcos blancos o de papel alrededor de cada toma siguiendo el tutorial enlazado.",
+        "Anima la entrada de las capas, añade título y exporta 9:16."
+      ],
+      "prompt": "",
+      "costNote": "La edición básica puede hacerse con elementos gratis; algunas plantillas, tipografías o efectos pueden ser Pro.",
+      "verification": "Tutorial público indexado de TikTok Notes; revisa el tutorial original para precisar orden de botones según versión.",
+      "tags": [
+        "CapCut · TikTok Notes",
+        "TikTok Notes",
+        "scrapbook",
+        "recuerdos"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-tiktok-flick-edit",
+      "title": "Transición Flick rápida para vídeos de antes y después",
+      "tool": "CapCut · TikTok Notes",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2025-05-01",
+      "addedAt": "2026-11-21",
+      "summary": "Un creador de TikTok Notes explica un efecto Flick para hacer cambios de escena en vídeos estéticos o promocionales.",
+      "source": "https://notes.tiktok.com/%40lanaraii/7498585284418978347?region=us",
+      "youtube": "",
+      "steps": [
+        "Graba dos clips con el objeto alineado en la misma zona.",
+        "Consulta el efecto Flick y ajusta el corte en CapCut según el tutorial.",
+        "Reduce la intensidad de flash y revisa la accesibilidad para personas sensibles a destellos."
+      ],
+      "prompt": "",
+      "costNote": "La mayoría de cortes se hacen en edición gratis; un efecto concreto puede estar bloqueado por plan o región.",
+      "verification": "Tutorial indexado de TikTok Notes; fecha aproximada de indexación, no debe interpretarse como publicación exacta.",
+      "tags": [
+        "CapCut · TikTok Notes",
+        "TikTok",
+        "transiciones",
+        "antes y después"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-tiktok-giant-object",
+      "title": "Efecto de objeto gigante sin CGI complejo",
+      "tool": "CapCut · TikTok Notes",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2023-08-03",
+      "addedAt": "2026-11-21",
+      "summary": "Tutorial clásico de perspectiva forzada: parece que un objeto es enorme gracias a escala, encuadre y composición en CapCut.",
+      "source": "https://notes.tiktok.com/%40adrianvideoimage/7263049605179916801?region=sg",
+      "youtube": "",
+      "steps": [
+        "Graba plano base y toma del objeto con perspectiva compatible.",
+        "Superpone las capas en CapCut y ajusta escala, máscara y sombras.",
+        "Sincroniza cámara y corte para vender la ilusión sin necesidad de generar caras falsas."
+      ],
+      "prompt": "",
+      "costNote": "Técnicas de edición básicas; algunos efectos de la plantilla original pueden requerir Pro.",
+      "verification": "Tutorial del creador publicado en 2023; inspira un ejercicio atemporal, no una novedad lanzada en 2026.",
+      "tags": [
+        "CapCut · TikTok Notes",
+        "TikTok",
+        "efectos",
+        "perspectiva"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-vimeo-ai-film-multitool",
+      "title": "Crear un microcorto de IA combinando imágenes, movimiento y voz",
+      "tool": "Midjourney + Runway / Pika + ElevenLabs",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "paid",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "El cortometraje Borrowed Face documenta una producción con imágenes Midjourney, movimiento Runway/Pika y síntesis de voz ElevenLabs: caso real de flujo multipaso.",
+      "source": "https://vimeo.com/1098896234",
+      "youtube": "",
+      "steps": [
+        "Escribe una microhistoria original de 3 escenas con planteamiento y desenlace.",
+        "Crea imágenes coherentes de personajes y espacios; anímalas en planos breves.",
+        "Graba o sintetiza narración con permiso y edita con transiciones discretas."
+      ],
+      "prompt": "Microcorto de 30 s: una carta llega a una casa vacía. Tres escenas, una sola protagonista, misma ropa, misma iluminación, final emotivo sin violencia.",
+      "costNote": "Puede exigir plan de pago o créditos; consulta las condiciones, resolución de salida y licencias.",
+      "verification": "Caso publicado en Vimeo, inspira el flujo descrito por la producción; no implica que el vídeo enseñe todos los botones.",
+      "tags": [
+        "Midjourney + Runway / Pika + ElevenLabs",
+        "Vimeo",
+        "cine IA",
+        "narración"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-vimeo-film-noir",
+      "title": "Diseñar un corto de cine negro con IA",
+      "tool": "Midjourney + Runway + Pika + ElevenLabs",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "paid",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Neural Nightfall explica la creación de un corto en estilo film noir utilizando imágenes, vídeos y voces generadas.",
+      "source": "https://vimeo.com/947759886",
+      "youtube": "",
+      "steps": [
+        "Define una biblia visual: blanco y negro, alto contraste, vestuario y localización.",
+        "Genera imágenes con el mismo protagonista; anima movimientos de cámara cortos.",
+        "Añade sonido ambiente y narración con licencias revisadas; monta una historia con inicio y giro."
+      ],
+      "prompt": "Calle lluviosa de cine negro años 40, personaje con gabardina propia original, plano medio, luz dura lateral, humo leve, movimiento de cámara lento.",
+      "costNote": "Puede exigir plan de pago o créditos; consulta las condiciones, resolución de salida y licencias.",
+      "verification": "Caso de making-of publicado en Vimeo. Algunas herramientas son de pago o con créditos limitados.",
+      "tags": [
+        "Midjourney + Runway + Pika + ElevenLabs",
+        "Vimeo",
+        "cine negro",
+        "corto"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-vimeo-film-bts",
+      "title": "Mezclar rodaje real y criaturas fantásticas con IA",
+      "tool": "Viggle + Kling + Runway + CapCut",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "paid",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Behind the Scenes of ANPU describe un rodaje real combinado con planos de IA, efectos de personaje y limpieza de imagen; útil para una producción híbrida.",
+      "source": "https://vimeo.com/1066892022",
+      "youtube": "",
+      "steps": [
+        "Graba planos propios en una localización con luz estable.",
+        "Crea planos fantásticos adicionales; encuadra al personaje para que encaje con la acción.",
+        "Usa edición para igualar tonos, escala y ritmo; acredita la generación de imágenes."
+      ],
+      "prompt": "Plano nocturno de una figura mitológica inventada caminando frente a un edificio moderno, foco coherente y movimiento natural.",
+      "costNote": "Puede exigir plan de pago o créditos; consulta las condiciones, resolución de salida y licencias.",
+      "verification": "El making-of de Vimeo documenta las herramientas usadas; no promete una receta idéntica con cuentas gratuitas.",
+      "tags": [
+        "Viggle + Kling + Runway + CapCut",
+        "Vimeo",
+        "detrás de cámaras",
+        "cine"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-vimeo-edit-transcript",
+      "title": "Eliminar muletillas de una entrevista editando la transcripción",
+      "tool": "Vimeo Text-Based Video Editor",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "paid",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Vimeo permite borrar tramos de una grabación usando palabras de una transcripción y localizar silencios y muletillas. La función exige planes compatibles.",
+      "source": "https://help.vimeo.com/hc/en-us/articles/16367006563089-How-do-I-use-the-text-based-video-editor",
+      "youtube": "",
+      "steps": [
+        "Sube una grabación con audio de voz; revisa el idioma admitido.",
+        "Abre el editor basado en texto y revisa la transcripción.",
+        "Elimina muletillas y pausas excesivas; comprueba que el corte conserve el sentido."
+      ],
+      "prompt": "",
+      "costNote": "La tabla de planes de Vimeo sitúa la edición basada en texto en planes superiores; no clasificar como gratis.",
+      "verification": "Función de Vimeo comprobada en ayuda oficial y en tabla de planes, con limitaciones lingüísticas.",
+      "tags": [
+        "Vimeo Text-Based Video Editor",
+        "Vimeo",
+        "entrevista",
+        "podcast"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-runway-motion-only",
+      "title": "Mejorar vídeos IA describiendo el movimiento, no toda la imagen",
+      "tool": "Runway Image-to-Video",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Runway aconseja que, cuando ya existe imagen inicial, el prompt del vídeo se centre casi exclusivamente en movimiento, cámara y evolución temporal.",
+      "source": "https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide",
+      "youtube": "",
+      "steps": [
+        "Parte de una imagen con composición y sujeto bien definidos.",
+        "Describe qué se mueve, en qué dirección, y el movimiento de cámara sin repetir toda la descripción visual.",
+        "Genera pocos segundos, revisa deformaciones y cambia una sola instrucción por iteración."
+      ],
+      "prompt": "The camera slowly pushes forward. Curtains sway gently in a soft breeze. The subject remains still. Continuous realistic motion, no scene cuts.",
+      "costNote": "El plan gratuito de Runway ofrece una asignación inicial de créditos no renovables; ciertos modelos requieren suscripción.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "Runway Image-to-Video",
+        "Runway",
+        "prompts",
+        "movimiento",
+        "imagen a vídeo"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-runway-camera-terms",
+      "title": "Usar dolly, pan y orbit para darle lenguaje cinematográfico a un vídeo IA",
+      "tool": "Runway",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "La guía oficial de Runway muestra términos de cámara y ejemplos que ayudan a controlar plano, desplazamiento y atmósfera.",
+      "source": "https://help.runwayml.com/hc/en-us/articles/47313504791059-Camera-Terms-Prompts-Examples",
+      "youtube": "",
+      "steps": [
+        "Decide si el efecto necesita una cámara fija, panorámica, avance o giro.",
+        "Escribe un prompt con un solo movimiento principal y velocidad.",
+        "Evalúa cómo cambia el objeto durante el movimiento y reduce acciones si deforma la escena."
+      ],
+      "prompt": "Slow dolly-in toward a ceramic cup; gentle parallax between foreground and background; constant soft studio lighting; steady smooth camera.",
+      "costNote": "Los modelos y créditos disponibles dependen del plan, incluso aunque Runway ofrezca prueba gratis.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "Runway",
+        "cámara",
+        "cinematografía",
+        "prompts"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-runway-frame-continuity",
+      "title": "Encadenar clips usando el último fotograma para mantener continuidad",
+      "tool": "Runway Image-to-Video",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Técnica documentada por Runway: extraer el fotograma final de un clip y utilizarlo como inicio del siguiente para extender una historia visual.",
+      "source": "https://academy.runwayml.com/guides/prompting-guide",
+      "youtube": "",
+      "steps": [
+        "Genera un primer plano de 5-10 segundos.",
+        "Extrae su último fotograma y úsalo como imagen inicial para el segundo plano.",
+        "Mantén vestuario y luz, y edita con corte invisible entre ambos."
+      ],
+      "prompt": "Continue from the exact reference frame. The subject walks slowly toward the window. Same room, outfit, lighting and camera height, gentle continuous motion.",
+      "costNote": "Repetir clips consume créditos; el plan gratuito inicial es limitado y no renovable.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "Runway Image-to-Video",
+        "Runway",
+        "continuidad",
+        "secuencias"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-runway-references",
+      "title": "Mantener un objeto o un personaje coherente usando referencias",
+      "tool": "Runway References",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "unknown",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Usa imágenes, vídeos, audios o modelos como referencia para orientar nuevas generaciones; útil para campañas con el mismo protagonista o producto.",
+      "source": "https://help.runwayml.com/hc/en-us/articles/52963720640275-Using-reference-media-to-guide-your-generations",
+      "youtube": "",
+      "steps": [
+        "Prepara 1-3 referencias claras creadas por ti o con permisos.",
+        "Etiquétalas por función: personaje, escenario, estilo.",
+        "Genera una variante y compara rasgos importantes con la referencia inicial."
+      ],
+      "prompt": "Usa Image 1 solo para definir el aspecto del producto; crea una nueva escena con mesa de madera y luz matinal. Conserva color, forma y marca original.",
+      "costNote": "Precio o acceso variable según cuenta, país o función; no se garantiza uso gratuito.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "Runway References",
+        "consistencia",
+        "personajes",
+        "producto"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-runway-free-credits",
+      "title": "Probar generación de vídeo con créditos iniciales gratuitos",
+      "tool": "Runway",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Aprovecha los créditos iniciales de Runway para una prueba bien planificada; no son una cuota mensual que se recargue.",
+      "source": "https://help.runwayml.com/hc/en-us/articles/50404627334547-Free-plan-details",
+      "youtube": "",
+      "steps": [
+        "Consulta los créditos disponibles y qué modelos se incluyen en el plan Free.",
+        "Diseña primero el plano y el prompt para evitar regeneraciones innecesarias.",
+        "Genera una prueba corta, revisa y guarda el resultado permitido por tu cuenta."
+      ],
+      "prompt": "",
+      "costNote": "El plan Free ofrece créditos limitados de una sola vez y modelos seleccionados. No implica vídeos gratuitos ilimitados.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "Runway",
+        "créditos",
+        "IA gratis"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-google-vids-15s",
+      "title": "Crear tres vídeos de 15 segundos gratis al mes",
+      "tool": "Google Vids · Omni 1.2 Flash",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-05",
+      "addedAt": "2026-11-21",
+      "summary": "Google anunció el 05/11/2026 hasta tres vídeos de 15 segundos por mes con cuenta Google, sin coste; ideal para empezar con clips útiles.",
+      "source": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+      "youtube": "",
+      "steps": [
+        "Abre Google Vids con una cuenta personal de Google.",
+        "Elige generación con IA y escribe una escena clara de hasta 15 segundos.",
+        "Revisa calidad, coherencia y el contador mensual antes de hacer más variantes."
+      ],
+      "prompt": "Clip vertical de 15 s: primer plano de manos preparando una pequeña manualidad de papel, cámara fija, luz de día, pasos visuales legibles, sin textos falsos.",
+      "costNote": "Tres vídeos de hasta 15 segundos al mes sin coste según el anuncio del 05/11/2026; la disponibilidad puede variar por país o cambios del producto.",
+      "verification": "Anuncio oficial del 05/11/2026: generación en Google Vids para cualquier cuenta Google con límite anunciado.",
+      "tags": [
+        "Google Vids · Omni 1.2 Flash",
+        "Google",
+        "video gratis",
+        "15 segundos"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-google-vids-personal-avatar",
+      "title": "Crear un avatar personal sin suscripción para explicar algo",
+      "tool": "Google Vids personal avatar",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-17",
+      "addedAt": "2026-11-21",
+      "summary": "Google anunció el 17/11/2026 la creación de avatares personales en Vids sin coste en cuentas elegibles; el avatar está vinculado a la identidad del titular.",
+      "source": "https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/",
+      "youtube": "",
+      "steps": [
+        "Abre Vids en tu cuenta Google y busca Personal Avatar.",
+        "Sigue la captura de apariencia y consentimiento desde tu propio móvil.",
+        "Prueba un guion corto, revisa el resultado y no utilices el rostro de otras personas sin permiso."
+      ],
+      "prompt": "Presenta en 20 segundos tres consejos para evitar fraudes digitales, lenguaje sencillo y cierre con invitación a comprobar la fuente.",
+      "costNote": "Google anuncia disponibilidad sin coste; revisar límites de uso, región y tipo de cuenta.",
+      "verification": "Anuncio oficial publicado el 17/11/2026.",
+      "tags": [
+        "Google Vids personal avatar",
+        "avatares",
+        "Google Vids",
+        "educación"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-google-flow-frames",
+      "title": "De una imagen de referencia a una secuencia con Veo",
+      "tool": "Google Flow + Nano Banana / Veo",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "unknown",
+      "date": "2026-02-25",
+      "addedAt": "2026-11-21",
+      "summary": "Google Flow integra imágenes de referencia como ingredientes y fotogramas para convertir una dirección artística en videoclips.",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates-february-2026/",
+      "youtube": "",
+      "steps": [
+        "Crea una imagen base del lugar, objeto o personaje.",
+        "En Flow úsala como ingrediente/fotograma de una generación de vídeo.",
+        "Indica movimiento y tono, compara el resultado con la referencia y monta varios clips cortos."
+      ],
+      "prompt": "Una bicicleta roja atraviesa un callejón de piedra al amanecer; usa el fotograma de referencia para mantener colores y ubicación; seguimiento lateral suave.",
+      "costNote": "Precio o acceso variable según cuenta, país o función; no se garantiza uso gratuito.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "Google Flow + Nano Banana / Veo",
+        "Google Flow",
+        "Veo",
+        "storyboard"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-google-gemini-object-edit",
+      "title": "Crear distintas versiones de una foto sin cambiar al sujeto",
+      "tool": "Gemini Nano Banana",
+      "category": "Marketing e imagen",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "La edición de imágenes de Gemini permite conservar un sujeto y cambiar fondo, iluminación o estilo para comparativas y anuncios.",
+      "source": "https://blog.google/products-and-platforms/products/gemini/gemini-nano-banana-examples/",
+      "youtube": "",
+      "steps": [
+        "Carga una imagen propia en Gemini.",
+        "Especifica qué debe permanecer igual y qué se puede modificar.",
+        "Compara las versiones y descarta aquellas que alteren rasgos, marcas o texto."
+      ],
+      "prompt": "Conserva exactamente la taza, su dibujo y su geometría; cambia solo el fondo a una cocina luminosa mediterránea y añade sombras naturales.",
+      "costNote": "Los modelos de imagen pueden estar disponibles en cuotas gratuitas con restricciones según la cuenta.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "Gemini Nano Banana",
+        "fotos",
+        "consistencia",
+        "publicidad"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-google-gemini-illustration",
+      "title": "Convertir un boceto propio en una ilustración",
+      "tool": "Gemini Nano Banana 2",
+      "category": "Marketing e imagen",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-02-26",
+      "addedAt": "2026-11-21",
+      "summary": "Partiendo de un garabato, boceto o composición propia, genera versiones ilustradas manteniendo la idea visual.",
+      "source": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
+      "youtube": "",
+      "steps": [
+        "Dibuja un boceto básico con formas bien definidas.",
+        "Cárgalo y pide un estilo ilustrado específico sin cambiar la composición.",
+        "Comprueba textos y contornos y ajusta únicamente los detalles necesarios."
+      ],
+      "prompt": "Transforma este boceto en una ilustración de cuento infantil con colores suaves y trazos nítidos, conservando la distribución de elementos y sin añadir personajes.",
+      "costNote": "Existe una opción gratuita, con límites o condiciones que conviene revisar antes de generar o exportar.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "Gemini Nano Banana 2",
+        "bocetos",
+        "ilustraciones",
+        "educación"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-upscayl-local-photos",
+      "title": "Ampliar fotos pequeñas con IA gratis y sin subirlas a la nube",
+      "tool": "Upscayl Desktop",
+      "category": "Marketing e imagen",
+      "origin": "curated",
+      "cost": "local",
+      "date": "2026-11-21",
+      "addedAt": "2026-11-21",
+      "summary": "Upscayl es una aplicación gratuita y de código abierto que amplía imágenes de baja resolución en Windows, macOS y Linux.",
+      "source": "https://upscayl.org/download",
+      "youtube": "",
+      "steps": [
+        "Descarga Upscayl Desktop desde su página oficial.",
+        "Abre una copia de una imagen no sensible y selecciona modelo y escala.",
+        "Compara resultado con original: la IA puede inventar texturas y no recupera detalles auténticos."
+      ],
+      "prompt": "",
+      "costNote": "El programa de escritorio es gratis y abierto. Puede necesitar GPU compatible; las ofertas de Upscayl Cloud son diferentes.",
+      "verification": "Fuente consultada el 21/11/2026; fecha del registro usada como revisión cuando la fuente no da día de publicación.",
+      "tags": [
+        "Upscayl Desktop",
+        "fotografía",
+        "ampliar",
+        "sin nube"
+      ],
+      "recommended": true
     }
   ]
 }
