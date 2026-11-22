@@ -1,0 +1,307 @@
+{
+  "format": "trucos-ia-guide-overrides",
+  "version": 1,
+  "updatedAt": "2026-11-22",
+  "entries": [
+    {
+      "id": "m115",
+      "summary": "Crear escenas con estética de ficción sin copiar personajes ni marcas de series conocidas.",
+      "steps": [
+        "Define el género y sus características visuales generales: misterio, comedia, ciencia ficción o fantasía.",
+        "En ChatGPT Imágenes describe un escenario y personajes originales sin utilizar personajes identificables de una serie comercial.",
+        "Indica vestuario, cámara, iluminación, paleta y relación de aspecto.",
+        "Genera una variante y revisa que no incorpore logotipos, carteles o rostros de actores reales.",
+        "Modifica un aspecto por vez hasta conseguir una atmósfera cinematográfica propia."
+      ],
+      "prompt": "Crea un fotograma original de drama de ciencia ficción con una estación espacial abandonada, luces frías, dos exploradores ficticios y encuadre de cine 16:9. Sin marcas ni personajes de franquicias existentes.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m116",
+      "summary": "Analizar visualmente una imagen de billete sin afirmar que la IA puede autenticar dinero.",
+      "steps": [
+        "Fotografía el billete solo si es tuyo y la normativa local permite esa reproducción; no difundas imágenes a tamaño real innecesariamente.",
+        "Pide a ChatGPT una descripción general de la denominación, país y elementos visibles, sin solicitar guías para replicar dispositivos de seguridad.",
+        "Observa si la imagen tiene señales evidentes de edición o baja calidad; ninguna de ellas basta para declarar una falsificación.",
+        "Para verificar autenticidad utiliza las indicaciones oficiales del banco emisor o una entidad financiera, con revisión física.",
+        "Si tienes sospechas, no intentes poner el billete en circulación y consulta al organismo competente."
+      ],
+      "prompt": "Describe únicamente lo que se ve en esta imagen de un billete y explica por qué una foto no permite certificar su autenticidad. Remite a los procedimientos oficiales de comprobación.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. Una fotografía y un modelo de lenguaje no pueden emitir un dictamen concluyente de autenticidad."
+    },
+    {
+      "id": "m117",
+      "summary": "Analizar patrones de una conversación sin diagnosticar ni atribuir intenciones a las personas.",
+      "steps": [
+        "Solicita consentimiento si compartes mensajes de otra persona; elimina nombres, teléfonos, direcciones y detalles íntimos.",
+        "Adjunta solo el fragmento relevante y explica qué quieres comprender: claridad, tono, acuerdos o temas no resueltos.",
+        "Pide separar hechos explícitos, inferencias y preguntas pendientes.",
+        "Solicita un borrador de respuesta que preserve respeto, límites y objetivos de la conversación.",
+        "Decide tú el significado y la respuesta final; la IA no puede saber pensamientos ocultos ni sustituir mediación profesional."
+      ],
+      "prompt": "Analiza esta conversación anonimizada y separa frases observables, posibles interpretaciones alternativas y preguntas de aclaración. No diagnostiques personalidad ni atribuyas intenciones.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m118",
+      "summary": "Mejorar la presentación de un CV y crear una imagen editorial complementaria sin inventar experiencia.",
+      "steps": [
+        "Actualiza tu CV con empleo, formación, resultados y fechas exactas comprobadas.",
+        "En ChatGPT pide una estructura clara y compatible con lectores ATS, con apartados de experiencia y habilidades.",
+        "Si necesitas una imagen para un porfolio creativo, usa un generador de imágenes propio o autorizado, como Flux cuando esté disponible.",
+        "Revisa que la fotografía generada no altere tu identidad ni haga pasar por reales logros o credenciales inexistentes.",
+        "Exporta un PDF de CV legible y conserva versiones específicas para las ofertas seleccionadas."
+      ],
+      "prompt": "Reescribe este CV con encabezados ATS, logros cuantificables solo donde haya cifras reales, verbos claros y máximo dos páginas. Marca los datos que faltan y no inventes títulos académicos.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m119",
+      "summary": "Diseñar una imagen de cartel cinematográfico original para una campaña o proyecto propio.",
+      "steps": [
+        "Escribe una sinopsis de una película o evento ficticio original y define público, emoción y estilo.",
+        "En ChatGPT Imágenes describe la composición de cartel: protagonista original, fondo, iluminación y espacio para título.",
+        "Genera una versión vertical 2:3 y otras dos con distinta dirección artística.",
+        "Revisa que no aparezcan logos de plataformas, nombres de actores o películas reales usados engañosamente.",
+        "Completa el cartel con créditos y textos verdaderos en un editor y exporta para impresión o redes."
+      ],
+      "prompt": "Diseña un cartel original para un cortometraje llamado [título], género misterio, composición vertical, protagonista ficticio en una estación vacía, luz azul nocturna. Reserva espacio para textos, sin marcas comerciales.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m120",
+      "summary": "Practicar una reunión de trabajo en inglés utilizando ChatGPT Voz.",
+      "steps": [
+        "Prepara el contexto de la reunión: tema, participantes, nivel de inglés y diez palabras clave.",
+        "Abre el modo Voz de ChatGPT y pídele actuar como cliente o compañero de trabajo.",
+        "Realiza la simulación de 10 minutos con turnos naturales y preguntas de seguimiento.",
+        "Solicita comentarios sobre claridad, vocabulario, estructura y expresiones más profesionales.",
+        "Repite la misma reunión y compara las mejoras antes de practicar una situación nueva."
+      ],
+      "prompt": "Actúa como responsable de compras en una reunión en inglés B1. Pregúntame por condiciones de entrega, precio y plazos, una cuestión cada vez. Corrige mis frases después de cada respuesta.",
+      "guideSource": "https://help.openai.com/en/articles/20001274-chatgpt-voice",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/en/articles/20001274-chatgpt-voice. "
+    },
+    {
+      "id": "m121",
+      "summary": "Diseñar propuestas educativas personalizadas con apoyos DUA y actividades manipulativas.",
+      "steps": [
+        "Indica edad, curso, objetivos curriculares y barreras de aprendizaje que deseas atender, sin compartir datos identificativos de menores.",
+        "Pide a ChatGPT una actividad con tres niveles de apoyo, instrucciones cortas y varias formas de participación.",
+        "Solicita materiales visuales, alternativas manipulativas y una evaluación formativa observable.",
+        "Revisa seguridad, lenguaje, tiempo de atención y accesibilidad antes de llevar la propuesta al aula.",
+        "Prueba en pequeño grupo y adapta el ritmo a lo que observes, sin delegar decisiones educativas importantes en la IA."
+      ],
+      "prompt": "Diseña una actividad de 20 minutos para 2.º de Primaria sobre sumas: objetivo, juego manipulativo, tres niveles de dificultad, adaptación DUA y evaluación con indicadores observables.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m122",
+      "summary": "Crear un pequeño plan de branding y contenidos coherente entre web, redes y documentos.",
+      "steps": [
+        "Reúne nombre de marca, público, servicio, logotipo y materiales autorizados.",
+        "Pide a ChatGPT una descripción del posicionamiento y tres pilares de comunicación basados en hechos reales.",
+        "Solicita una paleta, una guía de tono y ejemplos de titulares para web, Instagram y correo.",
+        "Genera o diseña recursos gráficos propios siguiendo la guía y comprueba contraste y legibilidad.",
+        "Prepara un calendario editorial y revisa los derechos de imagen antes de publicar."
+      ],
+      "prompt": "Desarrolla una guía de marca para [negocio]: propuesta de valor, público, tono, colores HEX, dos tipografías accesibles y cinco mensajes de campaña sin afirmaciones comerciales inventadas.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m123",
+      "summary": "Crear una voz sintética a partir de tu propia grabación cumpliendo las verificaciones del proveedor.",
+      "steps": [
+        "Confirma que tienes derecho a utilizar la voz: para clonación profesional usa únicamente tu propia voz y realiza la verificación del servicio.",
+        "Graba una muestra tuya en una habitación silenciosa con micrófono estable, sin música.",
+        "En ElevenLabs consulta la opción de Instant o Professional Voice Cloning y elige la que permita tu cuenta.",
+        "Sube la muestra y completa las comprobaciones de titularidad y consentimiento solicitadas.",
+        "Escribe un texto de prueba y escucha el resultado; elimina o restringe el clon si no vas a usarlo y no suplantes a terceros."
+      ],
+      "prompt": "Escribe un texto neutro de 25 segundos para probar mi propia voz sintetizada, con pausas y pronunciación variada, sin imitar a ninguna persona ajena.",
+      "guideSource": "https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning. En ElevenLabs la clonación profesional de otra persona no está permitida ni siquiera con su consentimiento; el titular puede crear su clon y compartirlo de forma autorizada."
+    },
+    {
+      "id": "m124",
+      "summary": "Aprender a utilizar Claude para explicar, resumir y crear artefactos interactivos.",
+      "steps": [
+        "Abre Claude y plantea una consulta concreta sin incluir datos confidenciales innecesarios.",
+        "Solicita un resumen estructurado de un documento o una explicación en tres niveles.",
+        "Prueba crear un artefacto interactivo sencillo, por ejemplo un cuestionario HTML con respuestas autocorregibles.",
+        "Revisa la vista previa y pide arreglar cualquier error de funcionamiento antes de compartirlo.",
+        "Compara el resultado con el documento original y comprueba límites de plan y permisos."
+      ],
+      "prompt": "Crea un artefacto interactivo para estudiar [tema] con cinco preguntas, feedback accesible y puntuación final. Explica el código y evita servicios externos.",
+      "guideSource": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them. "
+    },
+    {
+      "id": "m125",
+      "summary": "Comprobar qué metadatos o pistas geográficas puede revelar una foto propia.",
+      "steps": [
+        "Selecciona una fotografía tuya de un lugar público o de tu propia propiedad, sin otras personas identificables.",
+        "Revisa en el dispositivo si el archivo conserva coordenadas GPS y cómo desactivar esa opción para futuras fotografías.",
+        "En ChatGPT pide identificar solamente elementos públicos del paisaje que podrían revelar ubicación aproximada, sin intentar identificar domicilios o personas.",
+        "Contrasta pistas en mapas públicos solo si se trata de tu imagen y tienes un fin legítimo.",
+        "Elimina metadatos de localización antes de compartir fotografías y evita mostrar direcciones, matrículas o documentos."
+      ],
+      "prompt": "Evalúa los riesgos de privacidad de esta foto propia: metadatos potenciales, pistas ambientales y elementos que conviene ocultar. No intentes identificar personas ni domicilios.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m126",
+      "summary": "Crear fotografías profesionales consistentes para un portafolio o catálogo.",
+      "steps": [
+        "Define un estilo: fondo, luz, color, encuadre y relación de aspecto.",
+        "Adjunta una foto propia del sujeto o producto y describe qué detalles deben mantenerse.",
+        "Genera una primera versión en ChatGPT Imágenes y comprueba textura, manos y elementos con texto.",
+        "Pide una segunda versión conservando el sujeto con un fondo diferente pero igual iluminación.",
+        "Exporta las imágenes finales y conserva un listado de prompts para repetir el estilo."
+      ],
+      "prompt": "A partir de esta imagen de [producto], crea una fotografía de estudio para catálogo 4:5, luz suave lateral, fondo claro, sombras reales. Conserva forma, etiqueta, color y proporciones.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m127",
+      "summary": "Automatizar una revisión semanal con las tareas de ChatGPT sin perder el control.",
+      "steps": [
+        "Elige una obligación recurrente concreta: revisar novedades, preparar un repaso o recordar una entrega.",
+        "Describe la tarea con destinatario, fuentes, alcance, horario y condición de éxito.",
+        "Si tu cuenta permite tareas programadas, configura la recurrencia y revisa la confirmación.",
+        "Comprueba el primer resultado y ajusta las instrucciones para evitar falsos avisos.",
+        "Revisa las tareas activas y pausa las que ya no sean útiles."
+      ],
+      "prompt": "Cada lunes prepara un resumen de [tema] con tres novedades verificadas, enlaces y diferencias respecto a la semana pasada. Si no hay cambios, dilo sin inventar.",
+      "guideSource": "https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt. "
+    },
+    {
+      "id": "m128",
+      "summary": "Probar Grok para resumir información pública y organizar ideas, comparando sus respuestas con las fuentes.",
+      "steps": [
+        "Accede a Grok desde un canal oficial y revisa qué funciones y límites incluye tu cuenta.",
+        "Plantea una pregunta sobre un tema profesional y solicita que diferencie hechos, opiniones y dudas.",
+        "Pide un resumen con tabla y recomendaciones condicionadas a la información disponible.",
+        "Abre y contrasta los enlaces o fuentes proporcionados antes de utilizar la respuesta.",
+        "No compartas secretos ni informes confidenciales con herramientas de terceros sin autorización."
+      ],
+      "prompt": "Explica las tres principales tendencias de [sector] según fuentes publicadas en [periodo]. Distingue hechos verificables de opiniones y aporta los enlaces originales.",
+      "guideSource": "https://x.ai/pricing",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://x.ai/pricing. "
+    },
+    {
+      "id": "m129",
+      "summary": "Diseñar un pequeño experimento ético para comprobar cómo conversa un agente de voz.",
+      "steps": [
+        "Define el objetivo del experimento y qué se espera del agente: claridad, resolución de dudas, límites y escalado a una persona.",
+        "Utiliza un agente propio o uno que permita pruebas; no engañes a terceros ni grabes llamadas sin autorización.",
+        "Prepara cinco preguntas sencillas y cinco preguntas que requieran reconocer incertidumbre o pedir aclaración.",
+        "Registra respuestas, tiempos y errores sin revelar información sensible.",
+        "Analiza qué tareas resolvió bien y qué limitaciones mostró; no concluyas que es humano por sonar natural."
+      ],
+      "prompt": "Crea diez preguntas de evaluación para un agente de voz de atención al cliente, con criterios de comprensión, privacidad, incertidumbre y respeto por el usuario.",
+      "guideSource": "https://help.openai.com/en/articles/20001274-chatgpt-voice",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/en/articles/20001274-chatgpt-voice. "
+    },
+    {
+      "id": "m130",
+      "summary": "Organizar una búsqueda de vivienda con filtros y enlaces que deben comprobarse en los portales.",
+      "steps": [
+        "Define municipio, presupuesto máximo, tamaño, habitaciones, accesibilidad y gastos adicionales.",
+        "En ChatGPT con búsqueda pide una tabla comparativa con anuncios y enlaces verificables de los portales o agencias.",
+        "Abre las fichas para confirmar que no están retiradas, su dirección aproximada, el coste y las condiciones.",
+        "Calcula gastos estimados de compra o alquiler separando impuestos y servicios que requieran comprobación local.",
+        "Solicita una lista de preguntas para la visita y nunca pagues reservas sin verificar al propietario y el contrato."
+      ],
+      "prompt": "Ayúdame a comparar viviendas en [localidad] con presupuesto de [importe]. Tabla de metros, habitaciones, precio y URL real, y preguntas a comprobar en visita. No inventes anuncios.",
+      "guideSource": "https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt. "
+    },
+    {
+      "id": "m132",
+      "summary": "Comprobar si un enlace recibido por correo o mensajería presenta señales de phishing.",
+      "steps": [
+        "No pulses el enlace ni descargues adjuntos mientras sospeches; copia su dirección sin abrirlo.",
+        "Comprueba el dominio real, posibles letras sustituidas, rutas extrañas y si coincide con el sitio oficial.",
+        "Busca en el navegador la web oficial de la entidad de forma independiente y verifica si existe la supuesta notificación.",
+        "Consulta recursos de INCIBE para reconocer urgencias falsas, solicitudes de códigos y suplantación de marca.",
+        "Si has introducido credenciales, cambia la contraseña desde la web oficial y activa medidas adicionales de seguridad."
+      ],
+      "prompt": "Evalúa esta URL escrita como texto sin abrirla: [URL]. Señala dominios engañosos y riesgos, pero reconoce que una URL aparentemente correcta no garantiza seguridad.",
+      "guideSource": "https://www.incibe.es/aprendeciberseguridad/phishing",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://www.incibe.es/aprendeciberseguridad/phishing. "
+    },
+    {
+      "id": "m133",
+      "summary": "Comparar la utilidad de Perplexity y ChatGPT con una misma tarea y criterios verificables.",
+      "steps": [
+        "Elige una pregunta sobre un tema público con documentación reciente.",
+        "Formúlala igual en Perplexity y ChatGPT, activando búsqueda web cuando la cuenta lo permita.",
+        "Compara enlaces citados, cobertura, actualidad, claridad y errores verificables.",
+        "Repite con una segunda tarea de escritura y una tercera de análisis de documentos, respetando los datos compartidos.",
+        "Decide qué herramienta te conviene según la tarea, no según una clasificación absoluta."
+      ],
+      "prompt": "Responde a [pregunta] con tres fuentes independientes, fecha y evidencia. Distingue incertidumbres y no incluyas información no comprobada.",
+      "guideSource": "https://www.perplexity.ai/comet",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://www.perplexity.ai/comet. "
+    },
+    {
+      "id": "m134",
+      "summary": "Ejecutar DeepSeek de forma local mediante un entorno compatible, sin enviar documentos a su nube.",
+      "steps": [
+        "Instala LM Studio o un entorno local equivalente desde su web oficial.",
+        "Busca una variante de DeepSeek que indique claramente licencia, tamaño y requisitos de memoria.",
+        "Descarga el modelo y cárgalo desde el programa local.",
+        "Desactiva conexión a Internet y realiza una consulta de prueba para confirmar funcionamiento offline.",
+        "Si vas a analizar documentos privados, comprueba también que la herramienta de archivos y su almacenamiento son locales; revisa resultados por posibles errores."
+      ],
+      "prompt": "Resume este documento local y señala qué información falta. No agregues hechos externos y cita el fragmento usado en cada conclusión.",
+      "guideSource": "https://lmstudio.ai/docs/app/basics",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://lmstudio.ai/docs/app/basics. "
+    },
+    {
+      "id": "m135",
+      "summary": "Crear un avatar explicativo a partir de una imagen propia, un guion y una herramienta de vídeo.",
+      "steps": [
+        "Selecciona o genera una imagen de personaje original o un retrato propio con permiso.",
+        "Redacta un texto corto de 15–30 segundos que no incluya afirmaciones falsas.",
+        "En CapCut abre Avatar Video si está habilitado y elige un avatar o sube la imagen según las opciones de la cuenta.",
+        "Introduce el guion o el audio de tu propia voz y genera una vista previa.",
+        "Comprueba sincronización labial, imagen y uso permitido y exporta el resultado con subtítulos."
+      ],
+      "prompt": "Hola, soy el avatar de [proyecto]. Hoy te enseño un consejo práctico sobre [tema]. Primero [paso], después [paso]. ¡Pruébalo!",
+      "guideSource": "https://www.capcut.com/resource/ai-avatar-video-generator",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente de Trucos IA, no reproducción ni transcripción del vídeo original. Documentación o referencia: https://www.capcut.com/resource/ai-avatar-video-generator. "
+    }
+  ]
+}
