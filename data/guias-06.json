@@ -1,0 +1,277 @@
+{
+  "format": "trucos-ia-guide-overrides",
+  "version": 1,
+  "updatedAt": "2026-11-22",
+  "entries": [
+    {
+      "id": "m136",
+      "summary": "Activar subtítulos traducidos para entender una videollamada en otra lengua.",
+      "steps": [
+        "Abre la reunión de Google Meet y activa subtítulos desde la barra de controles.",
+        "Si tu tipo de cuenta ofrece subtítulos traducidos, entra en sus ajustes y elige idioma de destino.",
+        "Comprueba que se transcribe el audio original antes de confiar en la traducción.",
+        "Para términos especializados, prepara un glosario y consulta si la traducción se mantiene precisa.",
+        "Si la función no aparece, utiliza una transcripción autorizada después de la reunión y tradúcela, sin grabar sin consentimiento."
+      ],
+      "prompt": "Prepara un glosario inglés-español de 15 expresiones habituales de una reunión sobre [tema] para comprobar los subtítulos traducidos.",
+      "guideSource": "https://support.google.com/meet/answer/10964115",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://support.google.com/meet/answer/10964115. "
+    },
+    {
+      "id": "m137",
+      "summary": "Mejorar contraste, exposición y nitidez de una fotografía deficiente sin falsificar su contenido.",
+      "steps": [
+        "Trabaja sobre una copia de la fotografía original, procurando que tenga la mayor resolución disponible.",
+        "En ChatGPT Imágenes adjunta la copia y explica qué problemas presenta: baja luz, ruido, poca nitidez o balance de color.",
+        "Pide corregir solo iluminación y calidad global sin cambiar objetos, personas ni textos.",
+        "Revisa de cerca los detalles recuperados: la IA puede inventar texturas o letras que no existían.",
+        "Guarda antes/después; evita presentar el resultado como prueba documental."
+      ],
+      "prompt": "Mejora esta fotografía con exposición equilibrada, reducción moderada de ruido y contraste natural. Conserva todas las personas y objetos, no reconstruyas texto ilegible ni inventes detalles.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m138",
+      "summary": "Utilizar Qwen gratuitamente para redactar, resumir y trabajar con imágenes según las opciones disponibles.",
+      "steps": [
+        "Abre la web oficial de Qwen y comprueba las herramientas disponibles sin instalar aplicaciones desconocidas.",
+        "Plantea una tarea de productividad sencilla, como resumir un texto largo o reestructurar un correo.",
+        "Si se ofrece carga de archivos o imágenes, añade únicamente material propio y solicita una tabla de datos comprobables.",
+        "Revisa la respuesta y corrige cualquier cifra, nombre o enlace incorrecto.",
+        "Comprueba límites de uso y exportación antes de emplear el resultado en un trabajo real."
+      ],
+      "prompt": "Resume este documento en 10 puntos, indica tres decisiones pendientes y produce una tabla con responsable, fecha y fuente textual. No inventes datos faltantes.",
+      "guideSource": "https://qwen.ai/",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://qwen.ai/. "
+    },
+    {
+      "id": "m139",
+      "summary": "Localizar el combustible más barato cerca de una ruta usando datos oficiales actualizados.",
+      "steps": [
+        "Abre el Geoportal de Gasolineras del Ministerio para la Transición Ecológica y elige provincia, localidad o ruta.",
+        "Selecciona el combustible exacto de tu vehículo y las condiciones de búsqueda.",
+        "Ordena estaciones por precio mostrado y comprueba horario y desvío necesario.",
+        "Si utilizas ChatGPT para comparar, facilítale las opciones concretas o los datos consultados, sin atribuirle precios en tiempo real sin fuentes.",
+        "Calcula el ahorro real por depósito y confirma el precio en el surtidor antes de repostar."
+      ],
+      "prompt": "Con esta lista de gasolineras y precios oficiales, calcula cuál conviene para un depósito de [litros] considerando [kilómetros] de desvío. Indica supuestos y no inventes precios.",
+      "guideSource": "https://geoportalgasolineras.es/geoportal-instalaciones/Inicio",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://geoportalgasolineras.es/geoportal-instalaciones/Inicio. "
+    },
+    {
+      "id": "m140",
+      "summary": "Personalizar ChatGPT con instrucciones útiles, controles de privacidad y atajos de trabajo.",
+      "steps": [
+        "En ChatGPT abre Configuración y revisa las opciones vigentes de personalización, memoria y privacidad.",
+        "Define preferencias no sensibles: idioma, formato, longitud de respuestas y necesidad de citar fuentes.",
+        "Prueba una petición con tus instrucciones y comprueba si el resultado las respeta.",
+        "Revisa las apps conectadas y mantén solo las que necesites, con permisos proporcionados.",
+        "Para trabajos delicados, evita compartir datos identificativos innecesarios y considera un chat temporal."
+      ],
+      "prompt": "Responde siempre en español y, cuando me expliques un proceso, usa pasos numerados, ejemplos reales y una sección de errores frecuentes. Indica las incertidumbres si algo puede cambiar.",
+      "guideSource": "https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt. "
+    },
+    {
+      "id": "m141",
+      "summary": "Preparar un examen con tarjetas y cuestionarios basados en fuentes de NotebookLM.",
+      "steps": [
+        "En NotebookLM crea un cuaderno y adjunta exclusivamente las diapositivas o apuntes del examen.",
+        "Selecciona la materia o capítulo que necesitas estudiar.",
+        "Genera tarjetas de memoria con conceptos, definiciones y ejemplos fundamentados en los archivos.",
+        "Crea un cuestionario con una respuesta correcta por pregunta y resuélvelo sin mirar apuntes.",
+        "Revisa errores con citas a la fuente y repite con los puntos donde has fallado."
+      ],
+      "prompt": "Genera 20 tarjetas y un test de 15 preguntas basándote solo en mis apuntes de [tema], nivel de [curso]. Añade la fuente correspondiente y no inventes información.",
+      "guideSource": "https://support.google.com/gemininotebook/answer/16958963?hl=es",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://support.google.com/gemininotebook/answer/16958963?hl=es. "
+    },
+    {
+      "id": "m142",
+      "summary": "Explorar las opciones del modo Voz de ChatGPT y elegir la más útil para practicar.",
+      "steps": [
+        "Abre ChatGPT y pulsa el icono de Voz en una conversación.",
+        "En los ajustes de Voz comprueba las voces y los modos que muestra tu cuenta.",
+        "Prueba una consulta sencilla y pide que se hable más despacio o se repita una explicación.",
+        "Si necesitas analizar una imagen, utiliza el control de adjuntos cuando aparezca en tu sesión; no des por disponible vídeo o pantalla compartida en todos los modos.",
+        "Finaliza la conversación y revisa los ajustes de privacidad y el historial según tus preferencias."
+      ],
+      "prompt": "Explícame paso a paso qué es [concepto] con ejemplos cortos. Haz pausas para que pueda hacer preguntas y después resume las ideas en cinco puntos.",
+      "guideSource": "https://help.openai.com/en/articles/20001274-chatgpt-voice",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/en/articles/20001274-chatgpt-voice. "
+    },
+    {
+      "id": "m143",
+      "summary": "Generar un retrato premium a partir de una foto propia con un prompt completo.",
+      "steps": [
+        "Elige una selfie nítida con rostro visible y consentimiento de la persona retratada.",
+        "En ChatGPT Imágenes sube la foto y especifica encuadre, vestuario, fondo e iluminación.",
+        "Pide calidad de estudio sin alterar facciones ni proporciones corporales.",
+        "Genera la primera versión y comprueba identidad, manos, dientes y posibles objetos añadidos.",
+        "Corrige pequeños errores manteniendo la misma referencia y guarda la imagen elegida."
+      ],
+      "prompt": "Utiliza mi selfie como referencia y conserva mi identidad. Fotografía editorial premium de medio cuerpo, blazer neutro, fondo arquitectónico suave, luz lateral de estudio, objetivo 85 mm, textura natural de piel, sin retoque facial.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m144",
+      "summary": "Crear un podcast cómico con voces ficticias de personajes infantiles sin clonar la voz de menores.",
+      "steps": [
+        "Escribe un diálogo original de 40–60 segundos entre dos personajes inventados con lenguaje apropiado.",
+        "Elige una herramienta de narración sintética que ofrezca voces ficticias licenciadas; no clones ni imites a ningún menor real.",
+        "Genera las voces por separado, asignando a cada personaje un tono reconocible sin caricaturizar grupos reales.",
+        "En un editor de audio o vídeo monta los turnos con música autorizada y subtítulos.",
+        "Revisa volumen, pronunciación y etiquetado de contenido sintético antes de compartir."
+      ],
+      "prompt": "Escribe un podcast humorístico de un minuto entre dos personajes de dibujos originales, uno curioso y otro científico, explicando por qué llueve. Diálogo apto para niños, sin burlas.",
+      "guideSource": "https://help.openai.com/en/articles/20001274-chatgpt-voice",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/en/articles/20001274-chatgpt-voice. El término «versión bebé» se aborda como voces ficticias, no como transformación ni clonación de voces de menores."
+    },
+    {
+      "id": "m145",
+      "summary": "Buscar ofertas vigentes y preparar un CV específico para cada candidatura.",
+      "steps": [
+        "Define un tipo de puesto, ubicación y las competencias que realmente tienes.",
+        "En ChatGPT con búsqueda solicita ofertas actuales con fecha y enlace directo verificable.",
+        "Abre cada página y copia los requisitos de una vacante que siga abierta.",
+        "Adjunta tu CV anonimizado y pide adaptarlo a los términos relevantes sin inventar habilidades.",
+        "Revisa la versión final y envía la candidatura únicamente por canales oficiales del empleador."
+      ],
+      "prompt": "Busca ofertas actuales para [puesto] en [ciudad/remoto] y extrae requisitos verificables con URL. Después adapta mi CV a [oferta concreta] sin alterar mi trayectoria real.",
+      "guideSource": "https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt. "
+    },
+    {
+      "id": "m146",
+      "summary": "Comparar precios entre países incluyendo impuestos, aduanas y garantía.",
+      "steps": [
+        "Define el mismo modelo exacto del producto en cada país y reúne precios en moneda local.",
+        "Consulta el precio publicado de cada tienda y convierte moneda usando un cambio identificado con fecha.",
+        "Comprueba si el envío se realiza dentro o fuera de la UE y qué IVA, derechos e impuestos podrían aplicarse.",
+        "Añade portes, devoluciones, costes bancarios y compatibilidad de garantía al precio final.",
+        "Presenta una tabla por país con supuestos y verifica importación y fiscalidad en fuentes oficiales antes de comprar."
+      ],
+      "prompt": "Compara [producto] en España, Francia y Reino Unido: precio local, moneda, cambio fechado, envío, IVA y posibles costes de importación. Señala datos sin confirmar y calcula el coste final estimado.",
+      "guideSource": "https://europa.eu/youreurope/citizens/consumers/shopping/vat/index_en.htm",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://europa.eu/youreurope/citizens/consumers/shopping/vat/index_en.htm. "
+    },
+    {
+      "id": "m147",
+      "summary": "Comprobar afirmaciones y sesgos en una noticia usando fuentes independientes.",
+      "steps": [
+        "Localiza el texto original y anota título, autor, fecha y medio que lo publicó.",
+        "Sube o copia el fragmento relevante a ChatGPT y pide una separación entre hechos, opiniones y predicciones.",
+        "Solicita las fuentes primarias que permitirían verificar cada afirmación importante.",
+        "Busca al menos dos medios independientes y compara diferencias de encuadre y omisiones.",
+        "Elabora una síntesis que señale qué hechos están confirmados y qué sigue sin comprobación."
+      ],
+      "prompt": "Analiza esta noticia: separa afirmaciones comprobables, lenguaje persuasivo y ausencia de contexto. Propón fuentes primarias y reconoce qué no podemos verificar solo con el texto.",
+      "guideSource": "https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt. "
+    },
+    {
+      "id": "m148",
+      "summary": "Diseñar un primer concepto de logotipo sencillo en pocos minutos y revisarlo antes de utilizarlo.",
+      "steps": [
+        "Define nombre de marca, público, sector y una idea visual sencilla.",
+        "En ChatGPT Imágenes pide tres opciones con icono original y tipografía muy legible.",
+        "Elige una opción y comprueba que funciona en blanco y negro y en tamaño pequeño.",
+        "Revisa letras, simetría y legibilidad; corrige en editor vectorial si necesitas precisión.",
+        "Investiga conflictos de marca antes de registrar o comercializar el diseño."
+      ],
+      "prompt": "Crea tres propuestas originales de logotipo para [marca], estilo geométrico minimalista, dos colores, icono simple, excelente legibilidad. Sin copiar marcas existentes.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m149",
+      "summary": "Mejorar cualquier prompt añadiendo objetivo, contexto, formato y criterios de comprobación.",
+      "steps": [
+        "Escribe tu petición inicial tal como la formularías espontáneamente.",
+        "Identifica el resultado esperado, el público y la información o fuentes disponibles.",
+        "Reescribe el prompt con estructura: contexto, tarea, datos, restricciones, formato y verificación.",
+        "Pide un ejemplo de salida y analiza qué información sigue siendo ambigua.",
+        "Guarda la versión que funciona y evita añadir instrucciones largas que no aporten utilidad."
+      ],
+      "prompt": "Tarea: [objetivo]. Contexto: [situación]. Datos disponibles: [fuentes]. Restricciones: [límites]. Salida: [formato]. Si falta información imprescindible, pregunta antes de inventar.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m150",
+      "summary": "Detectar posibles inconsistencias de un borrador de IRPF sin sustituir asesoramiento tributario.",
+      "steps": [
+        "Consulta el borrador del ejercicio concreto en la Agencia Tributaria y guarda una copia para revisión.",
+        "Elimina datos identificativos y bancarios del documento que quieras contrastar con ChatGPT.",
+        "Pide una checklist de campos que pueden requerir comprobación: rendimientos, retenciones, deducciones y situación familiar.",
+        "Comprueba cada duda con la normativa oficial aplicable al año y comunidad autónoma.",
+        "Si hay diferencias, consulta a un asesor o la AEAT antes de presentar o rectificar la declaración."
+      ],
+      "prompt": "Revisa este resumen anonimizado del IRPF de [ejercicio], identifica datos ausentes o inconsistentes y enumera dónde verificarlos en la AEAT. No inventes deducciones ni confirmes que está correcto.",
+      "guideSource": "https://sede.agenciatributaria.gob.es/",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://sede.agenciatributaria.gob.es/. "
+    },
+    {
+      "id": "m151",
+      "summary": "Describir el estilo de una imagen de referencia para crear un prompt original similar, sin copiar identidades.",
+      "steps": [
+        "Selecciona una imagen de referencia que puedas analizar legalmente y que no incluya datos privados.",
+        "Adjúntala en ChatGPT y pide un análisis de plano, luz, paleta, textura, perspectiva y composición.",
+        "Solicita un prompt genérico que reproduzca esas propiedades visuales sin copiar marcas, personajes ni identidades.",
+        "Genera una imagen con un sujeto propio distinto al de la referencia.",
+        "Compara estilo general y modifica el prompt hasta que la composición sea coherente y original."
+      ],
+      "prompt": "Analiza esta imagen y devuelve un prompt estructurado con encuadre, luz, paleta, textura, profundidad y atmósfera; no identifiques personas ni copies el contenido exacto. Adáptalo a [nuevo sujeto].",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m152",
+      "summary": "Extraer campos de un ticket fotografiado y volcarlos a una tabla verificable.",
+      "steps": [
+        "Fotografía el ticket completo con luz uniforme; tapa números de tarjeta, nombre u otros datos sensibles.",
+        "Adjunta la foto en ChatGPT y pide transcribir comercio, fecha, concepto, base, impuestos y total.",
+        "Solicita una tabla CSV o Excel con una fila por ticket e indicación de campos ilegibles.",
+        "Comprueba sumas y fechas con el recibo real; revisa tickets con impresiones borrosas.",
+        "Guarda tabla y recibos de forma privada y elimina copias innecesarias del proceso."
+      ],
+      "prompt": "De esta foto de ticket extrae una tabla con comercio, fecha, artículos, IVA y total. Usa «ilegible» cuando no se distinga un campo y verifica que los importes cuadren.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m153",
+      "summary": "Pedir a una IA un juego Snake HTML5 completo y comprobar que se puede jugar en el navegador.",
+      "steps": [
+        "Abre ChatGPT y especifica que quieres un juego Snake en un solo archivo HTML5, sin librerías externas.",
+        "Define controles con flechas, WASD y botones táctiles, puntuación, reinicio y pausa.",
+        "Pide que el código evite que la serpiente se dé la vuelta de inmediato, detecte choques y coloque comida dentro del tablero.",
+        "Guarda el archivo como snake.html y ábrelo en Chrome, Firefox o Edge, también en móvil.",
+        "Prueba teclas, botones, aumento de puntos, final de partida y diseño responsive; pide corregir errores concretos antes de usarlo con alumnos."
+      ],
+      "prompt": "Crea un Snake HTML5 completo en un único archivo, tablero 20×20, flechas/WASD y controles táctiles, puntuación, pausa y reiniciar, alto contraste, sonidos opcionales desactivables. Entrega código funcional sin dependencias.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía complementaria redactada para Trucos IA, no transcripción del vídeo original de MAXmaxdata. Referencia oficial o técnica: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    }
+  ]
+}
