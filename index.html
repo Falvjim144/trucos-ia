@@ -411,6 +411,87 @@ mark{background:var(--accent);color:inherit;border-radius:3px;padding:0 1px}
 /* Búsqueda ampliada: indicación breve de resultados relacionados */
 .search-assist{margin:0 0 12px;padding:9px 12px;border-radius:10px;background:var(--brand-soft);color:var(--brand);border:1px solid var(--line);font-size:12px;line-height:1.45}
 .search-assist[hidden]{display:none!important}
+/* ---------- Barra lateral v2.2: temas visibles y navegación sin recortes ---------- */
+/* La columna completa se desplaza; ya no se encierra «Temas» en una ventanita. */
+:root{--sidebar:280px}
+.sidebar{
+  padding:15px 12px 12px;
+  gap:2px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  overscroll-behavior-y:contain;
+  scrollbar-width:thin;
+  scrollbar-color:var(--line-strong) transparent;
+}
+.sidebar::-webkit-scrollbar{width:7px}
+.sidebar::-webkit-scrollbar-thumb{background:var(--line-strong);border-radius:10px}
+.sidebar .brand{padding:3px 8px 12px}
+.sidebar .nav-label{padding:11px 9px 5px}
+#mainNav{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:4px;
+  flex:none;
+}
+#mainNav .nav{
+  min-height:41px;
+  padding:7px 8px;
+  gap:6px;
+  font-size:12.5px;
+  line-height:1.2;
+}
+#mainNav .nav-ico{width:17px;font-size:16px}
+#mainNav .nav-text{
+  white-space:normal;
+  overflow:visible;
+  text-overflow:clip;
+  overflow-wrap:anywhere;
+}
+#mainNav .nav-count,#mainNav .badge-new{display:none}
+.cat-scroll{
+  flex:none;
+  min-height:0;
+  overflow:visible;
+  margin:0 -3px;
+  padding:0 3px;
+}
+#categoryNav{gap:2px}
+#categoryNav .nav{
+  min-height:38px;
+  padding:7px 9px;
+  gap:8px;
+  font-size:13.5px;
+  line-height:1.25;
+}
+#categoryNav .nav-text{
+  white-space:normal;
+  overflow:visible;
+  text-overflow:clip;
+  overflow-wrap:break-word;
+}
+#categoryNav .nav-count{margin-left:auto;flex:none}
+.sidebar .side-foot{
+  flex:none;
+  margin-top:8px;
+  border-top:1px solid var(--line);
+  padding:10px 7px 3px;
+  font-size:12px;
+}
+.side-foot summary{
+  cursor:pointer;
+  color:var(--brand);
+  font-size:12.5px;
+  font-weight:700;
+  padding:3px 4px;
+  border-radius:7px;
+}
+.side-foot summary:hover{background:var(--surface-2)}
+.side-foot summary:focus-visible{outline:3px solid var(--brand)}
+.side-foot-content{padding:8px 4px 2px}
+.side-foot-content button{display:block;max-width:100%;padding:3px 0}
+@media(max-width:960px){
+  .sidebar{width:min(296px,calc(100vw - 20px));height:100dvh}
+}
+
 </style>
 </head>
 <body>
@@ -426,11 +507,15 @@ mark{background:var(--accent);color:inherit;border-radius:3px;padding:0 1px}
     <nav class="nav-list" id="mainNav" aria-label="Secciones"></nav>
     <div class="nav-label">Temas</div>
     <div class="cat-scroll"><nav class="nav-list" id="categoryNav" aria-label="Temas"></nav></div>
-    <div class="side-foot">
-      <strong>Tus datos son tuyos</strong>
-      Favoritos y notas se guardan solo en este navegador.<br>
-      <button type="button" id="backupSidebar">Copia de seguridad y ayuda</button> <button type="button" id="themeBtn2">Modo oscuro</button>
-    </div>
+    <details class="side-foot">
+      <summary>Ayuda y ajustes</summary>
+      <div class="side-foot-content">
+        <strong>Tus datos son tuyos</strong>
+        Favoritos y notas se guardan solo en este navegador.
+        <button type="button" id="backupSidebar">Copia de seguridad y ayuda</button>
+        <button type="button" id="themeBtn2">Modo oscuro</button>
+      </div>
+    </details>
   </aside>
 
   <main class="main" id="content">
