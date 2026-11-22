@@ -10,6 +10,7 @@ Biblioteca personal de inteligencia artificial de **Francisco Álvarez Jiménez*
 
 - `index.html`: **175 fichas originales** (153 identificadas de MAXmaxdata y 22 guías independientes).
 - `data/updates.json`: novedades públicas añadidas posteriormente. El 21/11/2026 contenía **50 fichas**, con las que la biblioteca sumaba 225. El número crece con las actualizaciones.
+- Las **225 fichas existentes** tienen instrucciones escritas. Las 118 guías complementarias creadas el 22/11/2026 están claramente identificadas como alternativas independientes, **no transcripciones del vídeo original de MAXmaxdata**.
 - Cada novedad se combina automáticamente con el catálogo original al abrir la web, sin eliminar ni duplicar las fichas que ya existen.
 - La pestaña **Novedades** muestra las incorporaciones, y estas también aparecen en sus categorías y en **IA gratis** cuando procede.
 
@@ -33,6 +34,8 @@ En **Settings → Pages → Build and deployment**, seleccionar **GitHub Actions
 ```bash
 python scripts/validar_web.py index.html
 python scripts/validar_novedades.py data/updates.json
+node scripts/test_busqueda.cjs
+node scripts/validar_guias.cjs
 ```
 
 ## Favoritos, notas y privacidad
@@ -55,6 +58,9 @@ Se ha comprobado la interfaz a 320, 390, 768 y 1440 píxeles, los accesos princi
 |---|---|
 | `index.html` | Sitio v2 y 175 fichas de partida |
 | `data/updates.json` | Novedades, conservadas en todas las actualizaciones |
+| `data/guias-01.json` a `data/guias-06.json` | Archivo editorial de las 118 guías alternativas ya integradas en `index.html` |
+| `scripts/validar_guias.cjs` | Comprueba las 225 fichas y distingue las 118 guías propias |
+| `SEGUIMIENTO_GUIAS.md` | Estado, fuentes y distinción entre vídeos y alternativas |
 | `scripts/validar_web.py` | Validación del sitio y del catálogo base |
 | `scripts/validar_novedades.py` | Validación del JSON de novedades |
 | `scripts/agregar_novedades.py` | Fusión sin duplicados |
