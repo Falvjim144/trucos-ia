@@ -1,0 +1,307 @@
+{
+  "format": "trucos-ia-guide-overrides",
+  "version": 1,
+  "updatedAt": "2026-11-22",
+  "entries": [
+    {
+      "id": "m066",
+      "summary": "Encontrar ofertas actuales que encajen con un perfil profesional y descartar anuncios falsos o caducados.",
+      "steps": [
+        "Redacta tu perfil de búsqueda: puesto, ubicación, modalidad, salario y nivel de experiencia.",
+        "En ChatGPT con búsqueda o investigación avanzada pide enlaces directos a las ofertas, fecha, empresa y salario solamente cuando estén publicados.",
+        "Abre las ofertas en las páginas oficiales de la empresa o del portal y comprueba que siguen abiertas.",
+        "Ordena una tabla por requisitos y grado de encaje; descarta puestos que pidan requisitos imprescindibles que no cumples.",
+        "Prepara una carta de presentación personalizada para la oferta seleccionada sin inventar experiencia."
+      ],
+      "prompt": "Busca ofertas verificables de [puesto] en [zona o remoto] publicadas recientemente. Devuelve URL, requisitos, remuneración solo si está anunciada y fecha comprobada. No inventes vacantes.",
+      "guideSource": "https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt. "
+    },
+    {
+      "id": "m067",
+      "summary": "Pedir a Claude que realice transformaciones de un Excel preservando datos originales.",
+      "steps": [
+        "Abre una copia del libro con cabeceras claras y localiza las hojas sobre las que quieres trabajar.",
+        "Si tienes el complemento Claude para Excel compatible, actívalo; de lo contrario adjunta el archivo a Claude para trabajar con una copia.",
+        "Describe la operación con exactitud: añadir fórmulas, limpiar duplicados, crear tabla dinámica o agrupar por cliente.",
+        "Solicita antes una vista previa de columnas y hojas que se modificarán; autoriza solo los cambios necesarios.",
+        "Verifica resultados con cálculos manuales y conserva el archivo original y el modificado."
+      ],
+      "prompt": "En este Excel, crea una hoja nueva con ventas por cliente y mes, sin modificar la tabla original. Incluye un gráfico y marca filas con fechas erróneas. Explica las fórmulas aplicadas.",
+      "guideSource": "https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil. La edición directa dentro de Excel depende del complemento y su licencia."
+    },
+    {
+      "id": "m069",
+      "summary": "Probar Claude Cowork como asistente de archivos locales con permisos restringidos.",
+      "steps": [
+        "Instala Claude Desktop desde el sitio oficial si tu cuenta y sistema son compatibles.",
+        "Crea una carpeta de prueba con documentos ficticios, sin datos confidenciales.",
+        "En la experiencia Cowork, si está disponible, autoriza exclusivamente la carpeta de prueba.",
+        "Pide una tarea de archivo concreta, como ordenar PDFs y generar un índice sin borrar originales.",
+        "Revisa el resultado y retira permisos si ya no son necesarios; no concedas acceso global al equipo."
+      ],
+      "prompt": "Organiza estos diez documentos de prueba en carpetas por mes y tipo. Crea un índice CSV con ruta, fecha y descripción. No elimines archivos, no cambies permisos y pide aprobación ante conflictos.",
+      "guideSource": "https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil. "
+    },
+    {
+      "id": "m070",
+      "summary": "Crear una postal navideña personal con una fotografía y un mensaje legible.",
+      "steps": [
+        "Elige una fotografía propia o una imagen de familiares que hayan autorizado su uso.",
+        "Abre ChatGPT Imágenes y carga la foto indicando que se debe preservar identidad, expresión y ropa.",
+        "Pide una tarjeta de Navidad con decoraciones originales y deja espacio suficiente para el texto.",
+        "Revisa la ortografía de «Feliz Navidad» y añade el texto en un editor externo si la IA lo deformó.",
+        "Descarga la imagen en formato vertical para móvil o apaisado para imprimir."
+      ],
+      "prompt": "Convierte esta foto propia en una postal navideña elegante con luces cálidas, fondo invernal y detalles dorados. No modifiques los rostros. Añade «Felices fiestas» en letras grandes y legibles.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m071",
+      "summary": "Convertir encargos repetitivos en tareas claras para ChatGPT, con supervisión y límites.",
+      "steps": [
+        "Haz una lista de tareas que repites cada semana, con duración y datos necesarios.",
+        "Elige una tarea segura para empezar, por ejemplo preparar un resumen de noticias de un tema.",
+        "En ChatGPT describe el entregable, las fuentes permitidas y una fecha o frecuencia si tu plan tiene tareas.",
+        "Revisa la primera ejecución y corrige instrucciones incompletas; no incluyas contraseñas o datos ajenos.",
+        "Automatiza solo si hay un mecanismo habilitado y comprueba qué acciones requieren tu aprobación."
+      ],
+      "prompt": "Todos los lunes revisa novedades verificadas sobre [tema], evita repetidos y entrégame cinco puntos con fuentes y un apartado de cambios respecto a la semana pasada. Si no hay novedades, indícalo.",
+      "guideSource": "https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt. "
+    },
+    {
+      "id": "m072",
+      "summary": "Evaluar la seguridad de un agente de voz sin intentar acceder a sistemas ajenos.",
+      "steps": [
+        "Si desarrollas o administras un agente propio, prepara un entorno de pruebas sin datos reales de clientes.",
+        "Anota límites esperados: información que debe negarse a facilitar, qué acciones requieren autorización y cómo identifica al interlocutor.",
+        "Haz preguntas normales y casos límite en los que el usuario solicite una operación no permitida.",
+        "Registra cuándo responde con información sin verificar, divulga datos o confunde órdenes del usuario con instrucciones internas.",
+        "Corrige reglas y valida de nuevo. No ataques agentes de terceros ni busques extraer secretos o eludir controles."
+      ],
+      "prompt": "Diseña diez pruebas autorizadas para un agente de voz de atención al cliente: privacidad, respuestas dudosas, datos personales, límites de acciones y escalado a un humano. Indica resultado esperado.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. La ficha original habla de «hackear» un agente; aquí solo se describe evaluación defensiva autorizada."
+    },
+    {
+      "id": "m073",
+      "summary": "Comprobar cómo cambia la respuesta de Gemini al añadir o retirar contexto.",
+      "steps": [
+        "Abre Gemini y escribe una misma pregunta sencilla sin información adicional; guarda la respuesta.",
+        "Repite la pregunta con una descripción clara del destinatario, por ejemplo un niño de 10 años.",
+        "En una tercera prueba añade fuentes, restricciones y formato de respuesta para observar qué cambia.",
+        "Compara precisión, profundidad, extensión y menciones a hechos no verificados entre versiones.",
+        "Extrae una plantilla que incluya contexto y límites sin depender de supuestos códigos secretos."
+      ],
+      "prompt": "Explica [concepto] a un docente de Primaria con un ejemplo cotidiano y tres errores frecuentes. Usa solo los hechos aportados y marca las dudas.",
+      "guideSource": "https://support.google.com/gemini/answer/16126339",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://support.google.com/gemini/answer/16126339. "
+    },
+    {
+      "id": "m075",
+      "summary": "Estudiar un tema con NotebookLM mediante preguntas, fuentes y repasos activos.",
+      "steps": [
+        "En NotebookLM crea un cuaderno para el examen y carga los apuntes, PDFs y textos del temario.",
+        "Comprueba que los archivos son legibles y que cada uno corresponde a una parte del programa.",
+        "Pide un mapa de conceptos con referencias y un test de diez preguntas, sin adelantar las respuestas.",
+        "Contesta por tu cuenta y usa las citas del cuaderno para corregir los fallos.",
+        "Genera un resumen de audio para repasar y revisa el contenido antes de usarlo como fuente de estudio."
+      ],
+      "prompt": "Usa únicamente las fuentes de este cuaderno. Hazme un examen de 10 preguntas graduadas sobre [tema]; no muestres las respuestas hasta que haya contestado y luego cita el fragmento que justifica cada corrección.",
+      "guideSource": "https://support.google.com/notebooklm/",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://support.google.com/notebooklm/. "
+    },
+    {
+      "id": "m076",
+      "summary": "Comparar el coste real de un iPhone nuevo o reacondicionado antes de comprar.",
+      "steps": [
+        "Anota el modelo exacto, capacidad, color, estado, garantía, país y si aceptas reacondicionados.",
+        "En ChatGPT con búsqueda pide comparar ofertas con enlaces de tiendas verificables.",
+        "Comprueba en cada tienda disponibilidad, precio final con envío e impuestos y condiciones de devolución.",
+        "Revisa campañas de recompra, financiación y descuentos por estudiante como opciones separadas; calcula el coste total de la financiación.",
+        "Descarta cupones sin fuente o caducados y toma la decisión basándote en el importe final."
+      ],
+      "prompt": "Compara el coste final en España de [iPhone modelo y capacidad]. Incluye tienda, URL oficial, estado, envío, garantía y total. No inventes descuentos ni consideres precios sin existencias.",
+      "guideSource": "https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt. "
+    },
+    {
+      "id": "m077",
+      "summary": "Localizar trabajos con salario anunciado y valorar si cumplen tus expectativas.",
+      "steps": [
+        "Define sector, años de experiencia, idioma, banda salarial y zonas aceptables.",
+        "Solicita a ChatGPT con búsqueda una selección de ofertas que publiquen remuneración o expresen claramente que no está disponible.",
+        "Abre cada oferta para comprobar requisitos, fecha, contrato y vigencia.",
+        "Ordena las ofertas por salario publicado y encaje real con tus habilidades, no por titulares llamativos.",
+        "Adapta una carta breve a las tres mejores y guarda el enlace de la candidatura."
+      ],
+      "prompt": "Encuentra empleos de [especialidad] con salario publicado superior a [rango] y modalidad [remoto/presencial]. Devuelve enlaces verificables y no supongas salarios si la empresa no los anuncia.",
+      "guideSource": "https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt. "
+    },
+    {
+      "id": "m078",
+      "summary": "Organizar una semana de trabajo a partir de compromisos y bloques de tiempo realistas.",
+      "steps": [
+        "Escribe en ChatGPT tus actividades fijas y el tiempo estimado que necesitas para cada tarea.",
+        "Pide una propuesta de semana con bloques de concentración, desplazamientos, descansos y margen de imprevistos.",
+        "Compara el horario propuesto con tu calendario real y corrige solapamientos.",
+        "Si tienes una app de calendario conectada y autorizada, solicita crear únicamente los eventos confirmados.",
+        "Revisa cada evento y activa recordatorios adecuados, sin asumir que el asistente ha modificado el calendario si no hay confirmación."
+      ],
+      "prompt": "Planifica mi semana: compromisos fijos [lista], tareas [lista con duración], horario disponible [franjas]. Evita solapamientos, incluye descansos y ofrece una tabla de lunes a domingo.",
+      "guideSource": "https://help.openai.com/es-es/articles/11487775-connected-apps-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/es-es/articles/11487775-connected-apps-in-chatgpt. "
+    },
+    {
+      "id": "m081",
+      "summary": "Utilizar Comet como navegador asistido para investigar varias páginas sin perder el control.",
+      "steps": [
+        "Descarga Comet desde el sitio oficial de Perplexity y revisa sus permisos antes de iniciar sesión.",
+        "Abre un conjunto pequeño de pestañas con documentación pública sobre un tema.",
+        "Usa el asistente del navegador para pedir un resumen comparativo de las páginas abiertas.",
+        "Exige que cite qué página respalda cada afirmación y abre las fuentes antes de aceptar el resultado.",
+        "No permitas acciones de envío, compras o acceso a cuentas privadas sin revisar y confirmar cada paso."
+      ],
+      "prompt": "Compara estas tres páginas abiertas sobre [producto o servicio]. Tabla de características, precio y limitaciones, con la URL de cada afirmación. No pulses Comprar ni inicies sesión.",
+      "guideSource": "https://www.perplexity.ai/comet",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://www.perplexity.ai/comet. "
+    },
+    {
+      "id": "m082",
+      "summary": "Detectar puntos a revisar en un contrato sin sustituir asesoramiento jurídico.",
+      "steps": [
+        "Obtén una copia autorizada del contrato y oculta DNI, firmas y datos bancarios antes de compartirlo.",
+        "Adjúntalo en ChatGPT y especifica país, tipo de contrato y finalidad de la revisión.",
+        "Pide identificar cláusulas sobre plazos, obligaciones, penalizaciones, renovación, pagos y resolución.",
+        "Solicita una tabla que cite el número de cláusula y explique en lenguaje claro el posible riesgo.",
+        "Contrasta la normativa aplicable y consulta a un profesional antes de firmar o modificar un texto."
+      ],
+      "prompt": "Analiza este contrato anonimizado y crea una tabla con cláusula, resumen, riesgo potencial, pregunta a aclarar y referencia exacta al texto. No afirmes ilegalidad sin base jurídica.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m084",
+      "summary": "Usar IA desde un móvil sin instalar bots de mensajería desconocidos.",
+      "steps": [
+        "Instala la app oficial de un asistente de IA desde la tienda correspondiente.",
+        "Activa un acceso directo en la pantalla de inicio o un widget si tu versión lo permite.",
+        "Cuando recibas un texto en una aplicación de mensajería, copia únicamente una versión anonimizada.",
+        "Abre el asistente, redacta o resume el texto y copia manualmente la respuesta corregida.",
+        "Evita servicios que se hagan pasar por contactos personales o que pidan permisos innecesarios para leer tus chats."
+      ],
+      "prompt": "Resume este mensaje de un grupo en tres acciones pendientes. No asumas quiénes son las personas ni inventes fechas: [mensaje anonimizado].",
+      "guideSource": "https://help.openai.com/es-es/articles/11487775-connected-apps-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/es-es/articles/11487775-connected-apps-in-chatgpt. Guía alternativa de acceso rápido; no se presenta como una integración encubierta de IA en mensajería."
+    },
+    {
+      "id": "m085",
+      "summary": "Consultar correos de Gmail desde ChatGPT utilizando una conexión autorizada.",
+      "steps": [
+        "En ChatGPT revisa Plugins/Apps y conecta Gmail únicamente si está disponible en tu cuenta y aceptas sus permisos.",
+        "Solicita localizar mensajes de un remitente o asunto con fechas delimitadas.",
+        "Pide un resumen y una lista de tareas derivadas de esos correos, con referencias a los mensajes.",
+        "Si quieres redactar una respuesta, revisa texto, destinatario y archivos antes de autorizar el envío.",
+        "Desconecta la aplicación si ya no la necesitas y no guardes contraseñas en instrucciones."
+      ],
+      "prompt": "Busca en mi Gmail conectado los correos de [remitente] recibidos esta semana sobre [tema]. Resúmelos en una tabla con fecha, asunto y acción; no envíes nada.",
+      "guideSource": "https://help.openai.com/es-es/articles/11487775-connected-apps-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/es-es/articles/11487775-connected-apps-in-chatgpt. "
+    },
+    {
+      "id": "m086",
+      "summary": "Crear un esquema de presentación y llevarlo a diapositivas con Claude.",
+      "steps": [
+        "Redacta el objetivo de la charla, la duración, el público y los puntos que no deben faltar.",
+        "En Claude pide un guion de presentación con un mensaje principal por diapositiva.",
+        "Solicita para cada diapositiva título, tres ideas, sugerencia visual y notas para el ponente.",
+        "Si tu cuenta admite artefactos o archivos, pide una versión descargable y revisa si puede exportarse como PowerPoint; de lo contrario traslada el guion a un editor de presentaciones.",
+        "Verifica hechos, fuentes, tamaño de texto e imágenes antes de proyectar."
+      ],
+      "prompt": "Crea el guion de una presentación de 12 diapositivas sobre [tema] para [público], 20 minutos. Cada diapositiva con título, una idea principal, imagen sugerida y notas de orador. Cita las fuentes.",
+      "guideSource": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them. "
+    },
+    {
+      "id": "m087",
+      "summary": "Obtener un modelo 3D a partir de una foto y revisarlo para impresión.",
+      "steps": [
+        "Prepara una o varias fotografías del objeto con buena iluminación; evita fondos que oculten la silueta.",
+        "En Tripo Studio usa Image to 3D y carga las referencias. Si tienes vistas frontal, lateral y trasera, úsalas donde se admita.",
+        "Genera un modelo inicial y examina frontal, trasera, ruedas, huecos y piezas finas antes de aceptarlo.",
+        "Utiliza las herramientas de reparación o exporta a Blender para revisar superficies, grosor y si la malla está cerrada.",
+        "Exporta STL o 3MF, abre el archivo en el laminador e inspecciona soportes, escala y posibles piezas flotantes antes de imprimir."
+      ],
+      "prompt": "Describe las vistas que necesito para convertir este objeto en figura imprimible 3D; enumera rasgos que no se pueden perder, espesores mínimos y los puntos que debo comprobar en la malla.",
+      "guideSource": "https://www.tripo3d.ai/es/help/features/how-to-prepare-models-for-3d-printing",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://www.tripo3d.ai/es/help/features/how-to-prepare-models-for-3d-printing. La documentación oficial de Tripo explica el flujo de imagen a 3D y las comprobaciones de geometría para impresión."
+    },
+    {
+      "id": "m088",
+      "summary": "Preparar un avatar digital propio para locuciones y vídeos informativos sin suplantar a terceros.",
+      "steps": [
+        "Elige una fotografía propia, una grabación corta con tu voz y un guion original.",
+        "En la plataforma de avatares que tengas disponible verifica expresamente la política de consentimiento y las funciones de imagen/voz.",
+        "Carga solo imágenes o voces propias o con autorización documentada.",
+        "Genera una escena de pocos segundos, revisa sincronización, expresión y que no se atribuyan afirmaciones falsas.",
+        "Marca el material como generado con IA cuando corresponda y conserva el archivo y permisos originales."
+      ],
+      "prompt": "Escribe un guion informativo de 20 segundos sobre [tema] para mi avatar personal. Frases sencillas, sin promesas comerciales ni datos no comprobados.",
+      "guideSource": "https://support.google.com/gemini/answer/16126339",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://support.google.com/gemini/answer/16126339. «AI Studio» puede referirse a productos diferentes; los controles exactos no se han contrastado con el vídeo original."
+    },
+    {
+      "id": "m089",
+      "summary": "Configurar qué información útil puede recordar ChatGPT y cómo revisar su uso.",
+      "steps": [
+        "Abre Configuración → Personalización y revisa los ajustes de memoria disponibles en tu cuenta.",
+        "Piensa qué preferencias no sensibles ayudan a tus tareas: idioma, formatos de trabajo y estilo de documentos.",
+        "Escribe en ChatGPT una preferencia explícita y pregunta posteriormente qué información contextual está utilizando.",
+        "Revisa el resumen de memoria y las fuentes cuando esa opción esté disponible; solicita correcciones o desactiva memoria si lo deseas.",
+        "Utiliza chats temporales para conversaciones que no quieras incorporar a tu personalización habitual."
+      ],
+      "prompt": "Para mis próximas consultas ten en cuenta que prefiero instrucciones numeradas, ejemplos prácticos y respuestas en español. No retengas datos sensibles que no sean necesarios.",
+      "guideSource": "https://help.openai.com/en/articles/8590148-memory-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/en/articles/8590148-memory-in-chatgpt. La experiencia de memoria ha cambiado; no se recomienda buscar controles antiguos como «gestionar recuerdos» individuales."
+    },
+    {
+      "id": "m091",
+      "summary": "Comparar el precio final de una compra entre distintas tiendas sin depender de enlaces promocionales.",
+      "steps": [
+        "Define características no negociables del producto: modelo, tamaño, compatibilidad y garantía.",
+        "Pide a ChatGPT una lista de posibles vendedores y qué campos comparar.",
+        "Abre las páginas de los vendedores y registra precio final, envío, devoluciones, disponibilidad y reputación verificable.",
+        "Si hay diferencias grandes, comprueba que no se trate de modelos anteriores o accesorios en lugar del artículo completo.",
+        "Crea una tabla de decisión con tres opciones y fecha de consulta; decide con datos comprobados, no con el precio más bajo aislado."
+      ],
+      "prompt": "Compara estas tres ofertas que te adjunto. Separa precio base, IVA, envío y garantía, detecta diferencias de modelo y recomienda la opción con mejor coste total, citando las páginas aportadas.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía propia y reproducible, no transcripción del vídeo original de MAXmaxdata. Referencia de servicio/documentación: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    }
+  ]
+}
