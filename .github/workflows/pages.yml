@@ -31,6 +31,8 @@ jobs:
         run: python scripts/validar_web.py index.html
       - name: Comprobar búsqueda inteligente
         run: node scripts/test_busqueda.cjs
+      - name: Verificar todas las guías de la biblioteca
+        run: node scripts/validar_guias.cjs
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
       - name: Empaquetar web
