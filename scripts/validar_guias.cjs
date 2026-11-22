@@ -44,6 +44,6 @@ const inline=[...html.matchAll(/<script(?:\s+[^>]*)?>([\s\S]*?)<\/script>/g)]
 assert.ok(inline.length>0,'No hay JS principal');
 for(const script of inline)new Function(script);
 assert.ok(html.includes('atlas-ia-usuario-v2'),'Se debe preservar favoritos y notas de usuarios anteriores');
-assert.ok(html.includes('Guía práctica propia'),'Debe advertirse de las guías no originales');
+assert.ok(html.includes('No son una transcripción del vídeo original'),'Debe advertirse de las guías no originales');
 assert.ok(html.includes('Documentación de la herramienta'),'Debe enlazarse a documentación complementaria');
 console.log('OK: '+originals.length+' guías originales + '+weekly.length+' ampliaciones; 118 guías propias correctamente distinguidas; JS válido');
