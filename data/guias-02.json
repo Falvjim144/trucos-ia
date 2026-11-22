@@ -1,0 +1,308 @@
+{
+  "format": "trucos-ia-guide-overrides",
+  "version": 1,
+  "updatedAt": "2026-11-22",
+  "entries": [
+    {
+      "id": "m032",
+      "summary": "Preparar una lista de clientes potenciales verificables y mensajes comerciales personalizados sin enviar spam.",
+      "steps": [
+        "Define cliente ideal: sector, país, tamaño, necesidad y criterios que descartan a una empresa.",
+        "Solicita a Claude una plantilla de investigación y campos de la tabla: empresa, web, encaje, evidencia pública, contacto corporativo y fecha.",
+        "Investiga empresas en sus páginas oficiales y completa la tabla solo con información pública comprobada; no recolectes correos privados.",
+        "Pide a Claude priorizar las empresas por encaje y redactar un mensaje personalizado con referencia a un hecho verificable.",
+        "Revisa manualmente cada mensaje y cumple las normas de protección de datos y comunicaciones comerciales antes de contactar."
+      ],
+      "prompt": "Crea un marco de prospección de empresas de [sector] en [país]. Devuelve criterios de encaje, lista de campos verificables y un correo breve de presentación sin inventar contactos.",
+      "guideSource": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork. "
+    },
+    {
+      "id": "m033",
+      "summary": "Revisar qué datos personales se muestran públicamente y solicitar su retirada por canales legítimos.",
+      "steps": [
+        "Escribe tu nombre y variantes en buscadores públicos, sin compartir contraseñas ni DNI, y registra enlaces que contengan datos tuyos.",
+        "Clasifica los resultados: perfiles controlados por ti, sitios de terceros, filtraciones, datos legítimamente públicos y páginas ya eliminadas.",
+        "Solicita la retirada al responsable del sitio o configura privacidad en los perfiles que administras.",
+        "Cuando proceda, utiliza las solicitudes de desindexación del buscador y los derechos de protección de datos vigentes.",
+        "Repite la búsqueda pasado un tiempo; guarda enlaces, fechas y respuestas. La eliminación del buscador no borra necesariamente la página de origen."
+      ],
+      "prompt": "Diseña una checklist de auditoría de mi huella digital con columnas URL, dato expuesto, responsable, acción, fecha y estado. No busques personas ajenas ni inventes datos sobre mí.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m034",
+      "summary": "Crear actividades educativas inspiradas en el Mundial 2026 sin usar resultados deportivos inventados.",
+      "steps": [
+        "Abre Gemini y define edad, asignatura y duración de la actividad.",
+        "Pide un juego de geografía con países, banderas y ubicaciones; para partidos y resultados añade solo datos contrastados en una fuente deportiva oficial.",
+        "Genera una actividad de matemáticas con tablas de puntuación ficticias claramente etiquetadas como simulación.",
+        "Solicita un cuestionario autocorregible o una ficha accesible con tres niveles de dificultad.",
+        "Revisa nombres de países, fechas y licencias de logotipos antes de proyectar o imprimir."
+      ],
+      "prompt": "Prepara tres actividades para 5.º de Primaria sobre el Mundial de fútbol de 2026: mapa de países, problemas matemáticos con datos ficticios y un cuestionario. Indica qué datos requieren verificación oficial.",
+      "guideSource": "https://support.google.com/gemini/answer/16126339",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://support.google.com/gemini/answer/16126339. "
+    },
+    {
+      "id": "m036",
+      "summary": "Diseñar un anuncio visual con Gemini a partir de un producto o servicio real.",
+      "steps": [
+        "Prepara una fotografía autorizada del producto y tres beneficios verificables.",
+        "En Gemini describe el público, la plataforma, el tono y el objetivo publicitario; adjunta la imagen cuando el modelo admita referencias.",
+        "Pide una imagen publicitaria que conserve exactamente la marca, el envase y los textos reales, dejando espacio para un titular.",
+        "Revisa el resultado y sustituye cualquier afirmación exagerada por datos comprobados.",
+        "Si tu cuenta ofrece creación de vídeo, pide movimiento de cámara corto; consulta créditos antes de generar."
+      ],
+      "prompt": "Con esta imagen real de [producto], prepara una composición publicitaria 4:5 para [público]. Luz de estudio, fondo limpio, marca intacta; no inventes propiedades, precios ni descuentos.",
+      "guideSource": "https://support.google.com/gemini/answer/16126339",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://support.google.com/gemini/answer/16126339. "
+    },
+    {
+      "id": "m037",
+      "summary": "Reducir intercambios y texto innecesario al trabajar con Claude sin sacrificar precisión.",
+      "steps": [
+        "Define el entregable exacto y reúne el contexto relevante en un solo mensaje estructurado.",
+        "Elimina texto repetido e indica de forma breve qué debe mantenerse, el público y el formato.",
+        "Pide que Claude haga una única pregunta solo si falta un dato imprescindible, en lugar de numerosas iteraciones.",
+        "Trabaja por fases: esquema, desarrollo y revisión, reutilizando solo el contexto necesario.",
+        "Comprueba el uso de tu plan si la interfaz muestra límites; no confundas longitud corta con ahorro garantizado de coste."
+      ],
+      "prompt": "Usa únicamente la información adjunta. Produce una tabla de 5 filas con conclusión y evidencia. Evita introducciones y repeticiones; pregunta antes de inventar datos.",
+      "guideSource": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork. "
+    },
+    {
+      "id": "m040",
+      "summary": "Acelerar el montaje de vídeos repetitivos combinando una escaleta de Claude con plantillas de CapCut.",
+      "steps": [
+        "Organiza clips propios por fecha y tema y define un estilo de vídeo repetible.",
+        "En Claude pide tres variantes de escaleta: noticia de 20 s, explicación de 45 s y recopilación de 60 s.",
+        "En CapCut crea una plantilla o proyecto modelo con formato, posición de subtítulos, tipografía y música autorizada.",
+        "Para cada vídeo nuevo, sigue la escaleta para elegir clips y ajustar los cortes; usa herramientas automáticas disponibles para subtitular.",
+        "Exporta solo después de comprobar planos, audios y elementos con derechos de autor."
+      ],
+      "prompt": "Para estos seis clips crea un plan de edición 9:16 de 40 segundos: gancho de 3 s, tres ideas visuales, subtítulos cortos y cierre. Indica tiempos, recursos necesarios y decisiones que debo revisar.",
+      "guideSource": "https://www.capcut.com/resource/auto-captions-ai-video-editor",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://www.capcut.com/resource/auto-captions-ai-video-editor. "
+    },
+    {
+      "id": "m041",
+      "summary": "Extraer y clasificar tickets de gastos en Claude Cowork con revisión de importes.",
+      "steps": [
+        "Crea una carpeta separada con fotografías o PDF de tickets del período; oculta números de tarjeta y datos personales innecesarios.",
+        "Abre Claude Cowork o la función compatible y concede acceso únicamente a esa carpeta.",
+        "Pide una tabla por ticket con comercio, fecha, concepto, base, IVA, total y nombre del archivo.",
+        "Solicita detectar registros duplicados y tickets ilegibles sin completar datos que no figuren en la imagen.",
+        "Verifica una muestra contra los originales y exporta la hoja para tu gestor; no contabilices automáticamente gastos dudosos."
+      ],
+      "prompt": "Con los tickets de esta carpeta autorizada crea un Excel con archivo, comercio, fecha, base, IVA y total. Marca campos ilegibles y duplicados. No borres originales ni modifiques mi contabilidad.",
+      "guideSource": "https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil. "
+    },
+    {
+      "id": "m042",
+      "summary": "Probar ideas de decoración sobre una fotografía sin cambiar la geometría real de la estancia.",
+      "steps": [
+        "Fotografía una habitación desde dos ángulos y mide paredes, ventanas, puertas y muebles fijos.",
+        "En ChatGPT Imágenes adjunta una foto y pide una propuesta de estilo indicando qué elementos deben permanecer.",
+        "Solicita una primera simulación con una paleta concreta y muebles que respeten las dimensiones reales.",
+        "Prueba dos variantes cambiando solo el suelo o el color de la pared y guarda una comparación.",
+        "Verifica medidas, enchufes, acceso y presupuesto con un profesional antes de comprar o ejecutar obra."
+      ],
+      "prompt": "Rediseña esta habitación con estilo nórdico cálido. Conserva exactamente ventanas, puertas, tamaño de la estancia y posición de radiadores. Cambia solo pintura, iluminación y muebles no fijos.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m044",
+      "summary": "Reconocer señales de que una llamada podría estar automatizada sin asegurar un diagnóstico infalible.",
+      "steps": [
+        "Si recibes una llamada inesperada, no compartas contraseñas, códigos OTP, datos bancarios ni documentos.",
+        "Observa si el interlocutor repite respuestas, ignora preguntas inesperadas o introduce pausas artificiosas; estas señales no prueban que sea una IA.",
+        "Pide identificación de la empresa y un teléfono de devolución verificable por fuentes independientes.",
+        "Cuelga si existe presión o petición de pagos urgentes y devuelve la llamada usando la web oficial de la entidad.",
+        "Si necesitas denunciar, registra fecha, número y contenido sin difundir grabaciones que vulneren privacidad."
+      ],
+      "prompt": "Redacta una lista de comprobación para evaluar una llamada comercial sospechosa y cinco preguntas de verificación seguras, sin afirmar que se puede detectar siempre una voz sintética.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. Ni la voz natural ni una pausa extraña permiten demostrar por sí solas si habla un agente de IA."
+    },
+    {
+      "id": "m045",
+      "summary": "Organizar siete tareas repetitivas con Claude y supervisión humana.",
+      "steps": [
+        "Haz una lista de siete flujos: resumen diario, clasificación de documentos, borradores de correo, informe semanal, control de facturas, planificación editorial y actualización de checklist.",
+        "En Claude define para cada uno una entrada, una salida concreta y un criterio de éxito.",
+        "Cuando la cuenta permita tareas programadas o Cowork, configura solo los procesos compatibles y limita los accesos a los datos necesarios.",
+        "Realiza una ejecución manual de prueba con datos ficticios y revisa calidad, errores y riesgos.",
+        "Activa un calendario de seguimiento y revisa los resultados antes de cualquier publicación, envío o cambio irreversible."
+      ],
+      "prompt": "Diseña siete automatizaciones de oficina, cada una con objetivo, entrada, salida, frecuencia sugerida, permiso requerido y punto de aprobación humana. No ejecutes ninguna sin confirmación.",
+      "guideSource": "https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil. "
+    },
+    {
+      "id": "m046",
+      "summary": "Revisar los datos de una declaración de la renta con ayuda de IA sin convertirla en asesor fiscal.",
+      "steps": [
+        "Descarga los datos fiscales y el borrador desde el portal oficial de la Agencia Tributaria; no compartas credenciales.",
+        "Elimina NIF, domicilio, números de cuenta y otros datos identificativos antes de subir un resumen a ChatGPT.",
+        "Solicita una checklist por bloques: rendimientos, retenciones, deducciones, situación familiar y documentos justificativos.",
+        "Compara las preguntas o inconsistencias señaladas por IA con normativa oficial aplicable al ejercicio y comunidad autónoma.",
+        "Si aparecen dudas significativas, consúltalas con la Agencia Tributaria o un profesional antes de presentar la declaración."
+      ],
+      "prompt": "Revisa de forma orientativa este resumen anonimizado de mi borrador de IRPF. Señala incoherencias posibles y qué documentos debería contrastar. No calcules deducciones sin norma y ejercicio concreto.",
+      "guideSource": "https://sede.agenciatributaria.gob.es/",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://sede.agenciatributaria.gob.es/. "
+    },
+    {
+      "id": "m047",
+      "summary": "Crear un flujo de contabilidad documental en Cowork con control humano de cada asiento.",
+      "steps": [
+        "Separa facturas recibidas, emitidas y movimientos bancarios en carpetas autorizadas, conservando los originales.",
+        "En Claude Cowork pide extraer datos a una tabla con referencia de documento y el importe fiscalmente relevante.",
+        "Solicita clasificar los movimientos por proveedor y categoría provisional, marcando los casos ambiguos.",
+        "Genera un informe de discrepancias, documentos sin factura y posibles duplicados.",
+        "Revisa cada propuesta con el software contable o tu asesor; no autorices pagos, borrados ni registros definitivos de forma autónoma."
+      ],
+      "prompt": "Analiza estas facturas autorizadas. Crea una tabla de fecha, proveedor, documento, base, IVA, total, categoría provisional y dudas. No realices asientos definitivos ni pagos; genera un listado de revisión.",
+      "guideSource": "https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil. "
+    },
+    {
+      "id": "m050",
+      "summary": "Crear una pequeña web con Claude y un artefacto HTML que se pueda revisar y descargar.",
+      "steps": [
+        "Describe a Claude el objetivo de la web, el público, el contenido y tres pantallas o secciones.",
+        "Pide un artefacto HTML5/CSS/JavaScript en un único archivo, responsive, con controles reales y sin dependencias externas.",
+        "Abre la vista previa del artefacto si está disponible y prueba enlaces, formularios, teclado y ancho móvil.",
+        "Solicita corregir errores y mejorar contraste, tamaños táctiles y etiquetas accesibles.",
+        "Exporta el HTML y publícalo solo después de comprobar que no incorpora claves, datos privados ni recursos sin licencia."
+      ],
+      "prompt": "Crea una página HTML5 responsive para [proyecto], con buscador real, cuatro filtros funcionales, tarjetas y pie de página accesible. Sin librerías ni enlaces ficticios. Entrega el código completo para alojarlo en GitHub Pages.",
+      "guideSource": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them. "
+    },
+    {
+      "id": "m053",
+      "summary": "Aplicar veinte ideas de imagen para marketing, educación y redes con ChatGPT Imágenes.",
+      "steps": [
+        "Sube una imagen propia o describe un tema sin incluir información de terceros sin permiso.",
+        "Selecciona uno de estos veinte objetivos: retrato, banner, portada, tarjeta, felicitación, póster, icono, infografía, catálogo, mockup, fondo, collage, avatar, boceto, ilustración de cuento, variación de color, restauración estética, miniatura de vídeo, escena editorial o comparativa.",
+        "Para cada objetivo indica formato, estilo, audiencia y qué debe conservarse de las referencias.",
+        "Genera una imagen por variante y corrige elementos problemáticos, especialmente números, marcas, caras y textos.",
+        "Guarda el prompt y el resultado elegido y etiqueta las imágenes generadas cuando su contexto lo requiera."
+      ],
+      "prompt": "Crea una imagen para [objetivo de los 20], destinada a [público]. Formato [9:16/4:5/1:1], luz [tipo], estilo [descripción]. Conserva datos reales, no inventes marcas ni afirmaciones.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. La publicación del autor menciona retratos, anuncios y mockups; la lista de veinte aplicaciones es editorial propia, no se atribuye al vídeo.",
+      "source": "https://es.linkedin.com/posts/pabloalvarezazcunaga_imagenesia-casosdeuso-transformaciondigital-activity-7454751435734491136-EE9T"
+    },
+    {
+      "id": "m057",
+      "summary": "Preparar un calendario de publicaciones con Claude y publicar tras una revisión editorial.",
+      "steps": [
+        "Define la audiencia, los canales, el tono y las fechas importantes de tu marca.",
+        "Entrega a Claude los temas confirmados y pide un calendario de cuatro semanas con objetivo, formato, titular y llamada a la acción.",
+        "Solicita para cada publicación una versión breve para Instagram y otra profesional para LinkedIn, con hashtags moderados.",
+        "Revisa que afirmaciones, fotografías, enlaces y permisos sean correctos antes de publicar.",
+        "Programa manualmente en herramientas oficiales de cada red o en una plataforma autorizada; Claude no publica automáticamente sin una integración configurada."
+      ],
+      "prompt": "Diseña un calendario de 12 publicaciones para [marca], con tema, plataforma, gancho, texto, recurso gráfico y llamada a la acción. No inventes logros, cifras ni testimonios.",
+      "guideSource": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork. "
+    },
+    {
+      "id": "m058",
+      "summary": "Usar un modelo de lenguaje en el ordenador para analizar datos sin enviar archivos a un servidor externo.",
+      "steps": [
+        "Instala LM Studio desde su web oficial y comprueba requisitos de memoria y almacenamiento.",
+        "Busca y descarga un modelo compatible con tu equipo antes de desconectar internet.",
+        "Abre un chat nuevo y carga solo documentos que te pertenezcan; revisa si la función de archivos se procesa localmente.",
+        "Desconecta la red y ejecuta una prueba para verificar que el modelo responde sin conexión.",
+        "Revisa límites de precisión, configuración y permisos del sistema, y evita usar la IA como única revisión de documentos confidenciales."
+      ],
+      "prompt": "Resume este documento local en cinco puntos. Copia la frase exacta que respalda cada punto y marca los datos que no estén en el archivo.",
+      "guideSource": "https://lmstudio.ai/docs/app/basics",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://lmstudio.ai/docs/app/basics. "
+    },
+    {
+      "id": "m060",
+      "summary": "Preparar una IA de bolsillo sin conexión para preguntas y resúmenes sencillos.",
+      "steps": [
+        "Instala Google AI Edge Gallery en un teléfono compatible y actualiza sus componentes desde el sitio oficial.",
+        "Descarga un modelo ligero compatible con la memoria del dispositivo cuando tengas Wi-Fi.",
+        "Prueba una consulta sin datos personales y después activa el modo avión.",
+        "Para trabajar con una nota, cópiala en el chat o utiliza herramientas locales de análisis de imagen si están disponibles.",
+        "Comprueba la precisión y ten presente que el modelo offline no puede verificar noticias ni información actual."
+      ],
+      "prompt": "Resume estos apuntes en lenguaje claro para una persona de 12 años. Usa solo el texto aportado y no incluyas datos actuales que no puedas verificar sin internet.",
+      "guideSource": "https://github.com/google-ai-edge/gallery",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://github.com/google-ai-edge/gallery. "
+    },
+    {
+      "id": "m062",
+      "summary": "Actualizar una presentación existente con Claude sin perder la identidad corporativa.",
+      "steps": [
+        "Abre PowerPoint y crea una copia de seguridad de la presentación que quieres mejorar.",
+        "Si el complemento de Claude está disponible, ábrelo desde los complementos; de lo contrario carga el archivo en Claude cuando tu cuenta admita documentos.",
+        "Define un sistema de diseño con colores, tipografías y estructura de diapositivas y solicita una propuesta de reorganización.",
+        "Revisa gráficos, imágenes, notas de ponente y cifras antes de aplicar cambios.",
+        "Exporta una nueva versión y comprueba diapositiva a diapositiva que no haya recortes ni texto demasiado pequeño."
+      ],
+      "prompt": "Reorganiza esta presentación para una charla de 15 minutos. Conserva cifras y fuentes; propone portada, agenda, 5 bloques y cierre. Diseño profesional azul/blanco, máximo 35 palabras visibles por diapositiva.",
+      "guideSource": "https://support.claude.com/es/articles/12512180-usar-habilidades-en-claude",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://support.claude.com/es/articles/12512180-usar-habilidades-en-claude. No se garantiza la edición directa dentro de PowerPoint sin el complemento y permisos adecuados."
+    },
+    {
+      "id": "m063",
+      "summary": "Mejorar la fotografía de un menú o plato sin alterar la oferta real del establecimiento.",
+      "steps": [
+        "Fotografía el plato real con buena luz y selecciona la imagen más representativa.",
+        "Adjunta la foto a ChatGPT Imágenes y especifica que debe conservar ingredientes, tamaño, forma del plato y presentación.",
+        "Pide iluminación gastronómica de estudio, fondo más limpio y corrección moderada de color.",
+        "Verifica que ningún ingrediente, rótulo o precio se haya inventado y guarda la comparación antes/después.",
+        "Si creas la carta final, añade nombres, alergias y precios en un editor de texto para asegurar exactitud tipográfica."
+      ],
+      "prompt": "Edita esta foto real de un plato para un menú: fondo neutro, luz cálida de restaurante y textura natural. Conserva exactamente ingredientes, ración y vajilla. No añadas comida ni texto.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m064",
+      "summary": "Convertir notas y documentos de un proyecto en una propuesta comercial fundamentada con NotebookLM.",
+      "steps": [
+        "Crea un cuaderno en NotebookLM y adjunta fuentes fiables del proyecto: actas, catálogo, briefing y pliego.",
+        "Solicita un resumen de necesidades, beneficios, requisitos y restricciones citando la fuente de cada afirmación.",
+        "Pide un esquema de propuesta comercial con problema, solución, alcance, calendario, riesgos y presupuesto por confirmar.",
+        "Redacta el documento final en un editor y marca como pendientes las cifras que las fuentes no justifican.",
+        "Revisa los enlaces a las fuentes y obtiene aprobación antes de enviar una oferta a un cliente."
+      ],
+      "prompt": "Con las fuentes de este cuaderno, prepara un esquema de propuesta comercial: necesidad, solución, alcance, entregables, cronograma y riesgos. Añade citas a cada afirmación y marca precios no documentados como «pendientes».",
+      "guideSource": "https://support.google.com/notebooklm/",
+      "guideType": "independent",
+      "verification": "Guía práctica complementaria propia, no transcripción literal del vídeo de MAXmaxdata (no íntegramente accesible). Referencia pública/oficial: https://support.google.com/notebooklm/. "
+    }
+  ]
+}
