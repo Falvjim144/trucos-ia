@@ -1,0 +1,307 @@
+{
+  "format": "trucos-ia-guide-overrides",
+  "version": 1,
+  "updatedAt": "2026-11-22",
+  "entries": [
+    {
+      "id": "m094",
+      "summary": "Crear un panel sencillo de datos sin programar utilizando un archivo Excel o CSV.",
+      "steps": [
+        "Prepara una hoja de cálculo limpia con columnas de fecha, categoría, concepto e importe.",
+        "Adjunta el archivo a un asistente compatible con análisis de datos; describe qué indicadores deseas comparar.",
+        "Solicita un panel HTML o un informe con totales, evolución mensual y gráfico por categoría.",
+        "Abre el resultado en el navegador y comprueba los filtros, rótulos y cálculos usando filas de prueba.",
+        "Guarda el archivo final sin incluir datos privados ni exponer a terceros información sensible."
+      ],
+      "prompt": "Con este CSV crea un dashboard local en HTML5 con ingresos, gastos, saldo y un gráfico por mes. Usa datos reales del archivo, no inventes cifras y comprueba el total.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m095",
+      "summary": "Convertir una fotografía de un comercio en un anuncio de vídeo breve con Hailuo.",
+      "steps": [
+        "Haz una foto clara del escaparate, interior o producto con permiso, preferentemente sin rostros de clientes.",
+        "Abre el generador de vídeo desde imagen de Hailuo y comprueba si tu plan admite el formato elegido.",
+        "Sube la foto y pide un movimiento de cámara sencillo: avance lento al escaparate o plano lateral del producto.",
+        "Genera una prueba corta y revisa que no cambien rótulos, precios, fachada ni características reales del negocio.",
+        "En un editor añade horario, ubicación y llamada a la acción comprobados antes de publicarlo."
+      ],
+      "prompt": "Anima esta fotografía real de mi tienda para un Reel de 8 segundos. Cámara avanza suavemente hacia la entrada; conserva letrero, arquitectura, productos y colores. Sin personas inventadas.",
+      "guideSource": "https://hailuoai.video/create/image-to-video",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://hailuoai.video/create/image-to-video. "
+    },
+    {
+      "id": "m096",
+      "summary": "Observar cómo el mismo prompt produce respuestas diferentes al cambiar propósito y contexto.",
+      "steps": [
+        "Escoge una consulta estable, por ejemplo cómo explicar una noticia o preparar una actividad de clase.",
+        "Pide una respuesta sin contexto adicional y guarda el resultado.",
+        "Vuelve a preguntar indicando destinatario, limitaciones, formato y fuentes permitidas.",
+        "Compara precisión, longitud, utilidad y afirmaciones no comprobadas.",
+        "Construye una plantilla con objetivo, público, datos y verificación para repetir el experimento."
+      ],
+      "prompt": "Tema: [tema]. Audiencia: [persona]. Objetivo: [tarea]. Fuentes: [documentos]. Limitaciones: [restricciones]. Salida: [formato]. Indica incertidumbres.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m098",
+      "summary": "Crear un anuncio breve desde un producto existente con una secuencia de problema, solución y cierre.",
+      "steps": [
+        "Prepara imagen del producto, ficha real de características, público y mensaje principal.",
+        "En un asistente de IA solicita tres guiones de 15 segundos, cada uno con gancho visual, demostración y cierre.",
+        "Elige el guion y genera una imagen o clip por escena con herramientas de vídeo compatibles.",
+        "Monta las escenas en un editor con subtítulos, duración y música autorizada.",
+        "Verifica todas las promesas publicitarias y la fidelidad del producto antes de exportar."
+      ],
+      "prompt": "Escribe tres guiones de Reel de 15 segundos para [producto real]. Incluye plano visual, texto en pantalla y llamada a la acción; solo utiliza beneficios que figuren en la ficha.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m099",
+      "summary": "Revisar las funciones disponibles de ChatGPT y probarlas en tareas reales, sin asumir supuestos menús ocultos.",
+      "steps": [
+        "Abre ChatGPT y revisa las herramientas visibles en tu cuenta y plan.",
+        "Escoge una necesidad real: analizar un archivo, crear una imagen, hacer una búsqueda citada o preparar una tarea programada.",
+        "Adjunta material propio o escribe un prompt específico para la herramienta elegida.",
+        "Comprueba el resultado, los límites de uso y los permisos que haya solicitado.",
+        "Guarda un ejemplo de prueba que puedas repetir y consulta la documentación oficial para confirmar funciones nuevas."
+      ],
+      "prompt": "Dime qué herramientas están disponibles en esta conversación para [tarea] y qué límites tienen. Sugiere una prueba sencilla y no afirmes que existe una función que no esté habilitada.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m100",
+      "summary": "Activar subtítulos traducidos en una videollamada cuando la cuenta lo permita.",
+      "steps": [
+        "Abre una reunión de Google Meet y localiza el control de subtítulos.",
+        "Activa los subtítulos y, si tu edición de Workspace lo permite, selecciona subtítulos traducidos.",
+        "Elige el idioma de destino y avisa a los participantes del uso de traducción automática.",
+        "Prueba con una frase sencilla y comprueba que nombres, cifras y términos técnicos se traduzcan bien.",
+        "No tomes decisiones legales o médicas basándote únicamente en la traducción automática."
+      ],
+      "prompt": "Elabora un glosario bilingüe de 15 términos sobre [reunión] para contrastar lo que digan los subtítulos automáticos.",
+      "guideSource": "https://support.google.com/meet/answer/10964115",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://support.google.com/meet/answer/10964115. "
+    },
+    {
+      "id": "m101",
+      "summary": "Ejecutar modelos locales en un PC para consultas privadas y documentos internos.",
+      "steps": [
+        "Instala LM Studio desde su sitio oficial y elige un modelo descargable compatible con la memoria del equipo.",
+        "Descarga el modelo mientras tengas conexión, revisando tamaño y licencia.",
+        "Carga el modelo y prueba una consulta corta sin datos sensibles.",
+        "Desconecta Internet y vuelve a preguntar para verificar que la inferencia funciona localmente.",
+        "Si deseas consultar archivos, revisa que el proceso de documentos también sea local y contrasta cualquier dato generado."
+      ],
+      "prompt": "Con este documento local, crea un resumen con citas literales y una lista de preguntas abiertas. No uses conocimientos externos para completar campos faltantes.",
+      "guideSource": "https://lmstudio.ai/docs/app/basics",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://lmstudio.ai/docs/app/basics. "
+    },
+    {
+      "id": "m102",
+      "summary": "Generar un vídeo corto en Runway a partir de texto o de una imagen de referencia.",
+      "steps": [
+        "Escribe una idea de una sola escena con sujeto, entorno, acción y duración.",
+        "Abre Runway y elige Text to Video o Image to Video entre los modelos de tu plan.",
+        "Si empiezas con una imagen, sube una referencia propia y centra el prompt en el movimiento y la cámara.",
+        "Genera un clip corto; comprueba que los objetos no se deformen y que la acción tenga continuidad.",
+        "Itera cambiando una variable cada vez y exporta solo tras comprobar créditos y derechos de uso."
+      ],
+      "prompt": "Slow tracking shot of a small red bicycle parked on a cobblestone street at dawn. Gentle wind moves nearby leaves. Realistic motion, steady camera, no cuts.",
+      "guideSource": "https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide. "
+    },
+    {
+      "id": "m103",
+      "summary": "Preparar actividades educativas para vacaciones con propuestas graduadas por edades.",
+      "steps": [
+        "Indica curso escolar, número de participantes, materiales y tiempo de cada actividad.",
+        "Pide a ChatGPT un calendario de retos de lectura, juegos de lógica, experimentos seguros y actividades al aire libre.",
+        "Solicita variantes de accesibilidad, apoyo visual y niveles de dificultad.",
+        "Revisa instrucciones y riesgos de cada experimento; sustituye materiales peligrosos o poco disponibles.",
+        "Prepara fichas imprimibles y una lista de seguimiento sin recopilar datos innecesarios del alumnado."
+      ],
+      "prompt": "Diseña diez actividades de verano para niños de [edad], 20 minutos cada una, con objetivo, materiales sencillos, pasos y adaptación DUA. Evita pantallas durante al menos seis actividades.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m104",
+      "summary": "Evaluar críticamente si un contenido podría estar manipulado o generado con IA.",
+      "steps": [
+        "Localiza la publicación original, su autor y la fecha; evita evaluar solamente una captura reenviada.",
+        "Busca señales de incoherencia visual o sonora, pero no las consideres pruebas definitivas.",
+        "Comprueba si existen credenciales de contenido o metadatos verificables y si la plataforma los conserva.",
+        "Contrasta afirmaciones con fuentes independientes y prueba una búsqueda inversa de imágenes.",
+        "Si no hay pruebas suficientes, etiqueta el resultado como «no verificado», no como verdadero ni falso."
+      ],
+      "prompt": "Diseña una checklist para evaluar esta imagen y su contexto: fuente, fecha, inconsistencias, procedencia y verificación externa. Explica qué no podemos saber solo por los píxeles.",
+      "guideSource": "https://contentcredentials.org/",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://contentcredentials.org/. "
+    },
+    {
+      "id": "m105",
+      "summary": "Crear una ilustración con Midjourney a partir de un prompt visual sin saber dibujar.",
+      "steps": [
+        "Entra en Midjourney y comprueba que tu cuenta admite generar imágenes desde la web.",
+        "En la barra Imagine describe un sujeto original, escenario, luz, paleta y estilo.",
+        "Genera las alternativas y compara composición y proporciones.",
+        "Selecciona una variante y utiliza herramientas de variación o edición para corregir un elemento.",
+        "Descarga la imagen y comprueba derechos de uso antes de emplearla en publicidad o venderla."
+      ],
+      "prompt": "Original watercolor illustration of a small library in a forest, morning mist, warm window light, whimsical but realistic proportions, wide composition, no typography.",
+      "guideSource": "https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web. "
+    },
+    {
+      "id": "m106",
+      "summary": "Estudiar con ChatGPT mediante preguntas guiadas y autoevaluación.",
+      "steps": [
+        "Indica asignatura, curso, temario y objetivo de aprendizaje.",
+        "Pide explicar primero los conceptos con un ejemplo sencillo basado en tus apuntes.",
+        "Solicita preguntas una a una, sin revelar la solución antes de responder.",
+        "Responde y pide que se señale el error concreto, con referencia al material aportado.",
+        "Termina con un mini examen y un plan de repaso de los puntos débiles."
+      ],
+      "prompt": "Hazme un examen oral sobre [tema] de [curso]. Pregunta de una en una, espera mi respuesta y da feedback breve con la idea correcta. No inventes hechos ajenos a mis apuntes.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m107",
+      "summary": "Restaurar una fotografía deteriorada conservando una copia del documento histórico.",
+      "steps": [
+        "Escanea la foto a buena resolución o fotografíala sin reflejos; conserva el original sin editar.",
+        "En ChatGPT Imágenes adjunta una copia y pide limpiar manchas, arañazos y pérdida de contraste.",
+        "Solicita mantener rostros y rasgos sin reconstruir arbitrariamente elementos ausentes.",
+        "Genera una versión restaurada y otra opcional en color, etiquetando la colorización como interpretación artística.",
+        "Compara antes/después en zonas sensibles y guarda la imagen original junto con las nuevas versiones."
+      ],
+      "prompt": "Restaura esta fotografía antigua reduciendo arañazos y polvo, mejorando contraste y nitidez. Conserva caras, ropa y entorno; no inventes detalles históricos. Devuelve primero blanco y negro.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m108",
+      "summary": "Preparar una lista de la compra útil a partir de un menú y un presupuesto.",
+      "steps": [
+        "Anota número de personas, preferencias alimentarias, alergias y presupuesto aproximado.",
+        "Indica a ChatGPT qué alimentos ya tienes y qué comidas quieres preparar durante la semana.",
+        "Pide una lista agregada por secciones de supermercado con cantidades aproximadas.",
+        "Revisa caducidades, precios reales y posibles sustituciones; ajusta cantidades a los comensales.",
+        "Convierte la lista en checklist para móvil y marca los productos comprados."
+      ],
+      "prompt": "Crea una lista de compra para cinco cenas de [personas] con presupuesto de [euros], evitando [alergias]. Agrupa por frutas, verduras, proteínas, congelados y despensa, sumando cantidades.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m109",
+      "summary": "Pasar de un tarareo propio a una idea musical utilizando audio y herramientas de composición.",
+      "steps": [
+        "Graba tu tarareo en el móvil durante 10–20 segundos, con poco ruido y siendo tú el autor de la melodía.",
+        "En un asistente compatible con análisis de audio, pide identificar ritmo aproximado, estructura y posibles notas; comprueba manualmente el resultado.",
+        "Si tu generador musical permite subir audio propio como referencia, carga la grabación y describe estilo e instrumentación; revisa condiciones del plan.",
+        "Genera una demo corta y compárala con tu melodía para comprobar que se mantiene reconocible.",
+        "Verifica los permisos de la voz, la música generada y cualquier referencia usada antes de compartir comercialmente."
+      ],
+      "prompt": "Quiero desarrollar esta melodía original que he tarareado en una canción instrumental suave, tempo moderado, piano y guitarra acústica. Mantén su motivo principal, sin copiar música ajena.",
+      "guideSource": "https://www.capcut.com/resource/ai-video-content-creator",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://www.capcut.com/resource/ai-video-content-creator. La herramienta musical concreta no figura en el título original y no se afirma que CapCut por sí solo transforme tarareos en canciones."
+    },
+    {
+      "id": "m110",
+      "summary": "Crear propuestas de renovación de un logotipo sin perder la identidad de una marca.",
+      "steps": [
+        "Reúne el logotipo actual y anota nombre correcto, sector y valores de marca.",
+        "En ChatGPT Imágenes adjunta el logo y pide tres direcciones visuales diferenciadas.",
+        "Describe tipografía, icono, color, legibilidad en tamaños pequeños y variantes monocromáticas.",
+        "Compara las opciones en fondo claro y oscuro y en tamaños de móvil.",
+        "Comprueba disponibilidad de marcas y derechos antes de adoptar o registrar una propuesta."
+      ],
+      "prompt": "Propón tres rediseños de este logotipo [imagen] conservando nombre y significado. Estilo minimalista, legible en icono de 32 píxeles y funcional en blanco y negro. No copies otras marcas.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m111",
+      "summary": "Encontrar empresas potenciales en LinkedIn y escribir mensajes de contacto respetuosos.",
+      "steps": [
+        "Define público y empresas objetivo por sector, ubicación y cargo profesional.",
+        "Utiliza búsquedas públicas y perfiles que puedas consultar legítimamente; registra empresa y necesidad observable.",
+        "Pide a ChatGPT un mensaje breve personalizado con una propuesta de valor real.",
+        "Revisa individualmente cada contacto; no envíes mensajes masivos ni extraigas datos personales sin base legal.",
+        "Registra respuestas y deja de contactar cuando la persona indique que no le interesa."
+      ],
+      "prompt": "Escribe un primer mensaje de LinkedIn de 90 palabras para presentar [servicio] a [cargo], citando únicamente la información profesional pública que aporte. Tono respetuoso y sin presión.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m112",
+      "summary": "Analizar gastos familiares a partir de un CSV o Excel sin escribir fórmulas manualmente.",
+      "steps": [
+        "Exporta movimientos a CSV desde el banco y elimina números de cuenta, DNI y referencias sensibles.",
+        "Adjunta una copia al análisis de datos de ChatGPT y confirma el formato de fechas e importes.",
+        "Pide categorizar gastos en alimentación, transporte, vivienda, ocio y otros, marcando las operaciones dudosas.",
+        "Solicita totales mensuales, evolución y tres oportunidades de revisión, sin asumir que todo gasto es prescindible.",
+        "Contrasta totales con el extracto original y guarda el informe en privado."
+      ],
+      "prompt": "Analiza estos movimientos anonimizados y crea una tabla de gastos por categoría, total mensual y una lista de cargos no clasificados. No cambies signos ni inventes importes.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m113",
+      "summary": "Probar el modo agente de ChatGPT con una tarea que requiera consultar información y confirmar acciones.",
+      "steps": [
+        "Identifica una tarea delimitada que implique varios pasos, como comparar documentación pública o recopilar precios.",
+        "En ChatGPT, selecciona Work o una función de agente si está disponible para tu cuenta.",
+        "Describe el resultado final, las fuentes permitidas y las acciones que requieren aprobación.",
+        "Supervisa los pasos y valida cada fuente, archivo o cambio propuesto antes de confirmarlo.",
+        "Revisa el resultado final y revoca permisos temporales cuando ya no sean necesarios."
+      ],
+      "prompt": "Investiga tres opciones para [servicio], consulta sus webs oficiales y crea una tabla con ventajas y costes. No inicies compras, no envíes correos y pide aprobación antes de abrir cuentas.",
+      "guideSource": "https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt. La disponibilidad y el nombre de las funciones de agente cambian según cuenta, región y producto."
+    },
+    {
+      "id": "m114",
+      "summary": "Reorganizar una casa con un plano, inventario y fotografías para optimizar espacio.",
+      "steps": [
+        "Anota las dimensiones reales de cada estancia y los muebles que deben permanecer.",
+        "Fotografía o dibuja un esquema de los espacios y crea una lista de objetos y prioridades.",
+        "En ChatGPT adjunta el plano y pide dos distribuciones que respeten puertas, ventanas y zonas de paso.",
+        "Si quieres una vista visual, genera un render conceptual aclarando que las proporciones son orientativas.",
+        "Comprueba medidas, seguridad de anclajes y coste antes de mover muebles o hacer reformas."
+      ],
+      "prompt": "Reorganiza este salón de [ancho] × [largo]. Conserva puertas, ventanas y sofá actual; propone dos distribuciones que mantengan paso libre y almacenamiento, con lista de cambios realistas.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía editorial independiente con procedimiento reproducible; el vídeo original de MAXmaxdata no está transcrito por completo. Fuente oficial/de referencia: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    }
+  ]
+}
