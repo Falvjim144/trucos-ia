@@ -1,0 +1,310 @@
+{
+  "format": "trucos-ia-guide-overrides",
+  "version": 1,
+  "updatedAt": "2026-11-22",
+  "entries": [
+    {
+      "id": "m001",
+      "summary": "Comparar precios finales de una compra y encontrar cupones verificables sin confiar en descuentos inventados.",
+      "steps": [
+        "Anota el modelo exacto del producto, país de compra, capacidad y las tiendas en las que aceptarías comprar.",
+        "En ChatGPT pide una tabla comparando ofertas actuales, con precio final, envío, impuestos, garantía y enlace directo de cada tienda. Activa la búsqueda web si está disponible.",
+        "Abre cada enlace para confirmar existencias, variantes, precio y fecha. Descarta anuncios caducados y vendedores sin información de devolución.",
+        "Pide localizar cupones publicados por la propia tienda; prueba el código en el carrito sin finalizar la compra, y compara el total con y sin descuento.",
+        "Guarda una tabla de los tres mejores precios y la fuente y fecha de cada comprobación."
+      ],
+      "prompt": "Compara el precio total en España de [modelo exacto] en tres tiendas fiables. Incluye envío, garantía, enlace y fecha de verificación; no inventes cupones. Después enumera descuentos a comprobar manualmente en el carrito.",
+      "guideSource": "https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt. El texto público del creador sí menciona comparación de móviles y búsqueda de cupones, pero los botones del vídeo no han podido auditarse.",
+      "source": "https://es.linkedin.com/posts/pabloalvarezazcunaga_comparadordeprecios-ahorro-cupones-activity-7528340410729984001-a7zl"
+    },
+    {
+      "id": "m003",
+      "summary": "Crear una felicitación de Halloween con personajes originales sin depender de supuestos trucos para saltarse restricciones.",
+      "steps": [
+        "Prepara una fotografía propia y decide el estilo: gótico elegante, ilustración cómica o película de misterio apta para todo el público.",
+        "Abre el editor de imágenes de ChatGPT, adjunta tu foto y pide una escena original con disfraces y decorado de Halloween.",
+        "Si aparece una restricción, reformula para crear personajes originales y evitar la suplantación de personas, identidades o franquicias protegidas.",
+        "Comprueba que el rostro se mantiene reconocible y que el texto de felicitación no contiene errores; guarda la imagen."
+      ],
+      "prompt": "Usa mi foto con permiso y crea una felicitación original de Halloween: vestuario gótico elegante, castillo iluminado, calabazas y atmósfera cinematográfica. Conserva mi identidad, evita copiar personajes conocidos y añade «Feliz Halloween».",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. La publicación del creador describe un intento de obtener imágenes inicialmente rechazadas; aquí se ofrece una alternativa creativa que respeta las restricciones, no un procedimiento para evadirlas.",
+      "source": "https://es.linkedin.com/posts/pabloalvarezazcunaga_imagenesia-halloween-prompts-activity-7521458264413265920-550o"
+    },
+    {
+      "id": "m005",
+      "summary": "Recrear diez efectos fotográficos de forma explícita con prompts editables en vez de utilizar «códigos secretos» inexistentes.",
+      "steps": [
+        "Sube una fotografía propia al editor de imágenes de ChatGPT y explica qué elementos no deben alterarse.",
+        "Escoge un efecto para cada generación: 1) retrato editorial; 2) blanco y negro; 3) luz dorada; 4) fondo desenfocado; 5) lluvia; 6) iluminación de estudio; 7) ángulo bajo; 8) primer plano; 9) estilo analógico; 10) escena nocturna.",
+        "Escribe el efecto elegido en lenguaje natural, junto con encuadre, intensidad y reglas de conservación del sujeto.",
+        "Genera una variante cada vez y compárala con la fotografía original; descarta manos, rostros o logotipos deformados.",
+        "Descarga la mejor versión y conserva el texto del prompt para reutilizarlo."
+      ],
+      "prompt": "Edita esta foto propia con efecto [efecto 1–10]. Mantén exactamente personas, identidad y objetos; cambia únicamente la iluminación, el color y el encuadre definidos. Resolución alta y acabado fotográfico realista.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. Los diez efectos propuestos son una selección didáctica independiente, no los diez códigos literales del vídeo inaccesible."
+    },
+    {
+      "id": "m007",
+      "summary": "Crear una colección de veinte variaciones fotográficas sin comandos ocultos ni atribuir frases no comprobadas al creador.",
+      "steps": [
+        "Abre ChatGPT Imágenes y adjunta una fotografía propia o de un producto con derechos de uso.",
+        "Planifica veinte pruebas: recorte, ampliación, reencuadre, bokeh, fondo blanco, fondo urbano, fondo natural, luz lateral, luz cálida, contraluz, blanco y negro, estilo editorial, look de estudio, escena invernal, escena veraniega, cambio de vestuario, foto para CV, banner, miniatura de vídeo y mockup.",
+        "Elige una sola variación en cada intento; describe lo que se modifica y los detalles que deben permanecer intactos.",
+        "Comprueba especialmente texto, anatomía, logotipo, identidad y relación de aspecto; vuelve a pedir correcciones puntuales.",
+        "Guarda las veinte versiones con el número de variante y un archivo de los prompts."
+      ],
+      "prompt": "Con esta imagen de referencia, crea la variación número [n]: [descripción]. Conserva exactamente [detalles que no deben cambiar]. Entrega una imagen 4:5 realista, sin texto inventado.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. La publicación pública sí menciona cambios de encuadre, fondos, vestuario y miniaturas; esta lista de veinte pruebas es elaboración propia y NO se atribuye como lista original de códigos.",
+      "source": "https://es.linkedin.com/posts/pabloalvarezazcunaga_trucoschatgpt-imagenesia-prompting-activity-7506210641074880512-VhpF"
+    },
+    {
+      "id": "m009",
+      "summary": "Planificar el montaje con Claude y ejecutarlo en CapCut, sin prometer una integración automática no verificada.",
+      "steps": [
+        "Importa los clips y audios originales a una carpeta con nombres descriptivos y haz copia de seguridad.",
+        "En Claude introduce el objetivo, duración, formato y una lista de planos con su contenido; solicita un guion de edición con tiempos, orden, transiciones, subtítulos y música permitida.",
+        "Abre CapCut, crea un proyecto vertical 9:16 e importa los clips según la escaleta escrita por Claude.",
+        "Realiza los cortes o aplica funciones automáticas de CapCut que estén disponibles en tu plan, sin asumir que Claude puede controlar el programa.",
+        "Genera subtítulos, corrige el texto y exporta tras ver el vídeo completo y comprobar derechos de la música."
+      ],
+      "prompt": "Prepara una escaleta para editar mis [n] clips en CapCut en un Reel de 30 segundos. Devuelve orden de clips, segundos aproximados, textos en pantalla, transiciones sencillas y lista de comprobación final. No inventes contenido que no describa.",
+      "guideSource": "https://www.capcut.com/resource/auto-captions-ai-video-editor",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://www.capcut.com/resource/auto-captions-ai-video-editor. El autor describe la automatización con Claude y CapCut; esta versión de pasos propone un flujo manual fiable y no asegura automatización directa entre aplicaciones.",
+      "source": "https://es.linkedin.com/posts/pabloalvarezazcunaga_capcut-claudeai-automatizacionvideos-activity-7501146496533389313-7cGE"
+    },
+    {
+      "id": "m011",
+      "summary": "Instalar un modelo de lenguaje en el móvil y comprobar que realmente responde sin conexión.",
+      "steps": [
+        "Desde la página oficial de Google AI Edge Gallery comprueba los requisitos de Android y descarga la aplicación por un canal auténtico.",
+        "Abre el catálogo de modelos y elige una variante de Gemma compatible con memoria y procesador del teléfono; descárgala con Wi-Fi.",
+        "Crea una conversación de prueba y pide resumir un texto sencillo para confirmar que el modelo carga.",
+        "Activa el modo avión y repite la misma consulta; si funciona, esa inferencia se está realizando localmente.",
+        "No compartas información sensible mientras no hayas revisado la política de datos de la aplicación, los permisos y dónde guarda las conversaciones."
+      ],
+      "prompt": "Resume en cinco líneas este texto y contesta solo con información que aparezca en él: [texto].",
+      "guideSource": "https://github.com/google-ai-edge/gallery",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://github.com/google-ai-edge/gallery. La denominación Gemma 4 y su disponibilidad exacta dependen de las versiones de AI Edge Gallery y del hardware."
+    },
+    {
+      "id": "m012",
+      "summary": "Crear un panel HTML de datos que se abra localmente, inspirado en Power BI.",
+      "steps": [
+        "Prepara un CSV con encabezados claros, fechas, importes y categorías; elimina datos sensibles antes de subirlo.",
+        "Adjunta el archivo a ChatGPT y solicita el diagnóstico de columnas, valores ausentes y calidad de los datos.",
+        "Pide una página HTML autónoma con cuatro indicadores, gráficos interactivos y filtros por fecha y categoría, que funcione sin servidor.",
+        "Guarda el HTML descargado y ábrelo en el navegador; prueba filtros, totales y visualización móvil.",
+        "Recalcula dos o tres indicadores en la hoja original para verificar que el panel no haya sumado registros dos veces."
+      ],
+      "prompt": "Con este CSV crea un único archivo HTML local con KPIs, evolución temporal, gráfico por categoría y filtros. No uses servicios de pago ni cargues bibliotecas remotas; incluye datos de muestra solo si los etiquetas. Valida el total contra el CSV.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. "
+    },
+    {
+      "id": "m015",
+      "summary": "Mejorar instrucciones para Claude con nueve técnicas de prompting reproducibles.",
+      "steps": [
+        "Abre Claude y define una tarea concreta, con público y formato.",
+        "Prueba estas nueve técnicas como instrucciones ordinarias: contexto; rol útil; ejemplos; restricciones; formato de salida; alternativas; verificación; síntesis; lista de errores.",
+        "Selecciona las dos o tres que mejor resuelvan tu problema y combina sus textos en una sola petición.",
+        "Revisa críticamente la respuesta y contrasta nombres, cifras o decisiones importantes.",
+        "Guarda la petición eficaz para reutilizarla en tareas futuras."
+      ],
+      "prompt": "Quiero resolver [tarea]. Contexto: [datos]. Formato: [tabla/guía/plan]. Restricciones: [límites]. Propón dos opciones, explica ventajas y señala toda afirmación que deba verificarse.",
+      "guideSource": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them. Las nueve técnicas son ejemplos de redacción, no comandos internos que desbloqueen funciones de Claude."
+    },
+    {
+      "id": "m017",
+      "summary": "Utilizar ChatGPT para redactar respuestas de WhatsApp sin exponer conversaciones a bots no oficiales.",
+      "steps": [
+        "En WhatsApp copia solo el texto necesario de un mensaje, ocultando nombres y datos personales.",
+        "Abre ChatGPT y pega el texto para pedir una respuesta breve con el tono adecuado.",
+        "Revisa la propuesta y corrige cualquier compromiso o dato inventado.",
+        "Copia el texto final a WhatsApp y envíalo manualmente tras comprobar el destinatario.",
+        "Si quieres automatización real, usa únicamente una integración oficialmente autorizada de WhatsApp Business, con consentimiento y condiciones revisadas."
+      ],
+      "prompt": "Redacta una respuesta de WhatsApp para este mensaje: [texto anonimizado]. Tono cordial, máximo 70 palabras, sin asumir datos que no conozco y con una pregunta de seguimiento si es necesaria.",
+      "guideSource": "https://help.openai.com/es-es/articles/8914046-temporary-chat-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://help.openai.com/es-es/articles/8914046-temporary-chat-in-chatgpt. Esta es una alternativa segura de copiar y pegar; no se afirma que ChatGPT esté integrado o «camuflado» dentro de WhatsApp."
+    },
+    {
+      "id": "m018",
+      "summary": "Crear una imagen profesional para redes sociales desde una descripción clara.",
+      "steps": [
+        "Define objetivo, plataforma y formato de la imagen: portada 16:9, publicación cuadrada o vertical 4:5.",
+        "Abre ChatGPT Imágenes y describe sujeto, estilo fotográfico, iluminación y espacio para un texto.",
+        "Si es un producto o persona real, adjunta una imagen propia y di qué rasgos deben conservarse.",
+        "Genera la imagen, revisa manos, texto y fidelidad del producto, y solicita correcciones localizadas.",
+        "Exporta en el tamaño adecuado y añade textos finales en un editor si necesitas precisión tipográfica."
+      ],
+      "prompt": "Crea una fotografía publicitaria vertical 4:5 de [sujeto] en [escenario]. Iluminación natural, fondo limpio, área libre en la parte superior para titular. Estilo editorial realista, sin logotipos ni textos inventados.",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m019",
+      "summary": "Redactar y revisar un documento Word con Claude sin depender de un complemento específico.",
+      "steps": [
+        "Abre Claude y sube un documento Word propio que no contenga información sensible sin permiso.",
+        "Explica si buscas corregir estilo, reorganizar secciones, resumir o crear un borrador nuevo; indica destinatario y longitud.",
+        "Pide una estructura con encabezados, tabla de contenidos y apartados concretos, manteniendo cifras y nombres existentes.",
+        "Revisa la propuesta y solicita, si la función está disponible, un archivo Word descargable; en caso contrario copia el texto a Word.",
+        "Comprueba que tablas, estilos, referencias y comentarios se mantengan correctos antes de reemplazar el original."
+      ],
+      "prompt": "Revisa este Word y propón una versión más clara: conserva hechos y cifras, reordena títulos, mejora transiciones y señala toda modificación sustancial. No inventes datos; genera DOCX si la cuenta lo permite.",
+      "guideSource": "https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil. "
+    },
+    {
+      "id": "m021",
+      "summary": "Comprobar qué información familiar conoce una IA sin pedirle que identifique personas reales.",
+      "steps": [
+        "Abre una conversación nueva y pregunta qué información recuerda el asistente sobre ti y de dónde procede.",
+        "Contrasta el resultado con lo que hayas compartido voluntariamente; no asumas que sabe datos de familiares por su nombre o fotografía.",
+        "Revisa los controles de privacidad y personalización de la cuenta para limitar la información utilizada.",
+        "Si quieres crear un árbol familiar, introduce únicamente nombres y relaciones que tengas permiso para registrar; pide que señale vacíos.",
+        "Elimina información sensible del documento de trabajo y no publiques un árbol familiar sin autorización."
+      ],
+      "prompt": "Con estos datos familiares que proporciono voluntariamente, construye un árbol de relaciones y marca como «desconocido» cualquier vínculo no indicado. No identifiques personas por fotografías ni busques datos privados.",
+      "guideSource": "https://help.openai.com/es-es/articles/8914046-temporary-chat-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://help.openai.com/es-es/articles/8914046-temporary-chat-in-chatgpt. Guía de privacidad independiente. Una IA no puede garantizar quién es un familiar a partir de una fotografía ni conocer relaciones que no se le hayan proporcionado."
+    },
+    {
+      "id": "m022",
+      "summary": "Animar una ilustración o personaje propio utilizando una imagen de referencia en Kling.",
+      "steps": [
+        "Diseña un personaje original de frente y con fondo simple; guarda una imagen nítida.",
+        "Abre Kling AI desde el sitio oficial y comprueba qué modelos de imagen a vídeo están disponibles.",
+        "Selecciona generación a partir de imagen, sube el personaje y escribe un movimiento breve de ojos, cabeza o manos.",
+        "Genera primero pocos segundos, sin exigir varias acciones simultáneas, para reducir deformaciones.",
+        "Comprueba que el personaje conserve ropa y rasgos y exporta según créditos y licencia de tu cuenta."
+      ],
+      "prompt": "Anima este personaje original durante 6 segundos: sonríe, saluda con la mano derecha y vuelve a la postura inicial. Cámara fija, fondo sin cambios, movimientos suaves y coherentes.",
+      "guideSource": "https://klingai.com/",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://klingai.com/. El nombre de los controles exactos de Kling puede variar entre versiones."
+    },
+    {
+      "id": "m024",
+      "summary": "Utilizar Gemini para encontrar lugares y preparar una ruta en Google Maps.",
+      "steps": [
+        "Abre Gemini y revisa las aplicaciones conectadas; habilita Google Maps solo si aparece en tu cuenta.",
+        "Indica lugar de origen, destino, medio de transporte y preferencias de tiempo o accesibilidad.",
+        "Pide que sugiera varias paradas con direcciones o puntos identificables y explique el criterio del itinerario.",
+        "Abre cada ubicación en Google Maps y comprueba horarios, cierres, accesos y tiempos reales antes de salir.",
+        "Guarda los lugares o la ruta en Maps y evita usar estimaciones de la IA como confirmación de disponibilidad."
+      ],
+      "prompt": "Organiza una ruta a pie de 2 horas por [ciudad], empezando en [punto]. Selecciona cuatro paradas verificables, explica por qué visitarlas y aporta enlaces o nombres exactos para abrirlas en Google Maps.",
+      "guideSource": "https://support.google.com/gemini/answer/13695044",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://support.google.com/gemini/answer/13695044. "
+    },
+    {
+      "id": "m025",
+      "summary": "Reutilizar un buen prompt de imagen con variaciones de encuadre y ambiente.",
+      "steps": [
+        "Escoge una idea visual y describe sujeto, acción, escenario, luz, estilo y relación de aspecto.",
+        "En ChatGPT Imágenes genera una primera versión con esos parámetros y guarda el resultado.",
+        "Pide una segunda versión cambiando solamente uno de los elementos, como fondo o ángulo de cámara.",
+        "Compara composición, texto y calidad; anota el prompt que ha producido la versión más útil.",
+        "Repite con tres variaciones y organiza los resultados por nombre y finalidad."
+      ],
+      "prompt": "Imagen [formato] de [sujeto] en [lugar], estilo fotográfico [estilo], iluminación [tipo], cámara [ángulo]. No añadas texto. Mantén [detalles] en todas las variantes y cambia solo [variable].",
+      "guideSource": "https://help.openai.com/es-es/articles/11084440-images-in-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://help.openai.com/es-es/articles/11084440-images-in-chatgpt. "
+    },
+    {
+      "id": "m026",
+      "summary": "Preparar una revisión de gastos y facturas asistida por ChatGPT Work con permisos controlados.",
+      "steps": [
+        "En ChatGPT Work, si está disponible, define exactamente qué carpeta o documentos autorizas consultar.",
+        "Solicita localizar facturas del período indicado y extraer fecha, proveedor, base, impuesto e importe total.",
+        "Pide que prepare una hoja de cálculo con totales y una columna de dudas; conserva los originales sin modificarlos.",
+        "Revisa las cifras y detecta duplicados comparando número de factura, proveedor y fecha.",
+        "Solo después de validar los datos, autoriza un informe final o cambios concretos; nunca concedas acceso general a cuentas innecesarias."
+      ],
+      "prompt": "Analiza estas facturas autorizadas y crea una tabla con proveedor, fecha, número de factura, base, IVA, total y fuente exacta. No borres ni pagues nada. Señala campos no legibles y duplicados potenciales.",
+      "guideSource": "https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt. La ejecución automática sobre apps y carpetas depende de la disponibilidad de Work y los permisos específicos; puede hacerse solo con archivos subidos."
+    },
+    {
+      "id": "m027",
+      "summary": "Conversar con ChatGPT en voz para practicar ideas o explicar contenidos.",
+      "steps": [
+        "Abre ChatGPT en el móvil y selecciona Voz desde la barra de mensajes.",
+        "Da permiso al micrófono y elige un tema, por ejemplo practicar una entrevista o repasar un idioma.",
+        "Habla de forma natural y pide explicaciones más lentas, resúmenes o ejemplos; puedes interrumpir o corregir.",
+        "Cuando termines, revisa el resumen o la transcripción disponible y contrasta cualquier dato importante.",
+        "Comprueba la cuota de uso y distingue voz en directo de la modalidad anterior, pues cámara y pantalla no están habilitadas en todas."
+      ],
+      "prompt": "Vamos a practicar una entrevista de trabajo en inglés. Haz una pregunta cada vez, escucha mi respuesta y después propón una mejora breve y natural.",
+      "guideSource": "https://help.openai.com/en/articles/20001274-chatgpt-voice",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://help.openai.com/en/articles/20001274-chatgpt-voice. "
+    },
+    {
+      "id": "m028",
+      "summary": "Diseñar una pequeña guía de identidad corporativa con Claude y recursos propios.",
+      "steps": [
+        "Reúne nombre, actividad, público, logotipo disponible, valores de marca y tres ejemplos de diseños que te gustan.",
+        "Abre Claude y describe la marca, sus diferencias frente a competidores y los usos previstos.",
+        "Solicita una propuesta de paleta con códigos hexadecimales, tipografías accesibles, tono de voz y reglas de uso.",
+        "Pide ejemplos de titulares, publicaciones e instrucciones para un diseñador; si quieres un prototipo HTML, usa un artefacto.",
+        "Revisa colores, contraste, licencias de fuentes y usos comerciales antes de aprobar la guía."
+      ],
+      "prompt": "Diseña una guía de identidad de una página para [marca]: posicionamiento, paleta con HEX, jerarquía tipográfica, tono de voz, ejemplos de publicaciones y tres usos incorrectos. Estilo sencillo y accesible.",
+      "guideSource": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them. "
+    },
+    {
+      "id": "m030",
+      "summary": "Preparar mensajes de atención al cliente con Claude y enviarlos mediante canales de WhatsApp autorizados.",
+      "steps": [
+        "Recopila preguntas frecuentes de clientes sin teléfonos ni datos personales.",
+        "En Claude pide respuestas modelo breves para preguntas sobre horario, entregas, reservas y devoluciones.",
+        "Revisa cada respuesta para asegurar que coincide con las condiciones reales de tu negocio.",
+        "En WhatsApp Business configura manualmente respuestas rápidas o mensajes de ausencia según las opciones actuales.",
+        "Para envíos automatizados, usa únicamente el servicio oficial de WhatsApp Business Platform y verifica consentimiento, plantillas y costes; Claude no tiene por qué enviar mensajes directamente."
+      ],
+      "prompt": "A partir de estas cinco políticas de mi negocio, redacta respuestas rápidas de WhatsApp de menos de 60 palabras. No prometas descuentos ni plazos no documentados y termina con una pregunta de ayuda.",
+      "guideSource": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them. Se ofrece un flujo seguro de redacción y configuración manual; no se afirma una integración nativa Claude↔WhatsApp."
+    },
+    {
+      "id": "m031",
+      "summary": "Crear una skill reutilizable de Claude para tareas repetidas y formatos consistentes.",
+      "steps": [
+        "Define una tarea recurrente, por ejemplo convertir notas dispersas en un acta con el mismo formato.",
+        "Redacta las instrucciones paso a paso: entrada esperada, criterios de calidad, estructura de salida y casos que necesitan confirmación.",
+        "En Claude abre las opciones de Skills si están habilitadas y sigue la guía oficial para crear o importar una habilidad.",
+        "Prueba la habilidad con dos ejemplos distintos y corrige reglas ambiguas o demasiado amplias.",
+        "Guarda una versión con nombre claro y revisa sus permisos si incluye herramientas o conexiones externas."
+      ],
+      "prompt": "Para esta habilidad de actas, recibe notas de reunión y produce: asistentes, acuerdos, tareas con responsable, fecha y dudas. No inventes acuerdos; marca lo ambiguo. Devuelve siempre Markdown y una tabla final.",
+      "guideSource": "https://support.claude.com/es/articles/12512180-usar-habilidades-en-claude",
+      "guideType": "independent",
+      "verification": "Guía práctica independiente elaborada para Trucos IA; no se ha podido verificar el procedimiento completo del vídeo original de MAXmaxdata. Referencia de la herramienta: https://support.claude.com/es/articles/12512180-usar-habilidades-en-claude. "
+    }
+  ]
+}
