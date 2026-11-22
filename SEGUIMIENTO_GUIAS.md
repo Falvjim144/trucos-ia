@@ -1,175 +1,151 @@
-# Seguimiento de las guías escritas — Trucos IA
+# Seguimiento de instrucciones de Trucos IA
 
-Fecha de revisión: **22 de noviembre de 2026**  
-Biblioteca: https://falvjim144.github.io/trucos-ia/
+**Actualizado el 22 de noviembre de 2026** · [Abrir web](https://falvjim144.github.io/trucos-ia/)
 
-## Estado real
+## Estado actual: 225 de 225 fichas tienen instrucciones escritas
 
-- **175** fichas históricas de partida, **50** ampliaciones publicadas (225 en total)
-- **57** originales ya contienen instrucciones escritas
-- **50** ampliaciones nuevas también contienen instrucciones
-- **118** fichas originales siguen pendientes de una guía suficientemente verificada
+| Grupo | Fichas | Estado |
+|---|---:|---|
+| Trucos originales de MAXmaxdata con pasos previamente documentados | 35 | Guías contrastadas en revisiones anteriores; consultar la verificación de cada ficha |
+| Trucos MAXmaxdata con **guía complementaria independiente** | 118 | 4–5 pasos, prompt, enlace oficial y advertencia de autoría propia |
+| Selección independiente original de Trucos IA | 22 | Con pasos escritos |
+| Incorporaciones de investigación de redes y proveedores | 50 | Con pasos escritos |
+| **Total** | **225** | **Ninguna ficha sin instrucciones** |
 
-> La existencia de una ficha no significa que se haya validado su tutorial original. Cada guía se completa con una fuente identificable y una nota de verificación. Los vídeos que no permiten comprobar pasos se mantienen pendientes y no se rellenan con instrucciones inventadas.
+**Muy importante:** "Con instrucciones escritas" no equivale a "vídeo original íntegramente transcrito". En los 118 casos en los que no se dispuso del procedimiento original completo, la ficha está etiquetada **Guía complementaria** y su campo de verificación explica que no reproduce el vídeo de MAXmaxdata. Son alternativas prácticas para lograr el objetivo del título, revisables cuando aparezca una transcripción original.
 
-## Guías recuperadas en esta búsqueda
+Las 118 guías están tanto en el catálogo principal de `index.html` (para que el usuario no dependa de archivos adicionales) como en `data/guias-01.json` … `data/guias-06.json` (para revisión editorial y validaciones). Las nuevas actualizaciones semanales se guardan por separado en `data/updates.json`.
 
-Estas **20** fichas se documentaron mediante transcripciones del creador, textos originales de publicaciones o, cuando se indica en cada ficha, documentación oficial contrastada. Los pasos se han redactado como instrucciones propias, no se transcribe literalmente el vídeo.
+## Las 118 guías complementarias y su documentación
 
-| Código | Truco | Procedencia contrastada |
+| Código y ficha | Manual o documentación de referencia | Estado de los pasos originales del vídeo |
 |---|---|---|
-| [m008](https://falvjim144.github.io/trucos-ia/#truco=m008) | Crear anuncios profesionales | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_marketing-restaurantes-automatizacion-activity-7502657420062593025-iHkW) |
-| [m010](https://falvjim144.github.io/trucos-ia/#truco=m010) | Automatizar Excel | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_excel-copilot-dashboard-activity-7500051334830727168-jaIQ) |
-| [m014](https://falvjim144.github.io/trucos-ia/#truco=m014) | Nueva función Visualize | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_visualize-herramientasia-nocode-activity-7494978348289429504-OV_i) |
-| [m029](https://falvjim144.github.io/trucos-ia/#truco=m029) | Automatizar PowerPoint | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_powerpoint-automatizacion-productividad-activity-7430137153168400384-qO12) |
-| [m035](https://falvjim144.github.io/trucos-ia/#truco=m035) | Buscar empleo por ti | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_empleo-inteligenciaartificial-ia-activity-7394618429699354625-bV0I) |
-| [m048](https://falvjim144.github.io/trucos-ia/#truco=m048) | Crear imágenes de tu yo de hace 40 años | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_chatgpt-ia-inteligenciaartificial-activity-7461003729413029888-m72T) |
-| [m049](https://falvjim144.github.io/trucos-ia/#truco=m049) | Dar vida a fotografías antiguas | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_ia-data-bigdata-activity-7459456420187430912-uJH5) |
-| [m052](https://falvjim144.github.io/trucos-ia/#truco=m052) | Automatización de Word | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_ia-data-bigdata-activity-7457652688831393792-KHXM) |
-| [m054](https://falvjim144.github.io/trucos-ia/#truco=m054) | Ejecutar modelo en local desde el móvil | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_iaoffline-privacidad-gemma-activity-7452577598653722624-WRZV) |
-| [m055](https://falvjim144.github.io/trucos-ia/#truco=m055) | Usar IA para preparar exámenes | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_ia-data-bigdata-activity-7403674953901854720-apxb) |
-| [m056](https://falvjim144.github.io/trucos-ia/#truco=m056) | 10 códigos secretos | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_ia-data-bigdata-activity-7447148221652512768-dftQ) |
-| [m059](https://falvjim144.github.io/trucos-ia/#truco=m059) | Fotos profesionales con ChatGPT | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_fotografia-promptengineering-ia-activity-7483016847945203712-jSK2) |
-| [m068](https://falvjim144.github.io/trucos-ia/#truco=m068) | Transformar selfie en imagen cinematográfica | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_fotografia-automatizacion-creatividad-activity-7344919988090109952-GO9-) |
-| [m074](https://falvjim144.github.io/trucos-ia/#truco=m074) | Felicitaciones navideñas con IA | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_ia-data-bigdata-activity-7404039726900363264-3qbn) |
-| [m079](https://falvjim144.github.io/trucos-ia/#truco=m079) | Fotos profesionales de Halloween | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_ia-data-bigdata-activity-7389994708673925120-Z8a9) |
-| [m080](https://falvjim144.github.io/trucos-ia/#truco=m080) | Fotos profesionales en segundos | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_ia-data-bigdata-activity-7383065444582150144-CV_v) |
-| [m083](https://falvjim144.github.io/trucos-ia/#truco=m083) | Convertir imagen en vídeo | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_sora2-videoai-generadordevideo-activity-7380146626264371200-5StN) |
-| [m090](https://falvjim144.github.io/trucos-ia/#truco=m090) | Edición de imágenes explicada | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_ia-data-bigdata-activity-7367800092419833856-LX2L) |
-| [m092](https://falvjim144.github.io/trucos-ia/#truco=m092) | Crear un avatar y vídeos sin salir en cámara | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_avatar-capcut-tutorial-activity-7365902714490236928-4Qsn) |
-| [m093](https://falvjim144.github.io/trucos-ia/#truco=m093) | Fotografía gastronómica estilo Michelin | [Publicación original](https://es.linkedin.com/posts/pabloalvarezazcunaga_ia-data-bigdata-activity-7365545651222249474-ZOve) |
+| [m001 · Comparar precios finales de una compra y encontrar cupones verificables sin conf](https://falvjim144.github.io/trucos-ia/#truco=m001) | [Fuente de herramienta](https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m003 · Crear una felicitación de Halloween con personajes originales sin depender de su](https://falvjim144.github.io/trucos-ia/#truco=m003) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m005 · Recrear diez efectos fotográficos de forma explícita con prompts editables en ve](https://falvjim144.github.io/trucos-ia/#truco=m005) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m007 · Crear una colección de veinte variaciones fotográficas sin comandos ocultos ni a](https://falvjim144.github.io/trucos-ia/#truco=m007) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m009 · Planificar el montaje con Claude y ejecutarlo en CapCut, sin prometer una integr](https://falvjim144.github.io/trucos-ia/#truco=m009) | [Fuente de herramienta](https://www.capcut.com/resource/auto-captions-ai-video-editor) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m011 · Instalar un modelo de lenguaje en el móvil y comprobar que realmente responde si](https://falvjim144.github.io/trucos-ia/#truco=m011) | [Fuente de herramienta](https://github.com/google-ai-edge/gallery) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m012 · Crear un panel HTML de datos que se abra localmente, inspirado en Power BI.](https://falvjim144.github.io/trucos-ia/#truco=m012) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m015 · Mejorar instrucciones para Claude con nueve técnicas de prompting reproducibles.](https://falvjim144.github.io/trucos-ia/#truco=m015) | [Fuente de herramienta](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m017 · Utilizar ChatGPT para redactar respuestas de WhatsApp sin exponer conversaciones](https://falvjim144.github.io/trucos-ia/#truco=m017) | [Fuente de herramienta](https://help.openai.com/es-es/articles/8914046-temporary-chat-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m018 · Crear una imagen profesional para redes sociales desde una descripción clara.](https://falvjim144.github.io/trucos-ia/#truco=m018) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m019 · Redactar y revisar un documento Word con Claude sin depender de un complemento e](https://falvjim144.github.io/trucos-ia/#truco=m019) | [Fuente de herramienta](https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m021 · Comprobar qué información familiar conoce una IA sin pedirle que identifique per](https://falvjim144.github.io/trucos-ia/#truco=m021) | [Fuente de herramienta](https://help.openai.com/es-es/articles/8914046-temporary-chat-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m022 · Animar una ilustración o personaje propio utilizando una imagen de referencia en](https://falvjim144.github.io/trucos-ia/#truco=m022) | [Fuente de herramienta](https://klingai.com/) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m024 · Utilizar Gemini para encontrar lugares y preparar una ruta en Google Maps.](https://falvjim144.github.io/trucos-ia/#truco=m024) | [Fuente de herramienta](https://support.google.com/gemini/answer/13695044) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m025 · Reutilizar un buen prompt de imagen con variaciones de encuadre y ambiente.](https://falvjim144.github.io/trucos-ia/#truco=m025) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m026 · Preparar una revisión de gastos y facturas asistida por ChatGPT Work con permiso](https://falvjim144.github.io/trucos-ia/#truco=m026) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m027 · Conversar con ChatGPT en voz para practicar ideas o explicar contenidos.](https://falvjim144.github.io/trucos-ia/#truco=m027) | [Fuente de herramienta](https://help.openai.com/en/articles/20001274-chatgpt-voice) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m028 · Diseñar una pequeña guía de identidad corporativa con Claude y recursos propios.](https://falvjim144.github.io/trucos-ia/#truco=m028) | [Fuente de herramienta](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m030 · Preparar mensajes de atención al cliente con Claude y enviarlos mediante canales](https://falvjim144.github.io/trucos-ia/#truco=m030) | [Fuente de herramienta](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m031 · Crear una skill reutilizable de Claude para tareas repetidas y formatos consiste](https://falvjim144.github.io/trucos-ia/#truco=m031) | [Fuente de herramienta](https://support.claude.com/es/articles/12512180-usar-habilidades-en-claude) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m032 · Preparar una lista de clientes potenciales verificables y mensajes comerciales p](https://falvjim144.github.io/trucos-ia/#truco=m032) | [Fuente de herramienta](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m033 · Revisar qué datos personales se muestran públicamente y solicitar su retirada po](https://falvjim144.github.io/trucos-ia/#truco=m033) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m034 · Crear actividades educativas inspiradas en el Mundial 2026 sin usar resultados d](https://falvjim144.github.io/trucos-ia/#truco=m034) | [Fuente de herramienta](https://support.google.com/gemini/answer/16126339) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m036 · Diseñar un anuncio visual con Gemini a partir de un producto o servicio real.](https://falvjim144.github.io/trucos-ia/#truco=m036) | [Fuente de herramienta](https://support.google.com/gemini/answer/16126339) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m037 · Reducir intercambios y texto innecesario al trabajar con Claude sin sacrificar p](https://falvjim144.github.io/trucos-ia/#truco=m037) | [Fuente de herramienta](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m040 · Acelerar el montaje de vídeos repetitivos combinando una escaleta de Claude con ](https://falvjim144.github.io/trucos-ia/#truco=m040) | [Fuente de herramienta](https://www.capcut.com/resource/auto-captions-ai-video-editor) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m041 · Extraer y clasificar tickets de gastos en Claude Cowork con revisión de importes](https://falvjim144.github.io/trucos-ia/#truco=m041) | [Fuente de herramienta](https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m042 · Probar ideas de decoración sobre una fotografía sin cambiar la geometría real de](https://falvjim144.github.io/trucos-ia/#truco=m042) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m044 · Reconocer señales de que una llamada podría estar automatizada sin asegurar un d](https://falvjim144.github.io/trucos-ia/#truco=m044) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m045 · Organizar siete tareas repetitivas con Claude y supervisión humana.](https://falvjim144.github.io/trucos-ia/#truco=m045) | [Fuente de herramienta](https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m046 · Revisar los datos de una declaración de la renta con ayuda de IA sin convertirla](https://falvjim144.github.io/trucos-ia/#truco=m046) | [Fuente de herramienta](https://sede.agenciatributaria.gob.es/) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m047 · Crear un flujo de contabilidad documental en Cowork con control humano de cada a](https://falvjim144.github.io/trucos-ia/#truco=m047) | [Fuente de herramienta](https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m050 · Crear una pequeña web con Claude y un artefacto HTML que se pueda revisar y desc](https://falvjim144.github.io/trucos-ia/#truco=m050) | [Fuente de herramienta](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m053 · Aplicar veinte ideas de imagen para marketing, educación y redes con ChatGPT Imá](https://falvjim144.github.io/trucos-ia/#truco=m053) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m057 · Preparar un calendario de publicaciones con Claude y publicar tras una revisión ](https://falvjim144.github.io/trucos-ia/#truco=m057) | [Fuente de herramienta](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m058 · Usar un modelo de lenguaje en el ordenador para analizar datos sin enviar archiv](https://falvjim144.github.io/trucos-ia/#truco=m058) | [Fuente de herramienta](https://lmstudio.ai/docs/app/basics) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m060 · Preparar una IA de bolsillo sin conexión para preguntas y resúmenes sencillos.](https://falvjim144.github.io/trucos-ia/#truco=m060) | [Fuente de herramienta](https://github.com/google-ai-edge/gallery) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m062 · Actualizar una presentación existente con Claude sin perder la identidad corpora](https://falvjim144.github.io/trucos-ia/#truco=m062) | [Fuente de herramienta](https://support.claude.com/es/articles/12512180-usar-habilidades-en-claude) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m063 · Mejorar la fotografía de un menú o plato sin alterar la oferta real del establec](https://falvjim144.github.io/trucos-ia/#truco=m063) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m064 · Convertir notas y documentos de un proyecto en una propuesta comercial fundament](https://falvjim144.github.io/trucos-ia/#truco=m064) | [Fuente de herramienta](https://support.google.com/notebooklm/) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m066 · Encontrar ofertas actuales que encajen con un perfil profesional y descartar anu](https://falvjim144.github.io/trucos-ia/#truco=m066) | [Fuente de herramienta](https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m067 · Pedir a Claude que realice transformaciones de un Excel preservando datos origin](https://falvjim144.github.io/trucos-ia/#truco=m067) | [Fuente de herramienta](https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m069 · Probar Claude Cowork como asistente de archivos locales con permisos restringido](https://falvjim144.github.io/trucos-ia/#truco=m069) | [Fuente de herramienta](https://support.claude.com/es/articles/15520349-usa-claude-cowork-en-web-escritorio-y-movil) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m070 · Crear una postal navideña personal con una fotografía y un mensaje legible.](https://falvjim144.github.io/trucos-ia/#truco=m070) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m071 · Convertir encargos repetitivos en tareas claras para ChatGPT, con supervisión y ](https://falvjim144.github.io/trucos-ia/#truco=m071) | [Fuente de herramienta](https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m072 · Evaluar la seguridad de un agente de voz sin intentar acceder a sistemas ajenos.](https://falvjim144.github.io/trucos-ia/#truco=m072) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m073 · Comprobar cómo cambia la respuesta de Gemini al añadir o retirar contexto.](https://falvjim144.github.io/trucos-ia/#truco=m073) | [Fuente de herramienta](https://support.google.com/gemini/answer/16126339) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m075 · Estudiar un tema con NotebookLM mediante preguntas, fuentes y repasos activos.](https://falvjim144.github.io/trucos-ia/#truco=m075) | [Fuente de herramienta](https://support.google.com/notebooklm/) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m076 · Comparar el coste real de un iPhone nuevo o reacondicionado antes de comprar.](https://falvjim144.github.io/trucos-ia/#truco=m076) | [Fuente de herramienta](https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m077 · Localizar trabajos con salario anunciado y valorar si cumplen tus expectativas.](https://falvjim144.github.io/trucos-ia/#truco=m077) | [Fuente de herramienta](https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m078 · Organizar una semana de trabajo a partir de compromisos y bloques de tiempo real](https://falvjim144.github.io/trucos-ia/#truco=m078) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11487775-connected-apps-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m081 · Utilizar Comet como navegador asistido para investigar varias páginas sin perder](https://falvjim144.github.io/trucos-ia/#truco=m081) | [Fuente de herramienta](https://www.perplexity.ai/comet) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m082 · Detectar puntos a revisar en un contrato sin sustituir asesoramiento jurídico.](https://falvjim144.github.io/trucos-ia/#truco=m082) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m084 · Usar IA desde un móvil sin instalar bots de mensajería desconocidos.](https://falvjim144.github.io/trucos-ia/#truco=m084) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11487775-connected-apps-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m085 · Consultar correos de Gmail desde ChatGPT utilizando una conexión autorizada.](https://falvjim144.github.io/trucos-ia/#truco=m085) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11487775-connected-apps-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m086 · Crear un esquema de presentación y llevarlo a diapositivas con Claude.](https://falvjim144.github.io/trucos-ia/#truco=m086) | [Fuente de herramienta](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m087 · Obtener un modelo 3D a partir de una foto y revisarlo para impresión.](https://falvjim144.github.io/trucos-ia/#truco=m087) | [Fuente de herramienta](https://www.tripo3d.ai/es/help/features/how-to-prepare-models-for-3d-printing) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m088 · Preparar un avatar digital propio para locuciones y vídeos informativos sin supl](https://falvjim144.github.io/trucos-ia/#truco=m088) | [Fuente de herramienta](https://support.google.com/gemini/answer/16126339) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m089 · Configurar qué información útil puede recordar ChatGPT y cómo revisar su uso.](https://falvjim144.github.io/trucos-ia/#truco=m089) | [Fuente de herramienta](https://help.openai.com/en/articles/8590148-memory-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m091 · Comparar el precio final de una compra entre distintas tiendas sin depender de e](https://falvjim144.github.io/trucos-ia/#truco=m091) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m094 · Crear un panel sencillo de datos sin programar utilizando un archivo Excel o CSV](https://falvjim144.github.io/trucos-ia/#truco=m094) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m095 · Convertir una fotografía de un comercio en un anuncio de vídeo breve con Hailuo.](https://falvjim144.github.io/trucos-ia/#truco=m095) | [Fuente de herramienta](https://hailuoai.video/create/image-to-video) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m096 · Observar cómo el mismo prompt produce respuestas diferentes al cambiar propósito](https://falvjim144.github.io/trucos-ia/#truco=m096) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m098 · Crear un anuncio breve desde un producto existente con una secuencia de problema](https://falvjim144.github.io/trucos-ia/#truco=m098) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m099 · Revisar las funciones disponibles de ChatGPT y probarlas en tareas reales, sin a](https://falvjim144.github.io/trucos-ia/#truco=m099) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m100 · Activar subtítulos traducidos en una videollamada cuando la cuenta lo permita.](https://falvjim144.github.io/trucos-ia/#truco=m100) | [Fuente de herramienta](https://support.google.com/meet/answer/10964115) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m101 · Ejecutar modelos locales en un PC para consultas privadas y documentos internos.](https://falvjim144.github.io/trucos-ia/#truco=m101) | [Fuente de herramienta](https://lmstudio.ai/docs/app/basics) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m102 · Generar un vídeo corto en Runway a partir de texto o de una imagen de referencia](https://falvjim144.github.io/trucos-ia/#truco=m102) | [Fuente de herramienta](https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m103 · Preparar actividades educativas para vacaciones con propuestas graduadas por eda](https://falvjim144.github.io/trucos-ia/#truco=m103) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m104 · Evaluar críticamente si un contenido podría estar manipulado o generado con IA.](https://falvjim144.github.io/trucos-ia/#truco=m104) | [Fuente de herramienta](https://contentcredentials.org/) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m105 · Crear una ilustración con Midjourney a partir de un prompt visual sin saber dibu](https://falvjim144.github.io/trucos-ia/#truco=m105) | [Fuente de herramienta](https://docs.midjourney.com/hc/en-us/articles/33390732264589-Creating-on-Web) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m106 · Estudiar con ChatGPT mediante preguntas guiadas y autoevaluación.](https://falvjim144.github.io/trucos-ia/#truco=m106) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m107 · Restaurar una fotografía deteriorada conservando una copia del documento históri](https://falvjim144.github.io/trucos-ia/#truco=m107) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m108 · Preparar una lista de la compra útil a partir de un menú y un presupuesto.](https://falvjim144.github.io/trucos-ia/#truco=m108) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m109 · Pasar de un tarareo propio a una idea musical utilizando audio y herramientas de](https://falvjim144.github.io/trucos-ia/#truco=m109) | [Fuente de herramienta](https://www.capcut.com/resource/ai-video-content-creator) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m110 · Crear propuestas de renovación de un logotipo sin perder la identidad de una mar](https://falvjim144.github.io/trucos-ia/#truco=m110) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m111 · Encontrar empresas potenciales en LinkedIn y escribir mensajes de contacto respe](https://falvjim144.github.io/trucos-ia/#truco=m111) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m112 · Analizar gastos familiares a partir de un CSV o Excel sin escribir fórmulas manu](https://falvjim144.github.io/trucos-ia/#truco=m112) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m113 · Probar el modo agente de ChatGPT con una tarea que requiera consultar informació](https://falvjim144.github.io/trucos-ia/#truco=m113) | [Fuente de herramienta](https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m114 · Reorganizar una casa con un plano, inventario y fotografías para optimizar espac](https://falvjim144.github.io/trucos-ia/#truco=m114) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m115 · Crear escenas con estética de ficción sin copiar personajes ni marcas de series ](https://falvjim144.github.io/trucos-ia/#truco=m115) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m116 · Analizar visualmente una imagen de billete sin afirmar que la IA puede autentica](https://falvjim144.github.io/trucos-ia/#truco=m116) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m117 · Analizar patrones de una conversación sin diagnosticar ni atribuir intenciones a](https://falvjim144.github.io/trucos-ia/#truco=m117) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m118 · Mejorar la presentación de un CV y crear una imagen editorial complementaria sin](https://falvjim144.github.io/trucos-ia/#truco=m118) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m119 · Diseñar una imagen de cartel cinematográfico original para una campaña o proyect](https://falvjim144.github.io/trucos-ia/#truco=m119) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m120 · Practicar una reunión de trabajo en inglés utilizando ChatGPT Voz.](https://falvjim144.github.io/trucos-ia/#truco=m120) | [Fuente de herramienta](https://help.openai.com/en/articles/20001274-chatgpt-voice) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m121 · Diseñar propuestas educativas personalizadas con apoyos DUA y actividades manipu](https://falvjim144.github.io/trucos-ia/#truco=m121) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m122 · Crear un pequeño plan de branding y contenidos coherente entre web, redes y docu](https://falvjim144.github.io/trucos-ia/#truco=m122) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m123 · Crear una voz sintética a partir de tu propia grabación cumpliendo las verificac](https://falvjim144.github.io/trucos-ia/#truco=m123) | [Fuente de herramienta](https://elevenlabs.io/docs/eleven-creative/voices/voice-cloning) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m124 · Aprender a utilizar Claude para explicar, resumir y crear artefactos interactivo](https://falvjim144.github.io/trucos-ia/#truco=m124) | [Fuente de herramienta](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m125 · Comprobar qué metadatos o pistas geográficas puede revelar una foto propia.](https://falvjim144.github.io/trucos-ia/#truco=m125) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m126 · Crear fotografías profesionales consistentes para un portafolio o catálogo.](https://falvjim144.github.io/trucos-ia/#truco=m126) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m127 · Automatizar una revisión semanal con las tareas de ChatGPT sin perder el control](https://falvjim144.github.io/trucos-ia/#truco=m127) | [Fuente de herramienta](https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m128 · Probar Grok para resumir información pública y organizar ideas, comparando sus r](https://falvjim144.github.io/trucos-ia/#truco=m128) | [Fuente de herramienta](https://x.ai/pricing) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m129 · Diseñar un pequeño experimento ético para comprobar cómo conversa un agente de v](https://falvjim144.github.io/trucos-ia/#truco=m129) | [Fuente de herramienta](https://help.openai.com/en/articles/20001274-chatgpt-voice) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m130 · Organizar una búsqueda de vivienda con filtros y enlaces que deben comprobarse e](https://falvjim144.github.io/trucos-ia/#truco=m130) | [Fuente de herramienta](https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m132 · Comprobar si un enlace recibido por correo o mensajería presenta señales de phis](https://falvjim144.github.io/trucos-ia/#truco=m132) | [Fuente de herramienta](https://www.incibe.es/aprendeciberseguridad/phishing) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m133 · Comparar la utilidad de Perplexity y ChatGPT con una misma tarea y criterios ver](https://falvjim144.github.io/trucos-ia/#truco=m133) | [Fuente de herramienta](https://www.perplexity.ai/comet) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m134 · Ejecutar DeepSeek de forma local mediante un entorno compatible, sin enviar docu](https://falvjim144.github.io/trucos-ia/#truco=m134) | [Fuente de herramienta](https://lmstudio.ai/docs/app/basics) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m135 · Crear un avatar explicativo a partir de una imagen propia, un guion y una herram](https://falvjim144.github.io/trucos-ia/#truco=m135) | [Fuente de herramienta](https://www.capcut.com/resource/ai-avatar-video-generator) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m136 · Activar subtítulos traducidos para entender una videollamada en otra lengua.](https://falvjim144.github.io/trucos-ia/#truco=m136) | [Fuente de herramienta](https://support.google.com/meet/answer/10964115) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m137 · Mejorar contraste, exposición y nitidez de una fotografía deficiente sin falsifi](https://falvjim144.github.io/trucos-ia/#truco=m137) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m138 · Utilizar Qwen gratuitamente para redactar, resumir y trabajar con imágenes según](https://falvjim144.github.io/trucos-ia/#truco=m138) | [Fuente de herramienta](https://qwen.ai/) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m139 · Localizar el combustible más barato cerca de una ruta usando datos oficiales act](https://falvjim144.github.io/trucos-ia/#truco=m139) | [Fuente de herramienta](https://geoportalgasolineras.es/geoportal-instalaciones/Inicio) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m140 · Personalizar ChatGPT con instrucciones útiles, controles de privacidad y atajos ](https://falvjim144.github.io/trucos-ia/#truco=m140) | [Fuente de herramienta](https://help.openai.com/es-es/articles/10291617-scheduled-tasks-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m141 · Preparar un examen con tarjetas y cuestionarios basados en fuentes de NotebookLM](https://falvjim144.github.io/trucos-ia/#truco=m141) | [Fuente de herramienta](https://support.google.com/gemininotebook/answer/16958963?hl=es) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m142 · Explorar las opciones del modo Voz de ChatGPT y elegir la más útil para practica](https://falvjim144.github.io/trucos-ia/#truco=m142) | [Fuente de herramienta](https://help.openai.com/en/articles/20001274-chatgpt-voice) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m143 · Generar un retrato premium a partir de una foto propia con un prompt completo.](https://falvjim144.github.io/trucos-ia/#truco=m143) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m144 · Crear un podcast cómico con voces ficticias de personajes infantiles sin clonar ](https://falvjim144.github.io/trucos-ia/#truco=m144) | [Fuente de herramienta](https://help.openai.com/en/articles/20001274-chatgpt-voice) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m145 · Buscar ofertas vigentes y preparar un CV específico para cada candidatura.](https://falvjim144.github.io/trucos-ia/#truco=m145) | [Fuente de herramienta](https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m146 · Comparar precios entre países incluyendo impuestos, aduanas y garantía.](https://falvjim144.github.io/trucos-ia/#truco=m146) | [Fuente de herramienta](https://europa.eu/youreurope/citizens/consumers/shopping/vat/index_en.htm) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m147 · Comprobar afirmaciones y sesgos en una noticia usando fuentes independientes.](https://falvjim144.github.io/trucos-ia/#truco=m147) | [Fuente de herramienta](https://help.openai.com/es-es/articles/10500283-deep-research-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m148 · Diseñar un primer concepto de logotipo sencillo en pocos minutos y revisarlo ant](https://falvjim144.github.io/trucos-ia/#truco=m148) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m149 · Mejorar cualquier prompt añadiendo objetivo, contexto, formato y criterios de co](https://falvjim144.github.io/trucos-ia/#truco=m149) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m150 · Detectar posibles inconsistencias de un borrador de IRPF sin sustituir asesorami](https://falvjim144.github.io/trucos-ia/#truco=m150) | [Fuente de herramienta](https://sede.agenciatributaria.gob.es/) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m151 · Describir el estilo de una imagen de referencia para crear un prompt original si](https://falvjim144.github.io/trucos-ia/#truco=m151) | [Fuente de herramienta](https://help.openai.com/es-es/articles/11084440-images-in-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m152 · Extraer campos de un ticket fotografiado y volcarlos a una tabla verificable.](https://falvjim144.github.io/trucos-ia/#truco=m152) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
+| [m153 · Pedir a una IA un juego Snake HTML5 completo y comprobar que se puede jugar en e](https://falvjim144.github.io/trucos-ia/#truco=m153) | [Fuente de herramienta](https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt) | Alternativa propia; vídeo sin procedimiento completo verificado |
 
-## Pendientes de documentar
+## Política de calidad y próximos pasos
 
-La siguiente lista es el inventario histórico que sigue sin pasos escritos suficientes. Investigar por el título y el código en Facebook, Instagram, TikTok, Vimeo, YouTube y **LinkedIn**, buscando también transcripciones accesibles del mismo creador.
+1. **Cada ficha debe conservar pasos numerados**, instrucciones operativas comprensibles y un enlace para profundizar.
+2. La interfaz diferencia el origen de la idea de la procedencia de los pasos; nunca atribuye al creador los procedimientos alternativos.
+3. Antes de actualizar un tutorial de MAXmaxdata, localizar su publicación individual y el texto o la transcripción original, también en LinkedIn cuando corresponda.
+4. Si se encuentra el proceso real y difiere de nuestra guía, actualizar el catálogo y el archivo editorial correspondiente, dejando claro qué proviene del creador.
+5. Validar antes de publicar: `python scripts/validar_novedades.py data/updates.json`, `node scripts/validar_guias.cjs` y `node scripts/test_busqueda.cjs`.
+6. Los favoritos, notas y estados personales siguen en el navegador; los IDs de ficha son estables.
 
-| Código | Título | Herramienta |
-|---|---|---|
-| m001 | Comprar al mejor precio (Black Friday) | ChatGPT |
-| m003 | Restricciones de ChatGPT: truco de Halloween | ChatGPT |
-| m005 | 10 códigos para efectos fotográficos profesionales | ChatGPT |
-| m007 | 20 códigos para imágenes profesionales | ChatGPT |
-| m009 | Editar vídeos automáticamente | Claude + CapCut |
-| m011 | IA en el móvil sin conexión a Internet | Gemma 4 |
-| m012 | Crear dashboards locales al estilo Power BI | ChatGPT |
-| m015 | 9 códigos secretos de Claude | Claude |
-| m017 | ChatGPT camuflado en WhatsApp | ChatGPT + WhatsApp |
-| m018 | Crear imágenes profesionales | ChatGPT |
-| m019 | Automatizar Word | Claude + Word |
-| m021 | Conoce a toda tu familia: prueba de privacidad | ChatGPT |
-| m022 | Animar un personaje | Kling |
-| m024 | Integrar Gemini con Google Maps | Gemini + Google Maps |
-| m025 | Imágenes profesionales con prompts | ChatGPT |
-| m026 | Automatizar trabajo y contabilidad | ChatGPT Work |
-| m027 | Nuevo modo de voz Live | ChatGPT Live |
-| m028 | Imagen de marca corporativa | Claude |
-| m030 | Automatizar WhatsApp | Claude + WhatsApp |
-| m031 | Automatizaciones mediante skills | Claude Skills |
-| m032 | Automatizar búsqueda de clientes | Claude |
-| m033 | Borrar tu huella digital | ChatGPT |
-| m034 | Trucos gratis sobre el Mundial 2026 | Gemini |
-| m036 | Crear anuncios profesionales | Gemini |
-| m037 | Ahorrar tokens | Claude |
-| m040 | Automatizar vídeos (otra publicación) | Claude + CapCut |
-| m041 | Automatizar tickets de gastos | Claude Cowork |
-| m042 | Decorar tu propia casa | ChatGPT |
-| m044 | Detectar un agente de voz automatizado | Agente de voz IA |
-| m045 | Automatizar trabajo 24/7: 7 usos | Claude |
-| m046 | Revisar declaración de la renta | ChatGPT |
-| m047 | Automatizar contabilidad (Cowork) | Claude Cowork |
-| m050 | Crear una web con IA | Claude Design |
-| m053 | 20 casos de creación de imágenes | ChatGPT Images 2.0 |
-| m057 | Automatizar publicaciones de redes sociales | Claude |
-| m058 | Usar IA en local para privacidad de datos | IA local |
-| m060 | Usar IA en el móvil sin Internet | IA local |
-| m062 | Automatizar PowerPoint (otra publicación) | Claude + PowerPoint |
-| m063 | Convertir foto de menú en imagen profesional | ChatGPT |
-| m064 | Convertir borrador en propuesta comercial profesional | NotebookLM |
-| m066 | Encontrar empleos bien remunerados | ChatGPT |
-| m067 | Automatizar Excel sin tocar celdas | Claude + Excel |
-| m069 | Nuevo agente local | Claude Cowork |
-| m070 | Crear postal navideña con IA | ChatGPT |
-| m071 | Conseguir que ChatGPT trabaje para ti | ChatGPT |
-| m072 | Identificar/hackear un agente de IA | Agente de voz IA |
-| m073 | Experimento cambiando el contexto | Gemini 3 Pro |
-| m075 | Estudiar mejor con IA | NotebookLM |
-| m076 | Ahorro al comprar un iPhone | ChatGPT |
-| m077 | Buscar trabajos bien remunerados | ChatGPT |
-| m078 | Organizar tu calendario | ChatGPT |
-| m081 | Automatizar tareas desde navegador agéntico | Comet (Perplexity) |
-| m082 | Revisar contratos | ChatGPT |
-| m084 | Camuflar IA en el móvil | IA en el móvil |
-| m085 | Automatizar tareas de Gmail | ChatGPT + Gmail |
-| m086 | Crear una presentación en minutos | Claude |
-| m087 | Crear figuras personalizadas para impresión 3D | ChatGPT + Tripo |
-| m088 | Crear un clon digital | AI Studio |
-| m089 | Configurar ChatGPT para que te conozca | ChatGPT |
-| m091 | Encontrar el mejor precio de compra | ChatGPT |
-| m094 | Crear primer dashboard sin programar | IA / Dashboards |
-| m095 | Promocionar comercio con una fotografía | Hailuo AI |
-| m096 | Cambiar contexto para obtener salidas diferentes | IA generativa |
-| m098 | Crear anuncios profesionales en pocos clics | IA generativa |
-| m099 | Funciones ocultas de ChatGPT 5 | ChatGPT 5 |
-| m100 | Traducción instantánea en videollamadas | IA de traducción |
-| m101 | Usar modelos locales con privacidad | IA en local |
-| m102 | Crear vídeos sin saber editar | Runway |
-| m103 | Actividades educativas y entretenimiento en verano | ChatGPT |
-| m104 | Distinguir contenido real y generado por IA | IA |
-| m105 | Crear imágenes sin saber diseño | Midjourney |
-| m106 | Usar ChatGPT para estudiar | ChatGPT |
-| m107 | Restaurar fotografías antiguas | IA |
-| m108 | Preparar lista de la compra con IA | ChatGPT |
-| m109 | Crear música tarareando | IA musical |
-| m110 | Diseñar o renovar un logo | ChatGPT |
-| m111 | Captar clientes en LinkedIn | ChatGPT + LinkedIn |
-| m112 | Analizar gastos sin Excel | ChatGPT |
-| m113 | Introducción a modo agente | ChatGPT agente |
-| m114 | Reorganizar tu casa | ChatGPT |
-| m115 | Crear imágenes con estilo de series | ChatGPT |
-| m116 | Analizar imágenes de billetes para detectar falsificaciones (no concluyente) | ChatGPT |
-| m117 | Analizar conversaciones (cuidando privacidad) | ChatGPT |
-| m118 | Transformar CV con IA | ChatGPT + Flux |
-| m119 | Crear imágenes estilo plataforma audiovisual | ChatGPT |
-| m120 | Simular una reunión en inglés | ChatGPT |
-| m121 | Apoyar educación de niños | ChatGPT |
-| m122 | Diseñar contenidos y branding | IA |
-| m123 | Clonar voz (con consentimiento) | IA de voz |
-| m124 | Explicación básica de Claude | Claude |
-| m125 | Inferir ubicación a partir de fotografías (experimento) | ChatGPT |
-| m126 | Crear imágenes profesionales | ChatGPT |
-| m127 | Automatizar ChatGPT para ganar tiempo | ChatGPT |
-| m128 | Funciones de Grok para productividad | Grok |
-| m129 | Experimento con agente de IA y test de Turing | Agente de voz IA |
-| m130 | Buscar casa con IA | IA |
-| m132 | Detectar posibles enlaces fraudulentos | IA |
-| m133 | Diferencias entre Perplexity y ChatGPT | Perplexity |
-| m134 | Utilizar modelo sin enviar archivos a nube | DeepSeek local |
-| m135 | Crear un avatar en tres pasos | IA |
-| m136 | Traducción simultánea con subtítulos | IA |
-| m137 | Mejorar fotografías deficientes | IA |
-| m138 | IA gratuita para productividad | Qwen |
-| m139 | Encontrar gasolina a mejor precio | ChatGPT |
-| m140 | Configurar ChatGPT de forma avanzada | ChatGPT |
-| m141 | Estudiar con IA | NotebookLM |
-| m142 | Opciones de voz de ChatGPT | ChatGPT voz |
-| m143 | Crear fotos premium con un prompt | IA |
-| m144 | Crear podcast con versión bebé | IA |
-| m145 | Localizar ofertas y adaptar CV | ChatGPT |
-| m146 | Comparar precios entre países | ChatGPT |
-| m147 | Comprobar fuentes y sesgos en noticias | IA |
-| m148 | Crear logo en dos minutos | ChatGPT |
-| m149 | Mejorar los prompts | ChatGPT |
-| m150 | Comprobar posibles errores en declaración de renta | ChatGPT |
-| m151 | Ingeniería inversa para obtener prompts de imagen | ChatGPT |
-| m152 | Extraer gastos a partir de una fotografía | IA |
-| m153 | Crear juego Snake con IA | IA |
-
-## Reglas de verificación
-
-1. Consultar cada publicación individual y, cuando exista, su transcripción. Preferir fuentes originales y guías oficiales.
-2. Redactar los pasos en la ficha, con instrucciones claras, herramientas, recursos necesarios, límites y un prompt propio cuando proceda.
-3. No presentar frases publicitarias como comandos oficiales ni afirmar gratuidad basándose solo en el título de un vídeo.
-4. Conservar el campo `origin: "max"` y marcar en `verification` si los pasos vienen del vídeo, de su descripción o de una guía independiente.
-5. La publicación original debe quedar como referencia adicional, **nunca sustituir la guía escrita**.
-6. Antes de cada actualización contrastar esta lista con `index.html` y `data/updates.json`; las cifras son un corte a fecha de revisión y pueden cambiar.
-
+Las diferencias entre planes, créditos, regiones y modelos pueden modificar los controles de cada proveedor. Verifica esas condiciones antes de seguir una guía.
