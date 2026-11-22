@@ -71,3 +71,15 @@ Priorizar **utilidad, originalidad, claridad de pasos y fuente verificable**, no
 ```
 
 **Objetivo:** que la biblioteca crezca con trucos comprobables que la gente realmente pueda probar, que sigan encontrándose por tema e IA gratis y que también aparezcan en la sección ✦ Novedades.
+
+## 6. Regla obligatoria: cada truco incluye los pasos por escrito
+
+Desde el 22/11/2026 se establece como requisito editorial que **el contenido de «Cómo hacerlo» sea autosuficiente**, no un enlace que obliga a ver un vídeo.
+
+- Buscar la publicación original por código/título/herramienta en Facebook, Instagram, TikTok, YouTube, Vimeo **y también LinkedIn**: MAXmaxdata suele republicar el mismo vídeo, y algunas publicaciones públicas incluyen transcripciones reutilizables para elaborar guías propias.
+- Extraer de una fuente contrastable el flujo real: herramienta y modelo exactos, dónde pulsar, recursos de entrada, instrucciones del creador, salida y comprobaciones. Si una transcripción automática confunde nombres, contrastarlos con la página oficial y no inventar comandos.
+- En cada ficha redactar al menos **dos pasos accionables, ordenados y claros**, preferiblemente tres o más. Añadir un prompt propuesto cuando sea útil, marcándolo como adaptación si no es el original.
+- Guardar el **enlace directo a la publicación individual** como información complementaria; una página genérica o un enlace con cursor de perfil no prueba el procedimiento.
+- Explicar en `verification` si los pasos proceden de una transcripción íntegra, del texto publicado por el creador o de una adaptación independiente. No atribuir a MAXmaxdata pasos que no figuran en su demostración.
+- **No publicar nuevas fichas incompletas**. Si no hay fuente verificable con pasos suficientes, conservar la idea en una lista pendiente de investigación, sin añadirla al catálogo público como una guía acabada.
+- El inventario histórico tenía 153 fichas originales de MAXmaxdata sin pasos. El 22/11/2026 se recuperaron y publicaron **15 guías** con enlaces individuales, quedando **138 pendientes**, y 72 fichas ya tenían instrucciones antes de esta recuperación. La investigación debe continuar contrastando fuentes, sin rellenar las restantes por inferencia.
