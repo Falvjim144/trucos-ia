@@ -45,8 +45,8 @@ def validate(pack):
         if e.get('youtube') and not is_url(e['youtube']):raise ValueError(label+': youtube no es https válido')
         for key in ('date','addedAt'):
             if not is_day(e.get(key)):raise ValueError(label+': '+key+' no es fecha YYYY-MM-DD')
-        if not isinstance(e.get('steps',[]),list) or not all(isinstance(x,str) for x in e.get('steps',[])):
-            raise ValueError(label+': steps debe contener texto')
+        if not isinstance(e.get('steps'),list) or len(e['steps']) < 2 or not all(isinstance(x,str) and x.strip() for x in e['steps']):
+            raise ValueError(label+': cada truco debe tener al menos dos pasos escritos, no vacíos')
         if not isinstance(e.get('tags',[]),list) or not all(isinstance(x,str) for x in e.get('tags',[])):
             raise ValueError(label+': tags debe contener texto')
     return len(entries)
