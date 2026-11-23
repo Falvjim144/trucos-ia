@@ -1,7 +1,7 @@
 {
   "format": "atlas-ia-weekly-update",
   "version": 1,
-  "generatedAt": "2026-11-21",
+  "generatedAt": "2026-11-23",
   "entries": [
     {
       "id": "w-canva-magic-video",
@@ -1403,6 +1403,67 @@
         "fotografía",
         "ampliar",
         "sin nube"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-canva-ai-controls-2026",
+      "title": "Desactivar la IA generativa y reducir imágenes creadas con IA en Canva",
+      "tool": "Canva",
+      "category": "Marketing e imagen",
+      "origin": "curated",
+      "cost": "limited",
+      "date": "2026-11-19",
+      "addedAt": "2026-11-23",
+      "summary": "Dos controles nuevos permiten ocultar las funciones generativas y reducir los recursos generados con IA en las búsquedas de Canva sin alterar diseños anteriores.",
+      "source": "https://www.canva.com/newsroom/news/ai-controls-canva/",
+      "youtube": "",
+      "steps": [
+        "Abre Canva y entra en Perfil > Configuración > Permisos (Profile > Settings > Permissions).",
+        "Desactiva Generative AI Control si quieres ocultar las herramientas generativas de la interfaz; puedes reactivarlas desde el mismo interruptor.",
+        "En Perfil > Tu cuenta > Personalización de IA (Profile > Your account > AI Personalization), activa el control para limitar el contenido generado por IA que aparece en la biblioteca.",
+        "Busca elementos o plantillas y comprueba los resultados; los diseños ya creados no cambian y las herramientas de edición asistida continúan disponibles."
+      ],
+      "prompt": "",
+      "costNote": "Los dos controles se anuncian sin coste adicional para Canva Free y Pro; algunas herramientas de edición siguen sujetas a las condiciones de su plan. No cambia las licencias de los recursos.",
+      "verification": "Novedad publicada el 19/11/2026 por Canva. Rutas y comportamiento descritos expresamente en el comunicado oficial; guía propia basada en él, no transcripción de vídeo. No se ha comprobado la interfaz de una cuenta individual.",
+      "tags": [
+        "Canva",
+        "privacidad",
+        "imágenes",
+        "IA gratis",
+        "novedad 2026"
+      ],
+      "recommended": true
+    },
+    {
+      "id": "w-tiktok-symphony-byteplus-seedance-2026",
+      "title": "Generar vídeos publicitarios con Seedance desde TikTok Symphony y créditos BytePlus",
+      "tool": "TikTok Symphony Creative Studio",
+      "category": "Vídeo y avatares",
+      "origin": "curated",
+      "cost": "paid",
+      "date": "2026-11-08",
+      "addedAt": "2026-11-23",
+      "summary": "TikTok incorpora para anunciantes fuera de Norteamérica el acceso a modelos Seedance mediante tokens BytePlus comprados desde Symphony, como alternativa a los créditos existentes.",
+      "source": "https://ads.tiktok.com/business/fr/blog/tiktok-symphony-ai-creative-suite",
+      "youtube": "",
+      "steps": [
+        "Accede a Symphony Creative Studio con una cuenta de anunciante habilitada fuera de Norteamérica.",
+        "Vincula tu cuenta de BytePlus con Symphony siguiendo la opción de conexión de cuenta descrita por TikTok.",
+        "Compra tokens BytePlus dentro de Symphony y selecciona el saldo de tokens cuando estén disponibles tanto tokens como créditos Symphony.",
+        "Genera el recurso de vídeo con las opciones Seedance disponibles en tu cuenta y revisa el resultado antes de utilizarlo en un anuncio."
+      ],
+      "prompt": "",
+      "costNote": "Requiere compra de tokens BytePlus; precio, consumo por generación, derechos comerciales, marcas de agua y disponibilidad por país no detallados en la fuente consultada. No etiquetado como gratuito.",
+      "verification": "Comunicado oficial de TikTok fechado el 08/11/2026; indica activación de compra de tokens desde el 09/11/2026 para anunciantes fuera de Norteamérica. Los pasos de acceso, vinculación y compra proceden del anuncio; la configuración fina de Seedance no está documentada y no se inventa.",
+      "tags": [
+        "TikTok",
+        "Symphony",
+        "Seedance",
+        "anuncios",
+        "vídeo",
+        "novedad 2026"
       ],
       "recommended": true
     }
